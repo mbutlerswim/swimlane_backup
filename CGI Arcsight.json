@@ -1,0 +1,405 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bb3cb877ad4c8cfaf19", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "adrx4", 
+            "col": 1, 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bcc77b80a6512e0eb38", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "ajhv4", 
+            "col": 3, 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bd13e0b5e8c24e7a5ca", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "as0bi", 
+            "col": 1, 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bd5d654eb513e6e5109", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "apnw2", 
+            "col": 3, 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bda171a17c3d50b12b9", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a72v9", 
+            "col": 1, 
+            "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bdb7b36d6f914290ec0", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "ati7v", 
+            "col": 3, 
+            "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bd65cc6208bba9b6f1a", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "azz9b", 
+            "col": 1, 
+            "row": 4
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076bdd2eeb2cdb30a84919", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a2w95", 
+            "col": 3, 
+            "row": 4
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "5908ba656d7084ce045b2137", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "axn96", 
+            "col": 1, 
+            "row": 5
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "5908ba688624152900653242", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "al1ne", 
+            "col": 3, 
+            "row": 5
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "5908ba7043cf3986ad55c4d1", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "adwhk", 
+            "col": 1, 
+            "row": 6
+        }, 
+        {
+            "name": "Create Report", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "taskId": "aRQEm6O4Uha92", 
+            "helpTextType": 0, 
+            "id": "59076c2c28c9469da712544f", 
+            "row": 6
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59076c3490c93263f082b3c9", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "al9ih", 
+            "col": 1, 
+            "row": 7
+        }, 
+        {
+            "name": "Get File Objects", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "taskId": "aDsT1deHmb2Xr", 
+            "helpTextType": 0, 
+            "id": "5908e0a0206c36af581376b5", 
+            "row": 7
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "5908e0b2705d6941c51f84ea", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "aj8ei", 
+            "col": 1, 
+            "row": 8
+        }
+    ], 
+    "fields": [
+        {
+            "key": "alert-name", 
+            "visualize": false, 
+            "name": "Alert Name", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "adrx4", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "name": "Attachment", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "readOnly": false, 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "attachment", 
+            "helpTextType": "none", 
+            "id": "al9ih"
+        }, 
+        {
+            "key": "description", 
+            "visualize": false, 
+            "name": "Description", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "azz9b", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "dest", 
+            "visualize": false, 
+            "name": "Dest", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "ati7v", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "details", 
+            "visualize": false, 
+            "name": "Details", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "al1ne", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "file-attrs", 
+            "visualize": false, 
+            "name": "File Attrs", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "aj8ei", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "name": "Incident Occured", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "ajhv4", 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "incident-occured", 
+            "helpTextType": "none", 
+            "inputType": "firstCreated"
+        }, 
+        {
+            "key": "recommendation", 
+            "visualize": false, 
+            "name": "Recommendation", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a2w95", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "returns", 
+            "visualize": false, 
+            "name": "Returns", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "adwhk", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "sensor", 
+            "visualize": false, 
+            "name": "Sensor", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "apnw2", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "severity", 
+            "visualize": false, 
+            "name": "Severity", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "as0bi", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "signature", 
+            "visualize": false, 
+            "name": "Signature", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "axn96", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "source", 
+            "visualize": false, 
+            "name": "Source", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a72v9", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "CA-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "59076badb104881db4c7587b"
+        }
+    ], 
+    "acronym": "CA", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-05-01T17:09:01.236Z", 
+    "trackingFieldId": "59076badb104881db4c7587b", 
+    "name": "CGI Arcsight", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:54.177Z", 
+    "maxTrackingId": 4.0, 
+    "workspaces": [
+        "59076badb104881db4c75889"
+    ], 
+    "id": "aOe1IokMKiFhq", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core", 
+        "aEM6x9kDMUf8K": {
+            "name": "limited", 
+            "$type": "Core.Models.Security.Authorization, Core", 
+            "access": 130, 
+            "fields": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Security.Access, Core]], mscorlib", 
+                "al9ih": 2
+            }, 
+            "type": "Role", 
+            "id": "aEM6x9kDMUf8K"
+        }, 
+        "aEYPZImyVtJpS": {
+            "name": "not limited", 
+            "$type": "Core.Models.Security.Authorization, Core", 
+            "access": 15311, 
+            "fields": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Security.Access, Core]], mscorlib"
+            }, 
+            "type": "Role", 
+            "id": "aEYPZImyVtJpS"
+        }
+    }
+}

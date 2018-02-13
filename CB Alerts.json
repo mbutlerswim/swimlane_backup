@@ -1,0 +1,337 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "name": "CB Alerts", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-07-31T18:59:22.773Z", 
+    "disabled": true, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59"
+    }, 
+    "modifiedDate": "2018-02-05T19:42:41.898Z", 
+    "outputs": [
+        {
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a2ney", 
+                    "key": "unique_id", 
+                    "addMissing": false
+                }
+            ], 
+            "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
+            "createType": "insertUpdate", 
+            "errorHandlingType": "skipRow", 
+            "keyFieldId": "a2ney", 
+            "type": "insertUpdateRecord", 
+            "applicationId": "aZAVoJA3PKT5X"
+        }
+    ], 
+    "action": {
+        "assetId": "58cbdf53b104880db81733d6", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "insertUpdateRecord"
+            ], 
+            "description": "Gets the unresolved alerts.", 
+            "family": "Endpoint Monitoring", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_carbon_black", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "58cbdf18b104880db8173250", 
+                "url": "http://swimlane.com", 
+                "version": "2.0.0", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_carbon_black"
+                ], 
+                "description": "CarbonBlack Integration Library"
+            }, 
+            "assetDependencyVersion": "2.0.0", 
+            "assetDependencyType": "carbonBlack", 
+            "readonly": true, 
+            "version": "2.0.0", 
+            "actionType": "carbonBlackAlerts", 
+            "scriptFile": "carbonBlack_alerts.py", 
+            "disabled": false, 
+            "inputParameters": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "number of Records": {
+                    "name": "numberReturned", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "example": "50", 
+                    "description": "Choose how many unresolved records you want to import at a time. If no value is given 10 records will be returned."
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "appdirs"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT License", 
+                    "package": "attrdict"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "cachetools"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "cbapi"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "futures"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD or Apache License, Version 2.0", 
+                    "package": "packaging"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "pika"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "prompt-toolkit"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "New BSD License", 
+                    "package": "protobuf"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD License", 
+                    "package": "Pygments"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT License", 
+                    "package": "pyparsing"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Simplified BSD", 
+                    "package": "python-dateutil"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "PyYAML"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "setuptools"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "six"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "wcwidth"
+                }
+            ], 
+            "availableOutputVariables": {
+                "host_count": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Host Count", 
+                    "description": "Numbers of Hosts who has similar alert."
+                }, 
+                "observed_hosts\uff0enumFound": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Hosts Number Found"
+                }, 
+                "alert_type": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Alert Type", 
+                    "description": "Describes what caused the alert to fire."
+                }, 
+                "sensor_criticality": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Sensor criticality", 
+                    "description": "The Sensor Criticality."
+                }, 
+                "digsig_result": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Digsig result", 
+                    "description": "Displays if the file is digitally signed."
+                }, 
+                "observed_filename": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed filename", 
+                    "description": "The full file path of the file on the system."
+                }, 
+                "report_score": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Report score", 
+                    "description": "The Report Score"
+                }, 
+                "watchlist_id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Watchlist id", 
+                    "description": "The ID of the Watchlist that the binary is a part of."
+                }, 
+                "feed_id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Feed id", 
+                    "description": "The ID of the Feed associated with the binary."
+                }, 
+                "created_time": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Created time", 
+                    "description": "The time that the alert was created"
+                }, 
+                "ioc_type": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Ioc type", 
+                    "description": "The type of search that was preformed."
+                }, 
+                "watchlist_name": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Watchlist name", 
+                    "description": "The name of the watchlist the file is associated with."
+                }, 
+                "ioc_confidence": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Ioc confidence"
+                }, 
+                "observed_hosts\uff0eprocessCount": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Hosts Process Count"
+                }, 
+                "alert_severity": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Alert severity.", 
+                    "description": "Shows the alert severity on a scale of 0 to 100."
+                }, 
+                "observed_hosts\uff0eprocessTotal": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Hosts Process Total"
+                }, 
+                "hostname": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Hostname", 
+                    "description": "The hostname of the computer(s) involved in the alert."
+                }, 
+                "feed_name": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Feed name", 
+                    "description": "The Feed name that the alert is associated with."
+                }, 
+                "_version_": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Version", 
+                    "description": "The Version of the Alert"
+                }, 
+                "observed_hosts\uff0eglobalCount": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Global Count"
+                }, 
+                "status": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Status", 
+                    "description": "Gives the status of the Alert ie Unresolved"
+                }, 
+                "observed_hosts\uff0ehostCount": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Host Count"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "observed_hosts\uff0enumDocs": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Hosts Number of docs"
+                }, 
+                "observed_hosts\uff0ehostnames": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Observed Hosts Hostnames"
+                }, 
+                "md5": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "md5", 
+                    "description": "The md5 of the file."
+                }, 
+                "segment_id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Segment ID"
+                }, 
+                "observed_filename_total_count": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Filename Count", 
+                    "description": "The number of times that file appears on a system."
+                }, 
+                "total_hosts": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Total Hosts", 
+                    "description": "Total number of hosts associated with the Alert."
+                }, 
+                "os_type": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OS Type", 
+                    "description": "The Operating System of the hosts associated with the Alert."
+                }, 
+                "unique_id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Unique Identifier", 
+                    "description": "The Unique ID of the Alert."
+                }, 
+                "feed_rating": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Feed Rating", 
+                    "description": "The rating of the feed that the alert is associated with."
+                }
+            }, 
+            "pythonDependencies": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+            }, 
+            "name": "Carbon Black Alerts", 
+            "id": "58cbdf18b104880db817325f", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAC6FBMVEX////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////h9QkCAAAA93RSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAhIiMkJSYnKCkqKywtLi8wMTIzNDU2Nzg5Ojs8PT4/QEFCQ0RFRkdISUtMTk9QUVJTVFVWV1hZWltdXl9gYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5fH1+f4CBgoOEhYaHiImKi4yNjo+QkZKTlJaXmJmam5ydnp+goaKjpKWmp6ipqqusra6vsLGys7S1tre4ubq7vL2+v8DBwsPExsfIycrLzM3Oz9DR0tPU1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+afUQcQAABZFJREFUeNrt03s8lXccB/DvuXAcHESdo1R0XIaO6ZBKTVrTZekoklK6qLZ10aKh60otahNq0lCsabkcmnQZK5vrailHJSWmMKcklFx+/+77PA+Oy/97vfZ6Pe8/nt/z/C6f53l+F2CxWCwWi8X6TwjsAg4cWGulBTQDDyldTlyyVKFQLJtjDMCTeeKt1xKZCCgi122H9via8/BW4iEGmrUrHzQmxFXnHj+R9zBCHyhbSQ6mAHcHyclUZuXcKXEH4aW36UplVl7VtQ85API8VdrRkwUPQ7G/guToASWyylCTKLmhcgbk0ZQkoD4uP/3vpVjydj9gfiGzXiLMvAoUszuFhuD4PNUI0FL1CW1QvFfH6wA6UqGJ5O9R2wDN864FXsNvG128qo+RIY/ovmDTNVOYzkRCcMt4/rVCYCzoWcDxrlvfEk5H3tVETrx9euDWDmtN7xyF+R0fUV+pAtquZvP+SJ6VMkbXtnMR9Cs6x19RLwh86zci0rFhPQyxXTUF4Nc0PvCC1JsCNwUGfn3TnyO80BgVGxub+qRACL4tJtAv+q5gedM43qnX04dHyhvWgIa46AwYCNa1OQB3W/e5+B8S4mt/MwDdtJpNO3cGhUQX7tX2+2cM9Iu6r7O8cSIY3Hg0aViktOooMATxn4IvKb/0S3YuOQXc4BpTsUQslpXHawszrgBN0eoh63CBfnnZWj6NZgBmj6/w9w2J1Pq2qv9PPLrlJgV5zu7u7i5haikn5CHQDtYZCdOvA6MuWK8iBRhT2/w4dCTMbA7d96cmEuweZIkAWT5K5ni3zmXeU3MSgquZFfetHyfMyAPaqq4FnMXtu4Bifi9bBCvoSPB5VlciAo1pharDy7yjnv4kFJfmcYG2rWnS9mpmE8975STMat4bEXEoKvdFmAA4Po/zgzxXxtReMAVY2TgZEGdXZ+XQSNBVnMrJiVvEB0mIHBiiL6c6bOEzB3SHI99zfwQ6uMGSA2jc1tQryig36gDbbtcHOjNgozb8z3B0DPQZuoB4eiKD4f/A1dfX48AAY+lUewsDZtfhGB5Q8MZIDIMMg84n0pLOHvMWwYwzySkKPgwRmpiUuAEYs8J/LlLdv3U+yBEfNicmxdlQa7EjMSlFuQ4Gjc8ng7qOwUosIoZ+5ox3WPOMXlhBaO1Az8ovtCADy3kAFgkEpToOOYOZhLytKCoruddFyCsnj3ZCwrVAI6sPB3RHAgon6Grs6d+xeL8REnrJy+kwvxifqldzYHhkxWyxRDI5ipB3q9xHRLq1EEq1DGD2c0LerDPT1rHY3UnIC0lcL2lyCqjDVqULwIjIut3+a9duLCDkse3CEZHRfaTlICG9MQCH8XuPMAtzEXPmxPSQjvxWQpq/GgujIvs62zvaO7FbIngNj5RV4dQa3iTk6Uy4QOUAbayDvYPwbC+hqexhVCRm0ghRe33cNizyuz7St98/BXtEA16JHGhjrKTWXDoSB3UX2o2OrPGROTtP39qFC7esiZCwwbmeVU0G1MvC8MrsJkFC97ueObE9pK/2cCnW3rQZFfmXXA93q+1LQrLXNBCyX2KCxhrzeXE4i21tba/bcdw3i7DpiasegJ4v9nwxAZfnjQ+41tCZIyNfX05OTf2xEtuOeahx3gryUWGGjUs9IRkBq/39PscpbXSLxA6t33+25UwbvimY2kRqJ4C5tVSmFWiYXiMat2w8NQ/t3rG4/5yAsgWfL1kldw60tZwQQRq2ugPAJw1YUeKsiTQ+XlZMK/kj95A1LCwsLWaUpm1OKynHoZRJyrLicjk38LKqqbWltuScD9YdLC65Pg2QV0FZcWWkJpIrtrKgTZmsSx1Yc6kFQ2o23lJqrQ8MIyuLD4wBhPLFXp5uUqCY4BABM3mWFlJ7YLFYLBaLxWLR/gU8eMW7RTZsWwAAAABJRU5ErkJggg=="
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "58cbdf18b104880db817325f"
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "100", 
+            "key": "number of Records", 
+            "type": "literal", 
+            "example": "50"
+        }
+    ], 
+    "applicationId": "aZAVoJA3PKT5X", 
+    "id": "aDv12hvKVi_Bc"
+}

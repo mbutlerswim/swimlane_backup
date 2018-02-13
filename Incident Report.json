@@ -1,0 +1,186 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "name": "Incident Report", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2018-02-08T21:04:37.681Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-02-08T21:05:30.477Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c16f74b104880754a094bf", 
+                    "key": "attachment", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "readonly": true, 
+        "type": "packaged", 
+        "descriptor": {
+            "description": "Create Incident Report from Swimlane Record", 
+            "family": "Reporting", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_swimlane_incident_report_creation", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "abIrkKydfZHG_eRIP", 
+                "url": "http://swimlane.com", 
+                "version": "1.0.0", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_swimlane_incident_report_creation"
+                ], 
+                "description": "Incident Report Creation"
+            }, 
+            "name": "Swimlane Incident Report Creation", 
+            "disabled": false, 
+            "readonly": true, 
+            "version": "1.0.0", 
+            "actionType": "SwimlaneIncidentReportCreation", 
+            "scriptFile": "incident_report_creation.py", 
+            "inputParameters": {
+                "alert_type": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Alert Type"
+                }, 
+                "severity": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Severity"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "record": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Record Tracking ID", 
+                    "description": "Tracking ID of Record"
+                }, 
+                "incident_created": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Incident Created", 
+                    "description": "Date of incidents"
+                }, 
+                "remediation": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Remediation"
+                }, 
+                "analyst": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Record Analyst"
+                }, 
+                "description": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Description"
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "iso8601"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "lxml"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "The MIT License (MIT)", 
+                    "package": "python-docx"
+                }
+            ], 
+            "availableOutputVariables": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "attachment": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Attachment"
+                }
+            }, 
+            "id": "aVvlmxfUq2ejAqan5", 
+            "base64Image": "data:image/png;base64,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"
+        }, 
+        "packageDescriptorId": "aVvlmxfUq2ejAqan5"
+    }, 
+    "inputMapping": [
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "value": "58c16f74b104880754a0949f", 
+            "key": "incident_created", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "value": "58c16f74b104880754a09493", 
+            "key": "record", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "value": "58c16f74b104880754a094a9", 
+            "key": "analyst", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "value": "58c16f74b104880754a0949a", 
+            "key": "severity", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "value": "58c16f74b104880754a09498", 
+            "key": "alert_type", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "description", 
+            "addMissing": false
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "remediation", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "58c16f74b104880754a09492", 
+    "id": "aQ1a66dh1xJo34bTj"
+}

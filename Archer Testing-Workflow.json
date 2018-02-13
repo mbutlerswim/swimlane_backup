@@ -1,0 +1,51 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [], 
+            "disabled": false, 
+            "parentId": "59babdf5b10488175833150b", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "59babdf8695f19f5a149b034"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Title Not Blank", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Create JSON", 
+                    "$type": "Core.Models.Workflow.Actions.FieldSetAction, Core", 
+                    "value": "{\"Title\": \"{{ahs5a}}\", \"Incident Summary\": \"{{ayfuu}}", 
+                    "disabled": true, 
+                    "actionType": "setValue", 
+                    "parentId": "59babdff7406fe539c565e66", 
+                    "fieldId": "a628m", 
+                    "id": "59babe0d4df992dc4da98d23"
+                }
+            ], 
+            "disabled": false, 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "doesNotEqual", 
+                    "fieldId": "ahs5a"
+                }
+            ], 
+            "id": "59babdff7406fe539c565e66"
+        }
+    ], 
+    "applicationId": "aX944_FGSxZHx", 
+    "id": "59babdf5b10488175833150b", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

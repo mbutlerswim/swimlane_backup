@@ -1,0 +1,417 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "name": "VirusTotal URL Scan Phishing URL", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-03-14T18:56:01.985Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2017-03-14T18:56:51.802Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c83b1bb104881024a3df85", 
+                    "key": "positives", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c83b1bb104881024a3df87", 
+                    "key": "verbose_msg", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "assetId": "58c823fbb104881024a3c9d7", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "disabled": false, 
+            "description": "Retrieve a URL report from a scan", 
+            "family": "Malware Detection", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_virus_total", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "58c823d0b104881024a3c8a0", 
+                "supported_swimlane_version": ">=2.2.0", 
+                "version": "2.0.4", 
+                "isEmailBundle": false, 
+                "url": "http://swimlane.com", 
+                "packages": [
+                    "sw_virus_total"
+                ], 
+                "description": "VirusTotal integration library"
+            }, 
+            "assetDependencyVersion": "2.0.0", 
+            "assetDependencyType": "virusTotal", 
+            "readonly": true, 
+            "version": "1.2.0", 
+            "actionType": "virusTotalGetUrlReport", 
+            "scriptFile": "virus_total_get_url_report.py", 
+            "inputParameters": {
+                "url": {
+                    "name": "URL", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": true, 
+                    "type": "text", 
+                    "example": "http://www.google.com", 
+                    "description": "The URL of which to retrieve the report on"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "autoScan": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "boolean", 
+                    "name": "Auto Scan", 
+                    "description": "Automatically scan the URL if no report exists"
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "GPLv3", 
+                    "package": "virustotal-api"
+                }
+            ], 
+            "availableOutputVariables": {
+                "scans\uff0eZeroCERT\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ZeroCERT Scan Result"
+                }, 
+                "scans\uff0eMalwared\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malwared Scan Result"
+                }, 
+                "scans\uff0eC-SIRT\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "C-SIRT Scan Result"
+                }, 
+                "scans\uff0eKaspersky\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Kaspersky Scan Result"
+                }, 
+                "scans\uff0eSpyEyeTracker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SpyEyeTracker Scan Result"
+                }, 
+                "scans\uff0eBaidu-International\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Baidu-International Scan Result"
+                }, 
+                "scans\uff0eGoogle Safebrowsing\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Google Safebrowsing Scan Result"
+                }, 
+                "scans\uff0eZDB Zeus\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ZDB Zeus Scan Result"
+                }, 
+                "scan_date": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Scan Date"
+                }, 
+                "scans\uff0eWepawet\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Wepawet Scan Result"
+                }, 
+                "scans\uff0eWebutation\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Webutation Scan Result"
+                }, 
+                "scans\uff0eWeb Security Guard\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Web Security Guard Scan Result"
+                }, 
+                "scans\uff0eADMINUSLabs\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ADMINUSLabs Scan Result"
+                }, 
+                "scans\uff0eSpyEyeTracker\uff0edetail": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SpyEyeTracker Scan Detail"
+                }, 
+                "scans\uff0eBlueliv\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Blueliv Scan Result"
+                }, 
+                "scans\uff0eYandex Safebrowsing\uff0edetail": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Yandex Safebrowsing Scan Detail"
+                }, 
+                "scans\uff0eNetcraft\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Netcraft Scan Result"
+                }, 
+                "total": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Total"
+                }, 
+                "scans\uff0eComodo Site Inspector\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Comodo Site Inspector Scan Result"
+                }, 
+                "scans\uff0eMalekal\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malekal Scan Result"
+                }, 
+                "scans\uff0eSecureBrain\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SecureBrain Scan Result"
+                }, 
+                "scans\uff0eURLQuery\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "URLQuery Scan Result"
+                }, 
+                "scans\uff0eStopBadware\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "StopBadware Scan Result"
+                }, 
+                "scans\uff0ePalevoTracker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "PalevoTracker Scan Result"
+                }, 
+                "scans\uff0eRising\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Rising Scan Result"
+                }, 
+                "scans\uff0eAutoShun\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AutoShun Scan Result"
+                }, 
+                "scans\uff0eCloudStat\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CloudStat Scan Result"
+                }, 
+                "scans\uff0eAegisLab WebGuard\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AegisLab WebGuard Scan Result"
+                }, 
+                "verbose_msg": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Verbose Message"
+                }, 
+                "scans\uff0eAvira\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Avira Scan Result"
+                }, 
+                "scans\uff0eG-Data\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "G-Data Scan Result"
+                }, 
+                "scans\uff0eTrustwave\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Trustwave Scan Result"
+                }, 
+                "scans\uff0eYandex Safebrowsing\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Yandex Safebrowsing Scan Result"
+                }, 
+                "scans\uff0eOpenPhish\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OpenPhish Scan Result"
+                }, 
+                "scans\uff0eMalwarePatrol\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "MalwarePatrol Scan Result"
+                }, 
+                "scans\uff0eBitDefender\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "BitDefender Scan Result"
+                }, 
+                "scans\uff0eVX Vault\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "VX Vault Scan Result"
+                }, 
+                "scans\uff0eMalware Domain Blocklist\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malware Domain Blocklist Scan Result"
+                }, 
+                "scans\uff0eSucuri SiteCheck\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Sucuri SiteCheck Scan Result"
+                }, 
+                "scans\uff0eK7AntiVirus\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "K7AntiVirus Scan Result"
+                }, 
+                "scans\uff0eMalc0de Database\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malc0de Database Scan Result"
+                }, 
+                "scans\uff0eThreatHive\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ThreatHive Scan Result"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "scans\uff0eAlienVault\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AlienVault Scan Result"
+                }, 
+                "scans\uff0eAntiy-AVL\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Antiy-AVL Scan Result"
+                }, 
+                "scans\uff0eZerofox\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Zerofox Scan Result"
+                }, 
+                "scans\uff0ePhishtank\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Phishtank Scan Result"
+                }, 
+                "scans\uff0eESET\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ESET Scan Result"
+                }, 
+                "scans\uff0eZeusTracker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ZeusTracker Scan Result"
+                }, 
+                "scans\uff0eCRDF\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CRDF Scan Result"
+                }, 
+                "scans\uff0emalwares\uff0ecom URL checker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "malwares.com URL checker Scan Result"
+                }, 
+                "scans\uff0eCLEAN MX\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Clean MX Scan Result"
+                }, 
+                "positives": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Positives"
+                }, 
+                "scans\uff0eZeusTracker\uff0edetail": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ZeusTracker Scan Link"
+                }, 
+                "scans\uff0ePhishLabs\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "PhishLabs Scan Result"
+                }, 
+                "scans\uff0eSpam404\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Spam404 Scan Result"
+                }, 
+                "scans\uff0eWebsense ThreatSeeker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Websense ThreatSeeker Scan Result"
+                }, 
+                "permalink": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Permalink"
+                }, 
+                "scans\uff0eSophos\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Sophos Scan Result"
+                }, 
+                "scans\uff0eNucleon\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Nucleon Scan Result"
+                }, 
+                "scans\uff0eFraudSense\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "FraudSense Scan Result"
+                }, 
+                "scans\uff0eParetoLogic\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ParetoLogic Scan Result"
+                }, 
+                "scans\uff0eMalwareDomainList\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "MalwareDomainList Scan Result"
+                }, 
+                "scans\uff0eMalwarebytes hpHosts\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malwarebytes hpHosts Scan Result"
+                }, 
+                "scans\uff0eFraudScore\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "FraudScore Scan Result"
+                }, 
+                "scans\uff0eFortinet\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Fortinet Scan Result"
+                }, 
+                "scans\uff0eQuttera\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Quttera Scan Result"
+                }, 
+                "scans\uff0eZCloudsec\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ZCloudsec Scan Result"
+                }, 
+                "scans\uff0eOpera\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Opera Scan Result"
+                }, 
+                "scans\uff0ezvelo\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Zvelo Scan Result"
+                }, 
+                "scans\uff0eTencent\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Tencent Scan Result"
+                }, 
+                "scans\uff0eCyberCrime\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CyberCrime Scan Result"
+                }, 
+                "scans\uff0eEmsisoft\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Emsisoft Scan Result"
+                }
+            }, 
+            "name": "VirusTotal URL Report", 
+            "id": "58c823d0b104881024a3c8a9", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAANlBMVEX///8YfLwmhMA1jMRDlclSnc1gpdFvrdV9ttmLvd2axeKozua31urF3u7U5vLi7/fx9/v39/d4b/9qAAAAAXRSTlMAQObYZgAAAUlJREFUeNrt1mluxSAMRtHPDGEKQ/e/2Sapqhc3r4og/lFVnAVcYVkgME3TNE1/giVmiRWblpyhjXIZyLQbSiq3NmxKNPTiATOWNL5gt3pNnEPqTLJxF0VXK3Rf8nvcehqX09V1JSt22Wu6gR7ZKbqHLsmIJLlsRZJcdSJJrgYlkeRa0HfJD9wLiW9KPz+lJZ3a3ab6L6QKPOqeJg+u8vWrh8nDkvmm1MPkwSYWlUgS25QTSZ43lUkm+dpU02LJQwY8iSYtUEg0qSpgZJMBCCSaNEAl2WQBrGwyAJFEk7qhKdlkBhYSTXpgpbfMYFL9NraKGEyugKcrHRsGkwuQrz1f0MfysTUxJtZHH+vEb6JaUsMI+/4B0n7FWYm9Sf4AmVhwdny2B5IRCJdxX5/tgaQBqtLu57hm4PZ4+6UAuYAHnT3BNE3TNP1Pn34qDJCiByTEAAAAAElFTkSuQmCC"
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "58c823d0b104881024a3c8a9"
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "58c83b1bb104881024a3df7a", 
+            "key": "url", 
+            "type": "record", 
+            "example": "http://www.google.com"
+        }, 
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "literal", 
+            "value": true, 
+            "key": "autoScan", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "58c83b1bb104881024a3de02", 
+    "id": "58c83cc1b104881024a3f1d1"
+}

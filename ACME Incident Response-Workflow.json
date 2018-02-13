@@ -1,0 +1,23 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [], 
+            "disabled": false, 
+            "parentId": "58c83b1bb104881024a3dffb", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "58c83b1bb104881024a3dffc"
+        }
+    ], 
+    "applicationId": "58c83b1bb104881024a3de02", 
+    "id": "58c83b1bb104881024a3dffb", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "id": "58f0d2aa415ae8d31be64ac8", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "axqtu", 
+            "col": 1, 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "SYS-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "58f0d2a6b10488179c0496c8"
+        }, 
+        {
+            "key": "raw-message", 
+            "visualize": false, 
+            "name": "Raw Message", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "axqtu", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }
+    ], 
+    "acronym": "SYS", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-04-14T13:46:14.95Z", 
+    "trackingFieldId": "58f0d2a6b10488179c0496c8", 
+    "name": "Syslog", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:58.087Z", 
+    "maxTrackingId": 944.0, 
+    "workspaces": [
+        "58f0d2a7b10488179c0496d6"
+    ], 
+    "id": "aRuuGk2derbdt", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

@@ -1,0 +1,192 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a6lt9", 
+            "id": "5a661bbc1eb0c3a7ea136081", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "aan37", 
+            "id": "5a661beabee903727b5bf817", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "an7q6", 
+            "id": "5a661c02d01eb1ea99dc11fa", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "ak3j7", 
+            "id": "5a661c055831e607cd67e7b5", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a98zf", 
+            "id": "5a661bfda068d5af1647e78c", 
+            "row": 3
+        }
+    ], 
+    "fields": [
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "HT-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5a661babb104880cf47b7370"
+        }, 
+        {
+            "name": "Status", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "selected": false, 
+                    "name": "Open", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a661bc6fb2828653dc6f492"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Closed", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a661bcb39cba0b152befb85"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "status", 
+            "controlType": "select", 
+            "id": "a6lt9"
+        }, 
+        {
+            "name": "Closed Time", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "required": false, 
+            "inputType": "dateTime", 
+            "readOnly": false, 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "closed-time", 
+            "helpTextType": "none", 
+            "id": "aan37", 
+            "futurePastValue": 0
+        }, 
+        {
+            "name": "History", 
+            "$type": "Core.Models.Fields.History.HistoryField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "fieldType": "history", 
+            "key": "history", 
+            "id": "a98zf"
+        }, 
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "an7q6", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "key": "text-2", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "ak3j7", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text (2)"
+        }
+    ], 
+    "acronym": "HT", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-01-22T17:13:15.594Z", 
+    "trackingFieldId": "5a661babb104880cf47b7370", 
+    "name": "History Testing", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:54.976Z", 
+    "maxTrackingId": 2.0, 
+    "workspaces": [
+        "5a661bacb104880cf47b7386"
+    ], 
+    "id": "aYz8nyl4wXlTJ6dhp", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

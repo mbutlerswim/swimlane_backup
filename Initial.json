@@ -1,0 +1,79 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "58d0404284d5287b6d7f8e83", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "aguzs", 
+            "col": 1, 
+            "row": 1
+        }, 
+        {
+            "name": "Integration", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "taskId": "58d040f7b104880b589a7c18", 
+            "helpTextType": 0, 
+            "id": "58d04052d8ad0dfc4ded7ea3", 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "key": "text", 
+            "visualize": false, 
+            "name": "Text", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "aguzs", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "IN-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "58d0403eb104880b589a763d"
+        }
+    ], 
+    "acronym": "IN", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-03-20T20:49:02.926Z", 
+    "trackingFieldId": "58d0403eb104880b589a763d", 
+    "name": "Initial", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:55.079Z", 
+    "maxTrackingId": 2.0, 
+    "workspaces": [
+        "58d0403fb104880b589a7650"
+    ], 
+    "id": "58d0403eb104880b589a763b", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

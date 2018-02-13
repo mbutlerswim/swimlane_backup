@@ -1,0 +1,202 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "name": "Import Events", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-03-24T20:36:13.26Z", 
+    "disabled": true, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-02-05T19:44:24.532Z", 
+    "outputs": [
+        {
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azkhg", 
+                    "key": "hash", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "an5rh", 
+                    "key": "description", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aslsf", 
+                    "key": "title", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "acrb4", 
+                    "key": "created_at", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aou8r", 
+                    "key": "type_id", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "axs6s", 
+                    "key": "updated_at", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a6zee", 
+                    "key": "touched_at", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "au8hr", 
+                    "key": "happened_at", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ax1t7", 
+                    "key": "id", 
+                    "addMissing": false
+                }
+            ], 
+            "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
+            "createType": "insertUpdate", 
+            "errorHandlingType": "skipRow", 
+            "keyFieldId": "azkhg", 
+            "type": "insertUpdateRecord", 
+            "applicationId": "aUfeYmWR6_WWi"
+        }
+    ], 
+    "action": {
+        "assetId": "aR8q5zk2xYHks", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "email", 
+                "insertUpdateRecord"
+            ], 
+            "description": "Import Recent Events", 
+            "family": "Threat Intel", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_threatq", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "aKqwocSpECHUn", 
+                "url": "http://swimlane.com", 
+                "version": "0.2.0", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_threatq"
+                ], 
+                "description": "ThreatQuotient Bundle"
+            }, 
+            "assetDependencyVersion": "0.2.0", 
+            "assetDependencyType": "Threatquotient", 
+            "readonly": true, 
+            "version": "0.2.0", 
+            "actionType": "", 
+            "scriptFile": "import_events.py", 
+            "disabled": false, 
+            "inputParameters": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "numberOfRecords": {
+                    "name": "Number of Records", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "example": "15", 
+                    "description": "Number of Records to import at a time."
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }
+            ], 
+            "availableOutputVariables": {
+                "hash": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Hash"
+                }, 
+                "description": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Description"
+                }, 
+                "title": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Title"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "created_at": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Created At"
+                }, 
+                "type_id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Type ID"
+                }, 
+                "updated_at": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Updated At"
+                }, 
+                "touched_at": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Touched At"
+                }, 
+                "happened_at": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Happened At"
+                }, 
+                "id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "id"
+                }
+            }, 
+            "name": "Threatquotient Events Import", 
+            "id": "aKqwocSpED_YP", 
+            "base64Image": "data:image/false;base64,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"
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "aKqwocSpED_YP"
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "1000", 
+            "key": "numberOfRecords", 
+            "type": "literal", 
+            "example": "15"
+        }
+    ], 
+    "applicationId": "aUfeYmWR6_WWi", 
+    "id": "aV6S0ICZcEyu5"
+}
