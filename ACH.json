@@ -7,6 +7,18 @@
     }, 
     "layout": [
         {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "astj7", 
+            "id": "5a835018a21ba081273729c2", 
+            "row": 1
+        }, 
+        {
             "tabs": [
                 {
                     "active": false, 
@@ -2804,7 +2816,7 @@
             "id": "a79R_T3pYWl1L", 
             "layoutType": "tab", 
             "col": 1, 
-            "row": 1
+            "row": 2
         }, 
         {
             "name": "Project Status and Progress", 
@@ -2938,7 +2950,7 @@
             "col": 1, 
             "helpTextType": "none", 
             "id": "a9gVS8XXKYafX", 
-            "row": 2
+            "row": 3
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2949,7 +2961,7 @@
             "helpTextType": "none", 
             "fieldId": "5a57bc30b104880650a49de4", 
             "col": 1, 
-            "row": 3
+            "row": 4
         }
     ], 
     "fields": [
@@ -4743,21 +4755,6 @@
             "id": "aFjN2vExaLDg1"
         }, 
         {
-            "key": "link-to-source", 
-            "layoutId": "a3QuGUlNI4QPL", 
-            "visualize": false, 
-            "name": "Link to Source", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "id": "a2tWIUlliSx4Z", 
-            "readOnly": false, 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "helpTextType": "none", 
-            "visualizeMode": 0, 
-            "inputType": "text"
-        }, 
-        {
             "layoutId": "aQ4ffObCX6d3Z", 
             "name": "Loadable Code Modules", 
             "selectionType": "single", 
@@ -5692,6 +5689,40 @@
             "inputType": "multiline"
         }, 
         {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "aomo2", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "key": "text-2", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "astj7", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text (2)"
+        }, 
+        {
             "key": "threat-actor-tools-tactics-an", 
             "layoutId": "aSenOgAbPUqkj", 
             "visualize": false, 
@@ -6506,23 +6537,6 @@
             "key": "yara-rules-file", 
             "helpTextType": "none", 
             "id": "aYaH4uoT0HwaS"
-        }, 
-        {
-            "key": "text", 
-            "visualize": false, 
-            "suffix": "", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "readOnly": false, 
-            "id": "aomo2", 
-            "prefix": "", 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "visualizeMode": 0, 
-            "unique": false, 
-            "placeholder": "", 
-            "inputType": "text", 
-            "name": "Text"
         }
     ], 
     "acronym": "AC", 
@@ -6537,7 +6551,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-02-08T20:54:53.007Z", 
+    "modifiedDate": "2018-02-13T20:52:31.117Z", 
     "maxTrackingId": 0.0, 
     "workspaces": [
         "aMQQsOZKI8YNE"
