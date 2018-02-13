@@ -1,0 +1,171 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "58d585a08e48a86a70791ca7", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "arz78", 
+            "col": 1, 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "58d585a2d200de17768266f4", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "amwop", 
+            "col": 3, 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "ayy7e", 
+            "id": "59fb25827a2b5ac79f1838ab", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "abv6w", 
+            "id": "59fb266840c0b141b19e871c", 
+            "row": 2
+        }
+    ], 
+    "fields": [
+        {
+            "key": "cant-update", 
+            "visualize": false, 
+            "name": "Cant Update", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "arz78", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "reference", 
+            "canAdd": true, 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.Reference.ReferenceField, Core", 
+            "required": false, 
+            "targetId": "58c83b1bb104881024a3de02", 
+            "readOnly": false, 
+            "controlType": "grid", 
+            "fieldType": "reference", 
+            "createLink": false, 
+            "id": "ayy7e", 
+            "columns": [
+                "58c83b1bb104881024a3de03"
+            ], 
+            "name": "Reference"
+        }, 
+        {
+            "key": "should-update", 
+            "visualize": false, 
+            "name": "Should Update", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "amwop", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "PT-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "58d58547b104880ec8c18045"
+        }, 
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "abv6w", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }
+    ], 
+    "acronym": "PT", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-03-24T20:44:56.079Z", 
+    "trackingFieldId": "58d58547b104880ec8c18045", 
+    "name": "Permissions Test", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:56.693Z", 
+    "maxTrackingId": 1.0, 
+    "workspaces": [
+        "58d58548b104880ec8c18055"
+    ], 
+    "id": "aAiAaeYrxWM90", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core", 
+        "aEM6x9kDMUf8K": {
+            "name": "limited", 
+            "$type": "Core.Models.Security.Authorization, Core", 
+            "access": 130, 
+            "fields": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Security.Access, Core]], mscorlib", 
+                "amwop": 386
+            }, 
+            "type": "Role", 
+            "id": "aEM6x9kDMUf8K"
+        }, 
+        "aIvRdikfciQUCeQNm": {
+            "name": "Permissions", 
+            "$type": "Core.Models.Security.Authorization, Core", 
+            "access": 1, 
+            "fields": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Security.Access, Core]], mscorlib"
+            }, 
+            "type": "Role", 
+            "id": "aIvRdikfciQUCeQNm"
+        }
+    }
+}

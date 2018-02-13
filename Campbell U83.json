@@ -1,0 +1,334 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "name": "Campbell U83", 
+    "triggers": [
+        {
+            "emailReadType": "read", 
+            "assetId": "58c04733c6b64a0550a19d2b", 
+            "$type": "Core.Models.Integrations.Triggers.Email.EmailTrigger, Core", 
+            "hasRecord": false, 
+            "type": "email", 
+            "maxUid": 0, 
+            "conditions": [
+                {
+                    "value": "(UC083)", 
+                    "key": "subject"
+                }
+            ], 
+            "availableMappings": [
+                "triggerType", 
+                "dateTimeExecuted", 
+                "attachment", 
+                "body", 
+                "sender", 
+                "subject", 
+                "receivedOn"
+            ]
+        }
+    ], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-03-08T19:54:00.15Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2017-03-08T21:48:14.221Z", 
+    "outputs": [
+        {
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "inputParameter", 
+                    "value": "a7m5r", 
+                    "key": "Body", 
+                    "addMissing": false
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ap25f", 
+                    "expression": "DMTS_(.*?)_", 
+                    "key": "Subject", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a2831", 
+                    "expression": "Alert Name - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "azg19", 
+                    "expression": "Alert Time - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a47rj", 
+                    "expression": "Number of systems affected - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a9v6j", 
+                    "expression": "Source IP - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "akgqm", 
+                    "expression": "Source Port \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a51ec", 
+                    "expression": "Destination IP - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a46mw", 
+                    "expression": "Destination Port \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "azusv", 
+                    "expression": "Application \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a9oil", 
+                    "expression": "Interface \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "avyta", 
+                    "expression": "Device Action \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ak8q4", 
+                    "expression": "Signature Name - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ar0do", 
+                    "expression": "Event Count - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ahzcp", 
+                    "expression": "Severity - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "awtry", 
+                    "expression": "Description \u2013 (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a95t6", 
+                    "expression": "Investigation:.*?\\n([^z]*)--Recommendation", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "adw5u", 
+                    "expression": "Recommendation \u2013.*?\\n(.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ajjqs", 
+                    "expression": "Payload -.*?\\n(.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }
+            ], 
+            "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
+            "createType": "insert", 
+            "errorHandlingType": "skipRow", 
+            "type": "insertUpdateRecord", 
+            "applicationId": "58b03e5dc6b64a096cbc519a"
+        }
+    ], 
+    "action": {
+        "$type": "Core.Models.Integrations.Actions.EmailAction, Core", 
+        "readonly": false, 
+        "type": "email", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "insertUpdateRecord", 
+                "referentialTask", 
+                "saveToFile"
+            ], 
+            "description": "Import and update records from Emails", 
+            "family": "Data Creation", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "name": "Email Import", 
+            "disabled": false, 
+            "readonly": false, 
+            "actionType": "email", 
+            "inputParameters": {
+                "body": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Body"
+                }, 
+                "sender": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Sender"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "dateTimeExecuted": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Date Time Executed"
+                }, 
+                "attachment": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Attachment"
+                }, 
+                "receivedOn": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Received On"
+                }, 
+                "subject": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Subject"
+                }
+            }, 
+            "id": "aeNNwVFVVMGNXTXDf", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAACFlBMVEXj4+P////j4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+OWXuoyAAAAsXRSTlMAAAECBAUGBwkKCwwNDg8UFRYXGBkaHB0eHyAhIiQnKCorLC0uLzAxMjQ1Nzg5PD0+P0BCREdISktMTU5QUVJTVFVWV1hZW1xfYWNlZmdpamtsbXBxcnN0dXZ3eHt/gIGCg4SHiImKi42PkJKWl56goaKmqq2ur7K0vr/AwcLDxMXGx8jJysvMztLT1NXW19jZ2tvc3d7g4eLj5Obn6Onq6+zu7/Hy8/T19vf4+vv8/f76zC15AAACSUlEQVR4Ae3T+1uLYRzH8a+mmDTWbFLKIbGSHDQz5TDng5FGoVREDiKJEHMgITVWVnKYWo3Rln3+Q4me6/J41nPY/RP3+9fvdb9++Vw3TWMeJznJSU7+H+SKh8HeHqUF/KWyZE4mFXiguDdbyJAlQ7raF9Pcq1BYWx7NuVkjQ+7Ei3U0vSYKJTWnU/ZtyJFO4O1uogODkG30rJ4KnwIn5UmMVM+g4peQKXBIR85+AFUKSMSuGGjpXUyZz050LAylJHArm8zXMEX3rZR66TtUkHi+mvS1XxGv6xbKbAVUkRhwxh8p0jCLCp5BLYlwRRLZuyDRcBlRqR/qSeCygfLuSPwYO+ncQWgi0bqQzM1/DbOc0i5EoJFERyGlnPn25zBmymgBNJPo30y0PwChSL2erA+QCIng0WQqfoXffTqoo5LXSIxE9KKBcj2YqGcT0eEgEiWBGwvI1AQA9/JJfy4KBiQ6xqm6yM8fY2kBmJDwOyjJ3ZBGyzxgRWL4CI1n84Idiej5FHINgSUJNNWHwYwU+odITnJyO3tyD1RXJ0MuqT4u0Ql3bWC0sVzydKooHilEkhm7QkUklfBeNZnl+2xjT27gJBvS1B1aw5Ccbc3PtfnDrhzrShMjcn1f4N2HsdjgwPuhCkbkqi+YrEwDmbFjq7iNlSGBbHSIr9t2LZIh90J1p2VIh8/bLaqzL4bJPnaKr97echlypsUszlQyIpBV88zi5qdqmGftmEBWslq87cmjiR6372NEJhvTjb8y6TWR2uMkJznJSY39AASY64gMGtK0AAAAAElFTkSuQmCC"
+        }
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "dateTimeExecuted", 
+            "key": "Date Time Executed", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "sender", 
+            "key": "Sender", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "subject", 
+            "key": "Subject", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "body", 
+            "key": "Body", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "attachment", 
+            "key": "Attachment", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "receivedOn", 
+            "key": "Received On", 
+            "type": "trigger"
+        }
+    ], 
+    "applicationId": "58c07bb3b104880f509f7f02", 
+    "id": "58c06158c6b64a0550a1f5bb"
+}

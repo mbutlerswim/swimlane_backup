@@ -1,0 +1,103 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "598a0b13b7e83ac968566b1c", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a4hsz", 
+            "col": 1, 
+            "row": 1
+        }, 
+        {
+            "name": "Apply Tag", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "taskId": "aZEEsGz_eKLmc", 
+            "helpTextType": 0, 
+            "id": "598a0b16a1a07b612a70c3e9", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "598a0b182c158e056d236e36", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "aieq2", 
+            "col": 1, 
+            "row": 2
+        }
+    ], 
+    "fields": [
+        {
+            "key": "host", 
+            "visualize": false, 
+            "name": "Host", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a4hsz", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "results", 
+            "visualize": false, 
+            "name": "Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "aieq2", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "MCAF-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "598a0b10b1048812a021629b"
+        }
+    ], 
+    "acronym": "MCAF", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-08-08T19:03:44.888Z", 
+    "trackingFieldId": "598a0b10b1048812a021629b", 
+    "name": "McAfee", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:55.725Z", 
+    "maxTrackingId": 1.0, 
+    "workspaces": [
+        "58c16f75b104880754a09611"
+    ], 
+    "id": "aJmTwO2qd6WuP", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

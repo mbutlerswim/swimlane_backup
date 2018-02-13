@@ -1,0 +1,2790 @@
+{
+    "timeTrackingEnabled": true, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "name": "Use Case Overview", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": true, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [], 
+                            "id": "58c82383b104881024a3c683", 
+                            "name": "Suspicious Email Analysis and Response Cost"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c682", 
+                    "parentId": "58c75bebb5383a08d87b27e3", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 1
+                }, 
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [], 
+                            "id": "58c82383b104881024a3c685", 
+                            "name": "Susupicious Account Activity Analysis and Response Cost"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c684", 
+                    "parentId": "58c75bebb5383a08d87b27e3", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 2
+                }, 
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [], 
+                            "id": "58c82383b104881024a3c687", 
+                            "name": "Proxy Downloaded Binary Analysis and Response Cost"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c686", 
+                    "parentId": "58c75bebb5383a08d87b27e3", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 3
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c681", 
+            "row": 1
+        }, 
+        {
+            "name": "Incident Details", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c688", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c68a", 
+                    "id": "58c82383b104881024a3c689", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c688", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c68c", 
+                    "id": "58c82383b104881024a3c68b", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c688", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c68e", 
+                    "id": "58c82383b104881024a3c68d", 
+                    "row": 2
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c688", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c690", 
+                    "id": "58c82383b104881024a3c68f", 
+                    "row": 2
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c688", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c692", 
+                    "id": "58c82383b104881024a3c691", 
+                    "row": 3
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c688", 
+            "row": 2
+        }, 
+        {
+            "name": "Timeline", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c693", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c695", 
+                    "id": "58c82383b104881024a3c694", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c693", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c697", 
+                    "id": "58c82383b104881024a3c696", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c693", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c699", 
+                    "id": "58c82383b104881024a3c698", 
+                    "row": 2
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c693", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c69b", 
+                    "id": "58c82383b104881024a3c69a", 
+                    "row": 2
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "58c82383b104881024a3c693", 
+                    "helpTextType": "none", 
+                    "fieldId": "58c82383b104881024a3c69d", 
+                    "id": "58c82383b104881024a3c69c", 
+                    "row": 3
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 3, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c693", 
+            "row": 2
+        }, 
+        {
+            "name": "Investigation Details", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "name": "Personnel", 
+                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                    "collapsed": false, 
+                    "sizex": 4.0, 
+                    "sizey": 0.0, 
+                    "children": [
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "58c82383b104881024a3c69f", 
+                            "helpTextType": "none", 
+                            "fieldId": "58c82383b104881024a3c6a1", 
+                            "id": "58c82383b104881024a3c6a0", 
+                            "row": 1
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "58c82383b104881024a3c69f", 
+                            "helpTextType": "none", 
+                            "fieldId": "58c82383b104881024a3c6a3", 
+                            "id": "58c82383b104881024a3c6a2", 
+                            "row": 2
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "58c82383b104881024a3c69f", 
+                            "helpTextType": "none", 
+                            "fieldId": "58c82383b104881024a3c6a5", 
+                            "id": "58c82383b104881024a3c6a4", 
+                            "row": 3
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "58c82383b104881024a3c69f", 
+                            "helpTextType": "none", 
+                            "fieldId": "58c82383b104881024a3c6a7", 
+                            "id": "58c82383b104881024a3c6a6", 
+                            "row": 4
+                        }
+                    ], 
+                    "layoutType": "section", 
+                    "col": 1, 
+                    "parentId": "58c75bebb5383a08d87b2803", 
+                    "helpTextType": "none", 
+                    "id": "58c82383b104881024a3c69f", 
+                    "row": 1
+                }, 
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6a8", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6ab", 
+                                    "id": "58c82383b104881024a3c6aa", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6a9", 
+                            "name": "Summary"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6a8", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6ae", 
+                                    "id": "58c82383b104881024a3c6ad", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6ac", 
+                            "name": "Attack Vector"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6a8", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6b1", 
+                                    "id": "58c82383b104881024a3c6b0", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6af", 
+                            "name": "Attack Chain Phase"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6a8", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6b4", 
+                                    "id": "58c82383b104881024a3c6b3", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6b2", 
+                            "name": "Remediation Recommendations"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6a8", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6b7", 
+                                    "id": "58c82383b104881024a3c6b6", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6b5", 
+                            "name": "Attachments"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.5, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c6a8", 
+                    "parentId": "58c75bebb5383a08d87b2803", 
+                    "layoutType": "tab", 
+                    "col": 2, 
+                    "row": 1
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c69e", 
+            "row": 3
+        }, 
+        {
+            "name": "Phishing Alert", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "name": "Submission Information", 
+                                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                                    "collapsed": false, 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "children": [
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6bb", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6bd", 
+                                            "id": "58c82383b104881024a3c6bc", 
+                                            "row": 1
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6bb", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6bf", 
+                                            "id": "58c82383b104881024a3c6be", 
+                                            "row": 2
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6bb", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6c1", 
+                                            "id": "58c82383b104881024a3c6c0", 
+                                            "row": 3
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6bb", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6c3", 
+                                            "id": "58c82383b104881024a3c6c2", 
+                                            "row": 4
+                                        }
+                                    ], 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c75bebb5383a08d87b281e", 
+                                    "helpTextType": "none", 
+                                    "id": "58c82383b104881024a3c6bb", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "name": "Suspicious E-mail Details", 
+                                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                                    "collapsed": false, 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "children": [
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6c6", 
+                                            "id": "58c82383b104881024a3c6c5", 
+                                            "row": 1
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6c8", 
+                                            "id": "58c82383b104881024a3c6c7", 
+                                            "row": 2
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6ca", 
+                                            "id": "58c82383b104881024a3c6c9", 
+                                            "row": 3
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6cc", 
+                                            "id": "58c82383b104881024a3c6cb", 
+                                            "row": 4
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6ce", 
+                                            "id": "58c82383b104881024a3c6cd", 
+                                            "row": 5
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6d0", 
+                                            "id": "58c82383b104881024a3c6cf", 
+                                            "row": 6
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6d2", 
+                                            "id": "58c82383b104881024a3c6d1", 
+                                            "row": 7
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6d4", 
+                                            "id": "58c82383b104881024a3c6d3", 
+                                            "row": 8
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6d6", 
+                                            "id": "58c82383b104881024a3c6d5", 
+                                            "row": 9
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6c4", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6d8", 
+                                            "id": "58c82383b104881024a3c6d7", 
+                                            "row": 10
+                                        }
+                                    ], 
+                                    "layoutType": "section", 
+                                    "col": 3, 
+                                    "parentId": "58c75bebb5383a08d87b281e", 
+                                    "helpTextType": "none", 
+                                    "id": "58c82383b104881024a3c6c4", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6ba", 
+                            "name": "Phishing Alert Details"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "tabs": [
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6dd", 
+                                                    "id": "58c82383b104881024a3c6dc", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 2.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6df", 
+                                                    "id": "58c82383b104881024a3c6de", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6db", 
+                                            "name": "URL Analysis (Phishing)"
+                                        }, 
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6e2", 
+                                                    "id": "58c82383b104881024a3c6e1", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 2.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6e4", 
+                                                    "id": "58c82383b104881024a3c6e3", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6e0", 
+                                            "name": "MD5 Analysis (Phishing)"
+                                        }, 
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6e7", 
+                                                    "id": "58c82383b104881024a3c6e6", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6e5", 
+                                            "name": "Sandbox Analysis (Phishing)"
+                                        }, 
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 2.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6da", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6ea", 
+                                                    "id": "58c82383b104881024a3c6e9", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6e8", 
+                                            "name": "URL Scan (Phishing)"
+                                        }
+                                    ], 
+                                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c6da", 
+                                    "parentId": "58c75bebb5383a08d87b281e", 
+                                    "layoutType": "tab", 
+                                    "col": 1, 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6b9", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6ec", 
+                                    "id": "58c82383b104881024a3c6eb", 
+                                    "row": 2
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6d9", 
+                            "name": "Phishing Triage"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "name": "Phishing Affected Mailboxes", 
+                                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                                    "collapsed": false, 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c6ee", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "helpText": "<p>Lists Mailboxes that received the same phishing email.</p>", 
+                                    "parentId": "58c75bebb5383a08d87b281e", 
+                                    "helpTextType": "above", 
+                                    "children": [
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 1.5, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c6ee", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c6f0", 
+                                            "id": "58c82383b104881024a3c6ef", 
+                                            "row": 1
+                                        }
+                                    ], 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c6b9", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c6f2", 
+                                    "id": "58c82383b104881024a3c6f1", 
+                                    "row": 2
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6ed", 
+                            "name": "Phishing IOC Hunting"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "tabs": [
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "name": "Block Domain", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "5893fb57b39b0a0f08bb3a98", 
+                                                    "parentId": "58c75bebb5383a08d87b2859", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c6f6", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6f4", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6f8", 
+                                                    "id": "58c82383b104881024a3c6f7", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "name": "Delete Email From Mail Servers", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "5893fa6ab39b0a0f08bb3695", 
+                                                    "parentId": "58c75bebb5383a08d87b2859", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c6f9", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6f4", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6fb", 
+                                                    "id": "58c82383b104881024a3c6fa", 
+                                                    "row": 2
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6f5", 
+                                            "name": "Confirmed Phishing Attack"
+                                        }, 
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "name": "Notify User - Not Malicious", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "573ca124b39b0b0e6cd4c667", 
+                                                    "parentId": "58c75bebb5383a08d87b2859", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c6fd", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 2.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c6f4", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c6ff", 
+                                                    "id": "58c82383b104881024a3c6fe", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c6fc", 
+                                            "name": "Confirmed Benign Email"
+                                        }
+                                    ], 
+                                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c6f4", 
+                                    "parentId": "58c75bebb5383a08d87b281e", 
+                                    "layoutType": "tab", 
+                                    "col": 1, 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c6f3", 
+                            "name": "Phishing Remediation"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c6b9", 
+                    "parentId": "58c75bebb5383a08d87b281d", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 1
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6b8", 
+            "row": 4
+        }, 
+        {
+            "name": "Proxy Alert", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "name": "Proxy Alert Details", 
+                                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                                    "collapsed": false, 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "children": [
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c705", 
+                                            "id": "58c82383b104881024a3c704", 
+                                            "row": 1
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 3, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c707", 
+                                            "id": "58c82383b104881024a3c706", 
+                                            "row": 1
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c709", 
+                                            "id": "58c82383b104881024a3c708", 
+                                            "row": 2
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 3, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c70b", 
+                                            "id": "58c82383b104881024a3c70a", 
+                                            "row": 2
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 1, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c70d", 
+                                            "id": "58c82383b104881024a3c70c", 
+                                            "row": 3
+                                        }, 
+                                        {
+                                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                            "sizex": 2.0, 
+                                            "sizey": 0.0, 
+                                            "col": 3, 
+                                            "layoutType": "field", 
+                                            "parentId": "58c82383b104881024a3c703", 
+                                            "helpTextType": "none", 
+                                            "fieldId": "58c82383b104881024a3c70f", 
+                                            "id": "58c82383b104881024a3c70e", 
+                                            "row": 3
+                                        }
+                                    ], 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c75bebb5383a08d87b2866", 
+                                    "helpTextType": "none", 
+                                    "id": "58c82383b104881024a3c703", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c702", 
+                            "name": "Proxy Alert Details"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "tabs": [
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c711", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c714", 
+                                                    "id": "58c82383b104881024a3c713", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c711", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c716", 
+                                                    "id": "58c82383b104881024a3c715", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c711", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c718", 
+                                                    "id": "58c82383b104881024a3c717", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c711", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c71a", 
+                                                    "id": "58c82383b104881024a3c719", 
+                                                    "row": 3
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c711", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c71c", 
+                                                    "id": "58c82383b104881024a3c71b", 
+                                                    "row": 3
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c712", 
+                                            "name": "Binary Analysis"
+                                        }
+                                    ], 
+                                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c711", 
+                                    "parentId": "58c75bebb5383a08d87b2866", 
+                                    "layoutType": "tab", 
+                                    "col": 1, 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c701", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c71e", 
+                                    "id": "58c82383b104881024a3c71d", 
+                                    "row": 2
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c710", 
+                            "name": "Proxy Alert Triage"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "name": "Search EDR for Hosts With MD5", 
+                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "integration", 
+                                    "taskId": "58977947b39b0a0cb0a969cb", 
+                                    "parentId": "58c75bebb5383a08d87b2866", 
+                                    "helpTextType": 0, 
+                                    "id": "58c82383b104881024a3c720", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.5, 
+                                    "sizey": 0.0, 
+                                    "col": 2, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c701", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c722", 
+                                    "id": "58c82383b104881024a3c721", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c701", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c724", 
+                                    "id": "58c82383b104881024a3c723", 
+                                    "row": 2
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c71f", 
+                            "name": "Proxy Alert IOC Hunting"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "tabs": [
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "name": "Quarantine Affected Hosts with EDR", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "58977a02b39b0a0cb0a96d96", 
+                                                    "parentId": "58c75bebb5383a08d87b288b", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c728", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c726", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c72a", 
+                                                    "id": "58c82383b104881024a3c729", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "name": "Add MD5 to Proxy Blacklist", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "58977a7bb39b0a0cb0a96f89", 
+                                                    "parentId": "58c75bebb5383a08d87b288b", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c72b", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c726", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c72d", 
+                                                    "id": "58c82383b104881024a3c72c", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "name": "Open Ticket for IT to Clean Hosts", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "58977b77b39b0a0cb0a97750", 
+                                                    "parentId": "58c75bebb5383a08d87b288b", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c72e", 
+                                                    "row": 3
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c726", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c730", 
+                                                    "id": "58c82383b104881024a3c72f", 
+                                                    "row": 3
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c727", 
+                                            "name": "Confirmed Malicious Download"
+                                        }
+                                    ], 
+                                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c726", 
+                                    "parentId": "58c75bebb5383a08d87b2866", 
+                                    "layoutType": "tab", 
+                                    "col": 1, 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c725", 
+                            "name": "Proxy Alert Remediation"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c701", 
+                    "parentId": "58c75bebb5383a08d87b2865", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 1
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c700", 
+            "row": 5
+        }, 
+        {
+            "name": "UEBA Alert", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "tabs": [
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c735", 
+                                    "id": "58c82383b104881024a3c734", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c737", 
+                                    "id": "58c82383b104881024a3c736", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c739", 
+                                    "id": "58c82383b104881024a3c738", 
+                                    "row": 2
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c73b", 
+                                    "id": "58c82383b104881024a3c73a", 
+                                    "row": 2
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c73d", 
+                                    "id": "58c82383b104881024a3c73c", 
+                                    "row": 3
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c73f", 
+                                    "id": "58c82383b104881024a3c73e", 
+                                    "row": 3
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c733", 
+                            "name": "UEBA Alert Details"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c742", 
+                                    "id": "58c82383b104881024a3c741", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.5, 
+                                    "sizey": 0.0, 
+                                    "col": 2, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c744", 
+                                    "id": "58c82383b104881024a3c743", 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c740", 
+                            "name": "UEBA Research"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "name": "Search SIEM for All Affected Hosts", 
+                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "integration", 
+                                    "taskId": "5897a0b6b39b0a0cb0aa8ac8", 
+                                    "parentId": "58c75bebb5383a08d87b2897", 
+                                    "helpTextType": 0, 
+                                    "id": "58c82383b104881024a3c746", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.5, 
+                                    "sizey": 0.0, 
+                                    "col": 2, 
+                                    "layoutType": "field", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c748", 
+                                    "id": "58c82383b104881024a3c747", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "helpText": "", 
+                                    "parentId": "58c82383b104881024a3c732", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "58c82383b104881024a3c74a", 
+                                    "id": "58c82383b104881024a3c749", 
+                                    "row": 2
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c745", 
+                            "name": "UEBA IOC Hunting"
+                        }, 
+                        {
+                            "active": false, 
+                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "children": [
+                                {
+                                    "tabs": [
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "name": "Disable User Account", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "5897a033b39b0a0cb0aa8466", 
+                                                    "parentId": "58c75bebb5383a08d87b28b1", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c74e", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c74c", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c750", 
+                                                    "id": "58c82383b104881024a3c74f", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "name": "Quarantine Hosts", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "58977a02b39b0a0cb0a96d96", 
+                                                    "parentId": "58c75bebb5383a08d87b28b1", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c751", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c74c", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c753", 
+                                                    "id": "58c82383b104881024a3c752", 
+                                                    "row": 2
+                                                }, 
+                                                {
+                                                    "name": "Open Ticket to Clean Hosts", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "58977b77b39b0a0cb0a97750", 
+                                                    "parentId": "58c75bebb5383a08d87b28b1", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c754", 
+                                                    "row": 3
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c74c", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c756", 
+                                                    "id": "58c82383b104881024a3c755", 
+                                                    "row": 3
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c74d", 
+                                            "name": "Confirmed Malicious UEBA Activity"
+                                        }, 
+                                        {
+                                            "active": false, 
+                                            "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "children": [
+                                                {
+                                                    "name": "Add User to SIEM Watchlist", 
+                                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                                    "sizex": 4.0, 
+                                                    "sizey": 0.0, 
+                                                    "col": 1, 
+                                                    "layoutType": "integration", 
+                                                    "taskId": "5897a16fb39b0a0cb0aa9583", 
+                                                    "parentId": "58c75bebb5383a08d87b28b1", 
+                                                    "helpTextType": 0, 
+                                                    "id": "58c82383b104881024a3c758", 
+                                                    "row": 1
+                                                }, 
+                                                {
+                                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                                    "sizex": 1.5, 
+                                                    "sizey": 0.0, 
+                                                    "col": 2, 
+                                                    "layoutType": "field", 
+                                                    "parentId": "58c82383b104881024a3c74c", 
+                                                    "helpTextType": "none", 
+                                                    "fieldId": "58c82383b104881024a3c75a", 
+                                                    "id": "58c82383b104881024a3c759", 
+                                                    "row": 1
+                                                }
+                                            ], 
+                                            "id": "58c82383b104881024a3c757", 
+                                            "name": "Confirmed Benign or Unknown UEBA Activity"
+                                        }
+                                    ], 
+                                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "id": "58c82383b104881024a3c74c", 
+                                    "parentId": "58c75bebb5383a08d87b2897", 
+                                    "layoutType": "tab", 
+                                    "col": 1, 
+                                    "row": 1
+                                }
+                            ], 
+                            "id": "58c82383b104881024a3c74b", 
+                            "name": "UEBA Remediation"
+                        }
+                    ], 
+                    "$type": "Core.Models.Layouts.TabLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "58c82383b104881024a3c732", 
+                    "parentId": "58c75bebb5383a08d87b2896", 
+                    "layoutType": "tab", 
+                    "col": 1, 
+                    "row": 1
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c731", 
+            "row": 6
+        }
+    ], 
+    "fields": [
+        {
+            "key": "add-md5-to-blacklist-results", 
+            "layoutId": "58c82383b104881024a3c72c", 
+            "visualize": false, 
+            "name": "Add MD5 to Blacklist Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c72d", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "add-user-to-watchlist-results", 
+            "layoutId": "58c82383b104881024a3c759", 
+            "visualize": false, 
+            "name": "Add User To Watchlist Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c75a", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "affected-mailboxes", 
+            "layoutId": "58c82383b104881024a3c6ef", 
+            "visualize": false, 
+            "name": "Affected Mailboxes", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6f0", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "attachment-md5s", 
+            "layoutId": "58c82383b104881024a3c6d7", 
+            "visualize": false, 
+            "name": "Attachment MD5s", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6d8", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6c2", 
+            "name": "Attachments (Phishing)", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "attachments-phishing", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6c3"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6d5", 
+            "name": "Attachments from Email (Phishing)", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "attachments-from-email-phishi", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6d6"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6b0", 
+            "name": "Attack Chain Phase Comments", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "attack-chain-phase-comments", 
+            "helpTextType": "above", 
+            "id": "58c82383b104881024a3c6b1"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6ad", 
+            "name": "Attack Vector Comments", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "helpText": "<p>Describes the method used to penetrate security protocols</p>", 
+            "fieldType": "comments", 
+            "key": "attack-vector-comments", 
+            "helpTextType": "above", 
+            "id": "58c82383b104881024a3c6ae"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c69c", 
+            "name": "Automation Level", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "readOnly": true, 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "58943da4fa8669c2e05408ed", 
+                    "name": "Fully Automated to Closure"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "58943da932934513c72385f9", 
+                    "name": "Partially Automated"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": true, 
+                    "id": "58943eb92ce8483ac7cdf18c", 
+                    "name": "Not Automated"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "automation-level", 
+            "helpTextType": "none", 
+            "controlType": "select", 
+            "id": "58c82383b104881024a3c69d"
+        }, 
+        {
+            "key": "block-domain-results", 
+            "layoutId": "58c82383b104881024a3c6f7", 
+            "visualize": false, 
+            "name": "Block Domain Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6f8", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "body-phishing", 
+            "layoutId": "58c82383b104881024a3c6c0", 
+            "visualize": false, 
+            "name": "Body (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6c1", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "delete-email-results", 
+            "layoutId": "58c82383b104881024a3c6fa", 
+            "visualize": false, 
+            "name": "Delete Email Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6fb", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "detection-method", 
+            "layoutId": "58c82383b104881024a3c68f", 
+            "visualize": false, 
+            "name": "Detection Method", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c690", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "disable-user-account-results-", 
+            "layoutId": "58c82383b104881024a3c74f", 
+            "visualize": false, 
+            "name": "Disable User Account Results (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c750", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "domains-from--body-phishing", 
+            "layoutId": "58c82383b104881024a3c6d3", 
+            "visualize": false, 
+            "name": "Domain(s) from  Body (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6d4", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "edr-search-results---hosts-wi", 
+            "layoutId": "58c82383b104881024a3c721", 
+            "visualize": false, 
+            "name": "EDR Search Results - Hosts with same MD5 Observed", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c722", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "email-body-html-phishing", 
+            "layoutId": "58c82383b104881024a3c6cf", 
+            "visualize": false, 
+            "name": "Email Body (html) (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6d0", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "email-body-plaintext-phishing", 
+            "layoutId": "58c82383b104881024a3c6cd", 
+            "visualize": false, 
+            "name": "Email Body (plaintext) (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6ce", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "email-recipients-phishing", 
+            "layoutId": "58c82383b104881024a3c6c9", 
+            "visualize": false, 
+            "name": "Email Recipient(s) (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6ca", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "email-sender-phishing", 
+            "layoutId": "58c82383b104881024a3c6c7", 
+            "visualize": false, 
+            "name": "Email Sender (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6c8", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "email-subject-phishing", 
+            "layoutId": "58c82383b104881024a3c6cb", 
+            "visualize": false, 
+            "name": "Email Subject (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6cc", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "file-hash-md5", 
+            "layoutId": "58c82383b104881024a3c70e", 
+            "visualize": false, 
+            "name": "File Hash (MD5)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c70f", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "filename", 
+            "layoutId": "58c82383b104881024a3c70c", 
+            "visualize": false, 
+            "name": "Filename", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c70d", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "full-headers-phishing", 
+            "layoutId": "58c82383b104881024a3c6c5", 
+            "visualize": false, 
+            "name": "Full Headers (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6c6", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "hostname-ueba", 
+            "layoutId": "58c82383b104881024a3c736", 
+            "visualize": false, 
+            "name": "Hostname (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c737", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c698", 
+            "name": "Incident Closed", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "58c82383b104881024a3c699", 
+            "readOnly": true, 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "incident-closed", 
+            "helpTextType": "none", 
+            "inputType": "dateTime"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c696", 
+            "name": "Incident Created", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "58c82383b104881024a3c697", 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "incident-created", 
+            "helpTextType": "none", 
+            "inputType": "firstCreated"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c694", 
+            "name": "Incident Occurred", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "58c82383b104881024a3c695", 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "incident-occurred", 
+            "helpTextType": "none", 
+            "inputType": "dateTime"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c68b", 
+            "name": "Incident Type", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37a5ec489d30b79e03da", 
+                    "name": "Phishing Alert"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37a9ec223fe6e4bb2a99", 
+                    "name": "Network Alert"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "583ed496e5b61378ecea3bce", 
+                    "name": "EDR Alert"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "583ed4a37f2a8f4f14035c5d", 
+                    "name": "UEBA Alert"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "incident-type", 
+            "helpTextType": "none", 
+            "controlType": "select", 
+            "id": "58c82383b104881024a3c68c"
+        }, 
+        {
+            "key": "internal-host", 
+            "layoutId": "58c82383b104881024a3c708", 
+            "visualize": false, 
+            "name": "Internal Host", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c709", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6aa", 
+            "name": "Investigation  Summary", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "investigation--summary", 
+            "helpTextType": "below", 
+            "id": "58c82383b104881024a3c6ab"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6b6", 
+            "name": "Investigation Attachments", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "investigation-attachments", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6b7"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c723", 
+            "name": "IOC Hunting Comments (Network)", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "ioc-hunting-comments-network", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c724"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6f1", 
+            "name": "IOC Hunting Comments (Phishing)", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "ioc-hunting-comments-phishing", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6f2"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c749", 
+            "name": "IOC Hunting Comments (UEBA)", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "ioc-hunting-comments-ueba", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c74a"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c713", 
+            "name": "MD5 Threat Intel Malicious Hits", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "md5-threat-intel-malicious-hi", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c714"
+        }, 
+        {
+            "key": "md5-threat-intel-results", 
+            "layoutId": "58c82383b104881024a3c715", 
+            "visualize": false, 
+            "name": "MD5 Threat Intel Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c716", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6e1", 
+            "name": "MD5 VirusTotal # Hits (Phishing)", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "md5-virustotal--hits-phishing", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6e2"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c71d", 
+            "name": "Network Research Comments", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "network-research-comments", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c71e"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c691", 
+            "name": "NEW COMMENTS", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "new-comments", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c692"
+        }, 
+        {
+            "key": "notify-user---not-malicious-r", 
+            "layoutId": "58c82383b104881024a3c6fe", 
+            "visualize": false, 
+            "name": "Notify User - Not Malicious Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6ff", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c741", 
+            "name": "Number of Threat Intel URL Hits (UEBA)", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "helpText": "<p>If there are less than five hits, automated response actions will not be taken.  An analyst should confirm that these aren't false positive AV hits, then perform push-button remediation as required.</p>", 
+            "fieldType": "numeric", 
+            "key": "number-of-threat-intel-url-hi", 
+            "helpTextType": "below", 
+            "id": "58c82383b104881024a3c742"
+        }, 
+        {
+            "key": "open-it-ticket-results", 
+            "layoutId": "58c82383b104881024a3c72f", 
+            "visualize": false, 
+            "name": "Open IT Ticket Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c730", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "open-ticket-results-ueba", 
+            "layoutId": "58c82383b104881024a3c755", 
+            "visualize": false, 
+            "name": "Open Ticket Results (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c756", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6eb", 
+            "name": "Phishing Research Comments", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "phishing-research-comments", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6ec"
+        }, 
+        {
+            "key": "policy-id-ueba", 
+            "layoutId": "58c82383b104881024a3c73a", 
+            "visualize": false, 
+            "name": "Policy ID (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c73b", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "policy-message-ueba", 
+            "layoutId": "58c82383b104881024a3c73c", 
+            "visualize": false, 
+            "name": "Policy Message (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c73d", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "protocol", 
+            "layoutId": "58c82383b104881024a3c70a", 
+            "visualize": false, 
+            "name": "Protocol", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c70b", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "proxy-alert-type", 
+            "layoutId": "58c82383b104881024a3c704", 
+            "visualize": false, 
+            "name": "Proxy Alert Type", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c705", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "quarantine-hosts-results-ueba", 
+            "layoutId": "58c82383b104881024a3c752", 
+            "visualize": false, 
+            "name": "Quarantine Hosts Results (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c753", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "quarantine-with-edr-results", 
+            "layoutId": "58c82383b104881024a3c729", 
+            "visualize": false, 
+            "name": "Quarantine with EDR Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c72a", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6b3", 
+            "name": "Remediation Recommendations Comments", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "fieldType": "comments", 
+            "key": "remediation-recommendations-c", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6b4"
+        }, 
+        {
+            "key": "request-url", 
+            "layoutId": "58c82383b104881024a3c706", 
+            "visualize": false, 
+            "name": "Request URL", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c707", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "sandbox-results-for-suspiciou", 
+            "layoutId": "58c82383b104881024a3c71b", 
+            "visualize": false, 
+            "name": "Sandbox Results for Suspicious File", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c71c", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6e6", 
+            "name": "Sandbox Results ThreatScore", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "sandbox-results-threatscore", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6e7"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c68d", 
+            "name": "Severity/Priority", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37be40fa4f560a774ba3", 
+                    "name": "High"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37c1afedb3440cf56e0a", 
+                    "name": "Medium"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37c5c263b573d5b5503e", 
+                    "name": "Low"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "severitypriority", 
+            "helpTextType": "none", 
+            "controlType": "select", 
+            "id": "58c82383b104881024a3c68e"
+        }, 
+        {
+            "key": "siem-search-results-ueba", 
+            "layoutId": "58c82383b104881024a3c747", 
+            "visualize": false, 
+            "name": "SIEM Search Results (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c748", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c689", 
+            "name": "Status", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": true, 
+                    "id": "573e37dffb30d516f042cd2c", 
+                    "name": "New Incident"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37e39479b72ecc5246d2", 
+                    "name": "Open Investigation"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37e74869a4b924a47b00", 
+                    "name": "Closed Investigation - Resolved"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37ec65b8d01e65aa3665", 
+                    "name": "Closed Investigation - False Positive"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "573e37f6db53c0c01c87067e", 
+                    "name": "Closed Investigation - Known Issue"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "status", 
+            "helpTextType": "above", 
+            "controlType": "select", 
+            "id": "58c82383b104881024a3c68a"
+        }, 
+        {
+            "key": "subject-phishing", 
+            "layoutId": "58c82383b104881024a3c6be", 
+            "visualize": false, 
+            "name": "Subject (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6bf", 
+            "readOnly": false, 
+            "helpText": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "submitted-by-phishing", 
+            "layoutId": "58c82383b104881024a3c6bc", 
+            "visualize": false, 
+            "name": "Submitted By (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6bd", 
+            "readOnly": false, 
+            "helpText": "<p>Example comment</p>", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "email"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c719", 
+            "name": "Suspicious File  Sandbox ThreatScore", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "suspicious-file--sandbox-thre", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c71a"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c717", 
+            "name": "Suspicious File (Retrieved from Network Forensic Tool)", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "suspicious-file-retrieved-fro", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c718"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c69a", 
+            "name": "Time To Resolution (Minutes)", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "time-to-resolution-minutes", 
+            "helpTextType": "none", 
+            "formula": "TOTALMINUTES([58c82383b104881024a3c697],[58c82383b104881024a3c699])", 
+            "id": "58c82383b104881024a3c69b"
+        }, 
+        {
+            "name": "Total Time Spent", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "total-time-spent", 
+            "id": "572ce726b39b0b0b00a3b4e4"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "AS-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "58c82383b104881024a3c680"
+        }, 
+        {
+            "key": "url-results-ueba", 
+            "layoutId": "58c82383b104881024a3c743", 
+            "visualize": false, 
+            "name": "URL Results (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c744", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6e9", 
+            "name": "URL Scan Results ThreatScore", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "fieldType": "numeric", 
+            "key": "url-scan-results-threatscore", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6ea"
+        }, 
+        {
+            "layoutId": "58c82383b104881024a3c6dc", 
+            "name": "URL VirusTotal # Hits (Phishing)", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "step": 1.0, 
+            "helpText": "<p>If Threat Intel gives me more than XX number of hits, do x y z.</p>", 
+            "fieldType": "numeric", 
+            "key": "url-virustotal--hits-phishing", 
+            "helpTextType": "none", 
+            "id": "58c82383b104881024a3c6dd"
+        }, 
+        {
+            "key": "url-virustotal-results-phishi", 
+            "layoutId": "58c82383b104881024a3c6de", 
+            "visualize": false, 
+            "name": "URL VirusTotal Results (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6df", 
+            "readOnly": false, 
+            "helpText": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "url-visited-ueba", 
+            "layoutId": "58c82383b104881024a3c73e", 
+            "visualize": false, 
+            "name": "URL Visited (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c73f", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "urls-from-body-phishing", 
+            "layoutId": "58c82383b104881024a3c6d1", 
+            "visualize": false, 
+            "name": "URL(s) from Body (Phishing)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6d2", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "user-location-ueba", 
+            "layoutId": "58c82383b104881024a3c738", 
+            "visualize": false, 
+            "name": "User Location (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c739", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "username-ueba", 
+            "layoutId": "58c82383b104881024a3c734", 
+            "visualize": false, 
+            "name": "Username (UEBA)", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c735", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "virustotal-md5-results", 
+            "layoutId": "58c82383b104881024a3c6e3", 
+            "visualize": false, 
+            "name": "VirusTotal MD5 Results", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "58c82383b104881024a3c6e4", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "helpTextType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "key": "assigned-group", 
+            "layoutId": "58c82383b104881024a3c6a2", 
+            "members": [], 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.UserGroupField, Core", 
+            "showAllGroups": false, 
+            "id": "58c82383b104881024a3c6a3", 
+            "controlType": "select", 
+            "fieldType": "userGroup", 
+            "defaults": [], 
+            "helpTextType": "none", 
+            "showAllUsers": false, 
+            "inputType": "userGroup", 
+            "name": "Assigned Group"
+        }, 
+        {
+            "key": "assigned-user", 
+            "layoutId": "58c82383b104881024a3c6a0", 
+            "members": [], 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.UserGroupField, Core", 
+            "showAllGroups": false, 
+            "id": "58c82383b104881024a3c6a1", 
+            "controlType": "select", 
+            "fieldType": "userGroup", 
+            "defaults": [], 
+            "helpTextType": "none", 
+            "showAllUsers": true, 
+            "inputType": "userGroup", 
+            "name": "Assigned User"
+        }, 
+        {
+            "key": "incident-created-by", 
+            "layoutId": "58c82383b104881024a3c6a4", 
+            "members": [], 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.UserGroupField, Core", 
+            "showAllGroups": false, 
+            "id": "58c82383b104881024a3c6a5", 
+            "controlType": "select", 
+            "fieldType": "userGroup", 
+            "defaults": [], 
+            "helpTextType": "none", 
+            "showAllUsers": true, 
+            "inputType": "userGroup", 
+            "name": "Incident Created By:"
+        }, 
+        {
+            "key": "last-updated-by", 
+            "layoutId": "58c82383b104881024a3c6a6", 
+            "members": [], 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.UserGroupField, Core", 
+            "showAllGroups": false, 
+            "id": "58c82383b104881024a3c6a7", 
+            "controlType": "select", 
+            "fieldType": "userGroup", 
+            "defaults": [], 
+            "helpTextType": "none", 
+            "showAllUsers": true, 
+            "inputType": "userGroup", 
+            "name": "Last Updated By:"
+        }
+    ], 
+    "timeSpentFieldId": "572ce726b39b0b0b00a3b4e4", 
+    "acronym": "IR", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-03-14T17:08:19.828Z", 
+    "trackingFieldId": "58c82383b104881024a3c680", 
+    "name": "IR", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:55.304Z", 
+    "maxTrackingId": 1.0, 
+    "workspaces": [
+        "58c82384b104881024a3c777"
+    ], 
+    "id": "58c82383b104881024a3c67f", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a2fqs", 
+            "id": "5a788cec0eb2c1d7432a99ca", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a9b01", 
+            "id": "5a788ce4ea28421383f5131f", 
+            "row": 1
+        }, 
+        {
+            "name": "Integration", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "integration", 
+            "helpText": " ", 
+            "taskId": "aVI2iYUVNPtAv8V7u", 
+            "helpTextType": 0, 
+            "id": "5a788cf15bd0627f691586cd", 
+            "row": 2
+        }
+    ], 
+    "fields": [
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "a2fqs", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "name": "Time", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "required": false, 
+            "inputType": "time", 
+            "readOnly": false, 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "time", 
+            "helpTextType": "none", 
+            "id": "a9b01", 
+            "futurePastValue": 0
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "ET-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5a788cc8916b4412e8482b31"
+        }
+    ], 
+    "acronym": "ET", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-02-05T16:56:41.016Z", 
+    "trackingFieldId": "5a788cc8916b4412e8482b31", 
+    "name": "Epoch Time", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:54.484Z", 
+    "maxTrackingId": 1.0, 
+    "workspaces": [
+        "5a788cc9916b4412e8482b43"
+    ], 
+    "id": "aEwsmeETNT7ZTRaW7", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

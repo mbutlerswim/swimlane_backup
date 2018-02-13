@@ -1,0 +1,378 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [
+                {
+                    "name": "Closed All Sections", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c16f74b104880754a094c0": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c16f74b104880754a09576": "hide", 
+                        "58c16f74b104880754a0950d": "hide", 
+                        "58c16f74b104880754a095af": "hide"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c16f75b104880754a09627", 
+                    "id": "583ef5f19b09296f077605dc"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "58c16f75b104880754a09627"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Closed", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "or", 
+            "actions": [
+                {
+                    "name": "Set Closed Timestamp", 
+                    "$type": "Core.Models.Workflow.Actions.FieldSetAction, Core", 
+                    "dateActionType": "current", 
+                    "value": "", 
+                    "disabled": false, 
+                    "actionType": "setValue", 
+                    "parentId": "58c16f75b104880754a09628", 
+                    "fieldId": "58c16f74b104880754a094a3", 
+                    "id": "583e199eb39b0a0edcd9364e"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09496", 
+                    "value": "573e37ec65b8d01e65aa3665"
+                }, 
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09496", 
+                    "value": "573e37f6db53c0c01c87067e"
+                }, 
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09496", 
+                    "value": "573e37e74869a4b924a47b00"
+                }
+            ], 
+            "id": "58c16f75b104880754a09628"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Phishing Workflow", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "or", 
+            "actions": [
+                {
+                    "name": "Show Phishing Incident", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c16f74b104880754a094c0": "show", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c16f74b104880754a09576": "hide", 
+                        "58c16f74b104880754a0950d": "hide", 
+                        "58c16f74b104880754a095af": "hide"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c16f75b104880754a09629", 
+                    "id": "583ef239d937bfeb97300bf3"
+                }, 
+                {
+                    "name": "Phishing Investigation Started", 
+                    "$type": "Core.Models.Workflow.Actions.FieldSetAction, Core", 
+                    "value": "573e37a5ec489d30b79e03da", 
+                    "disabled": false, 
+                    "actionType": "setValue", 
+                    "parentId": "58c16f75b104880754a09629", 
+                    "fieldId": "58c16f74b104880754a09498", 
+                    "id": "583ef437d18efb0f9f8e3238"
+                }, 
+                {
+                    "name": "Parse Attachments", 
+                    "$type": "Core.Models.Workflow.Actions.IntegrationAction, Core", 
+                    "autoRun": false, 
+                    "disabled": false, 
+                    "actionType": "integration", 
+                    "taskId": "aXTvg6RzaesRE", 
+                    "parentId": "58c16f75b104880754a09629", 
+                    "id": "58c17662c068c10294c2f980"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [
+                {
+                    "conditionType": "equals", 
+                    "name": "Email Subject Exists", 
+                    "$type": "Core.Models.Workflow.Stage, Core", 
+                    "evalType": "and", 
+                    "actions": [
+                        {
+                            "name": "Check Similar", 
+                            "$type": "Core.Models.Workflow.Actions.IntegrationAction, Core", 
+                            "autoRun": false, 
+                            "disabled": false, 
+                            "actionType": "integration", 
+                            "taskId": "aIczKBjM9vYdh", 
+                            "parentId": "5a296e284b9821bfa45e7f3b", 
+                            "id": "5a296e3c1de7b309cb731d09"
+                        }
+                    ], 
+                    "disabled": false, 
+                    "parentId": "58c16f75b104880754a09629", 
+                    "stages": [], 
+                    "conditions": [
+                        {
+                            "$type": "Core.Models.Workflow.Condition, Core", 
+                            "conditionType": "doesNotEqual", 
+                            "fieldId": "58c16f74b104880754a094d5"
+                        }
+                    ], 
+                    "id": "5a296e284b9821bfa45e7f3b"
+                }
+            ], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "doesNotEqual", 
+                    "fieldId": "58c16f74b104880754a094c5"
+                }, 
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09498", 
+                    "value": "573e37a5ec489d30b79e03da"
+                }
+            ], 
+            "id": "58c16f75b104880754a09629"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Network Workflow", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show Network", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c16f74b104880754a09519": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c16f74b104880754a095af": "hide", 
+                        "58c16f74b104880754a09520": "hide", 
+                        "58c16f74b104880754a0953b": "hide", 
+                        "58c16f74b104880754a09512": "hide", 
+                        "58c16f74b104880754a094c0": "hide", 
+                        "58c16f74b104880754a09576": "hide", 
+                        "58c16f74b104880754a0950d": "show"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c16f75b104880754a0962a", 
+                    "id": "58481c791ae8224b43972d12"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [
+                {
+                    "conditionType": "equals", 
+                    "name": "Show IDS", 
+                    "$type": "Core.Models.Workflow.Stage, Core", 
+                    "evalType": "and", 
+                    "actions": [
+                        {
+                            "name": "Show IDS", 
+                            "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                            "disabled": false, 
+                            "layoutActions": {
+                                "58c16f74b104880754a09519": "hide", 
+                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                                "58c16f74b104880754a095af": "hide", 
+                                "58c16f74b104880754a09520": "show", 
+                                "58c16f74b104880754a0953b": "hide", 
+                                "58c16f74b104880754a09512": "hide", 
+                                "58c16f74b104880754a094c0": "hide", 
+                                "58c16f74b104880754a09576": "hide", 
+                                "58c16f74b104880754a0950d": "show"
+                            }, 
+                            "actionType": "showHide", 
+                            "parentId": "58c16f75b104880754a0962b", 
+                            "id": "58481d385d012b18e6b17213"
+                        }
+                    ], 
+                    "disabled": false, 
+                    "parentId": "58c16f75b104880754a0962a", 
+                    "stages": [], 
+                    "conditions": [
+                        {
+                            "$type": "Core.Models.Workflow.Condition, Core", 
+                            "conditionType": "equals", 
+                            "fieldId": "58c16f74b104880754a0950f", 
+                            "value": "584812fce7559f11920b5b94"
+                        }
+                    ], 
+                    "id": "58c16f75b104880754a0962b"
+                }, 
+                {
+                    "conditionType": "equals", 
+                    "name": "Show Perimeter", 
+                    "$type": "Core.Models.Workflow.Stage, Core", 
+                    "evalType": "and", 
+                    "actions": [
+                        {
+                            "name": "Show Perimeter", 
+                            "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                            "disabled": false, 
+                            "layoutActions": {
+                                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                                "58c16f74b104880754a09519": "show", 
+                                "58c16f74b104880754a0953b": "show", 
+                                "58c16f74b104880754a09520": "hide", 
+                                "58c16f74b104880754a09512": "show"
+                            }, 
+                            "actionType": "showHide", 
+                            "parentId": "58c16f75b104880754a0962c", 
+                            "id": "58481e3cfe04628427df4b1c"
+                        }
+                    ], 
+                    "disabled": false, 
+                    "parentId": "58c16f75b104880754a0962a", 
+                    "stages": [], 
+                    "conditions": [
+                        {
+                            "$type": "Core.Models.Workflow.Condition, Core", 
+                            "conditionType": "equals", 
+                            "fieldId": "58c16f74b104880754a0950f", 
+                            "value": "58481313b9315eedfbd67dd4"
+                        }
+                    ], 
+                    "id": "58c16f75b104880754a0962c"
+                }
+            ], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09498", 
+                    "value": "573e37a9ec223fe6e4bb2a99"
+                }
+            ], 
+            "id": "58c16f75b104880754a0962a"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "EDR Workfow", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show Endpoint Incident", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c16f74b104880754a094c0": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c16f74b104880754a09576": "show", 
+                        "58c16f74b104880754a0950d": "hide", 
+                        "58c16f74b104880754a095af": "hide"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c16f75b104880754a0962d", 
+                    "id": "583ef37c76708e9331667c5f"
+                }, 
+                {
+                    "name": "Endpoint Investigation Started", 
+                    "$type": "Core.Models.Workflow.Actions.FieldSetAction, Core", 
+                    "dateActionType": "current", 
+                    "value": "", 
+                    "disabled": false, 
+                    "actionType": "setValue", 
+                    "parentId": "58c16f75b104880754a0962d", 
+                    "fieldId": "alk95", 
+                    "id": "583ef48e2233227bc91674d4"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09498", 
+                    "value": "583ed496e5b61378ecea3bce"
+                }
+            ], 
+            "id": "58c16f75b104880754a0962d"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "User/EUBA Workflow", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show User/EUBA Incident", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c16f74b104880754a094c0": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c16f74b104880754a09576": "hide", 
+                        "58c16f74b104880754a0950d": "hide", 
+                        "58c16f74b104880754a095af": "show"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c16f75b104880754a0962e", 
+                    "id": "583ef3ee58167f5c4bbebbe0"
+                }, 
+                {
+                    "name": "User/EUBA Investigation Started", 
+                    "$type": "Core.Models.Workflow.Actions.FieldSetAction, Core", 
+                    "dateActionType": "current", 
+                    "value": "", 
+                    "disabled": false, 
+                    "actionType": "setValue", 
+                    "parentId": "58c16f75b104880754a0962e", 
+                    "fieldId": "alk95", 
+                    "id": "583ef4c126c53f5649987e4a"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c16f75b104880754a09626", 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "58c16f74b104880754a09498", 
+                    "value": "583ed4a37f2a8f4f14035c5d"
+                }
+            ], 
+            "id": "58c16f75b104880754a0962e"
+        }
+    ], 
+    "applicationId": "58c16f74b104880754a09492", 
+    "id": "58c16f75b104880754a09626", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

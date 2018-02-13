@@ -1,0 +1,225 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "name": "Import Exchange", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-07-17T19:16:48.631Z", 
+    "disabled": true, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59"
+    }, 
+    "modifiedDate": "2017-09-05T21:41:22.941Z", 
+    "outputs": [], 
+    "action": {
+        "assetId": "aELu6e8X5yw8F", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "insertUpdateRecord", 
+                "email", 
+                "referentialTask", 
+                "saveToFile", 
+                "setFieldValue"
+            ], 
+            "description": "Gets metadata about unread emails on a Microsoft Exchange email account", 
+            "family": "Email", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_exchange", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "aEeBgwEljWIjo", 
+                "url": "http://swimlane.com", 
+                "version": "1.1.0", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_exchange"
+                ], 
+                "description": "Exchange Email Services"
+            }, 
+            "assetDependencyVersion": "1.0.0", 
+            "assetDependencyType": "msexchange", 
+            "readonly": true, 
+            "version": "1.1.0", 
+            "actionType": "exchangeGetMetadata", 
+            "scriptFile": "exchange_get_metadata.py", 
+            "disabled": false, 
+            "inputParameters": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib"
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "cached-property"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "ISC", 
+                    "package": "certifi"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "LGPL", 
+                    "package": "chardet"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD-like", 
+                    "package": "dnspython"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "exchangelib"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "future"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD-like", 
+                    "package": "idna"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "lxml"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "GNU Lesser GPL", 
+                    "package": "ntlm-auth"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "ordereddict"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "pytz"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "ISC", 
+                    "package": "requests-ntlm"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "six"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "CC0 1.0 Universal", 
+                    "package": "tzlocal"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "urllib3"
+                }
+            ], 
+            "availableOutputVariables": {
+                "result": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Result", 
+                    "description": "Either 'success' or 'failure', result of parsing the email"
+                }, 
+                "attach_info": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Attachment Info", 
+                    "description": "List of Information on the attachment, such as filename or file type"
+                }, 
+                "sender": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Sender", 
+                    "description": "Email of the sender"
+                }, 
+                "recipients": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Recipients", 
+                    "description": "Email of the Recipient(s)"
+                }, 
+                "ips": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPs", 
+                    "description": "Comma separated IPs found in the email"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "attachments_md5": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Attachment MD5s", 
+                    "description": "Comma separated list of attachment MD5s"
+                }, 
+                "attachments_sha1": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Attachment SHA1s", 
+                    "description": "Comma separated list of attachment SHA1s"
+                }, 
+                "attachments": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Attachments", 
+                    "description": "Dictionary of attachment data"
+                }, 
+                "headers": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Headers", 
+                    "description": "Headers of the Email"
+                }, 
+                "text_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Text Body", 
+                    "description": "Text body of the email"
+                }, 
+                "urls": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "URLs", 
+                    "description": "Comma separated url values found in the email"
+                }, 
+                "domains": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Domains", 
+                    "description": "Comma separated domain names found in the email"
+                }, 
+                "html_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "HTML Body", 
+                    "description": "HTML body of the email"
+                }, 
+                "subject": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Subject", 
+                    "description": "Subject of the email"
+                }
+            }, 
+            "pythonDependencies": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.String, mscorlib]], mscorlib"
+            }, 
+            "name": "Exchange Get Metadata", 
+            "id": "aEeBgwEljokMv", 
+            "base64Image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4QCARXhpZgAASUkqAAgAAAAEABoBBQABAAAAPgAAABsBBQABAAAARgAAACgBAwABAAAAAgAAAGmHBAABAAAATgAAAAAAAABIAAAAAQAAAEgAAAABAAAAAwAAkAcABAAAADAyMTAAoAcABAAAADAxMDABoAMAAQAAAP//AAAAAAAA/+EDCGh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSfvu78nIGlkPSdXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQnPz4KPHg6eG1wbWV0YSB4bWxuczp4PSdhZG9iZTpuczptZXRhLyc+CjxyZGY6UkRGIHhtbG5zOnJkZj0naHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyc+CgogPHJkZjpEZXNjcmlwdGlvbiB4bWxuczp4bXA9J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8nPgogIDx4bXA6Q3JlYXRvclRvb2w+QWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cyk8L3htcDpDcmVhdG9yVG9vbD4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24geG1sbnM6eG1wTU09J2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8nPgogIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6OTk5Q0IyRDBBMzhDMTFFMjg1MUVFMkIwRDU4NjA3MUM8L3htcE1NOkluc3RhbmNlSUQ+CiAgPHhtcE1NOkluc3RhbmNlSUQ+eG1wLmlpZDo5OTlDQjJEMEEzOEMxMUUyODUxRUUyQjBENTg2MDcxQzwveG1wTU06SW5zdGFuY2VJRD4KICA8eG1wTU06RG9jdW1lbnRJRCByZGY6cmVzb3VyY2U9J3htcC5kaWQ6OTk5Q0IyRDFBMzhDMTFFMjg1MUVFMkIwRDU4NjA3MUMnIC8+CiAgPHhtcE1NOkRlcml2ZWRGcm9tIHJkZjpwYXJzZVR5cGU9J1Jlc291cmNlJz4KICA8L3htcE1NOkRlcml2ZWRGcm9tPgogPC9yZGY6RGVzY3JpcHRpb24+Cgo8L3JkZjpSREY+CjwveDp4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"
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "aEeBgwEljokMv"
+    }, 
+    "inputMapping": [], 
+    "applicationId": "58c16f74b104880754a09492", 
+    "id": "aY6HMHqaGeLzL"
+}

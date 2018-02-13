@@ -1,0 +1,89 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [], 
+            "disabled": false, 
+            "parentId": "58c05d5fc6b64a0550a1e882", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "58c07bb3b104880f509f7f9f"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Type", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show U47", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c07bb3b104880f509f7f31": "show", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c07bb3b104880f509f7f06": "hide"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c060b7ba170eba287f495b", 
+                    "id": "58c060c613f1f9f30e037520"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c05d5fc6b64a0550a1e882", 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "regex", 
+                    "fieldId": "58c07bb3b104880f509f7f05", 
+                    "value": "(UC047)"
+                }
+            ], 
+            "id": "58c07bb3b104880f509f7fa0"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "Type", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show U83", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "58c07bb3b104880f509f7f31": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib", 
+                        "58c07bb3b104880f509f7f06": "show"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "58c060d6a84d73aa1704072b", 
+                    "id": "58c060e719ab2ba318b2f3eb"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "58c05d5fc6b64a0550a1e882", 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "regex", 
+                    "fieldId": "58c07bb3b104880f509f7f05", 
+                    "value": "(UC083)"
+                }
+            ], 
+            "id": "58c07bb3b104880f509f7fa1"
+        }
+    ], 
+    "applicationId": "58c07bb3b104880f509f7f02", 
+    "id": "58c07bb3b104880f509f7f9e", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

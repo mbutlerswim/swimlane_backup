@@ -1,0 +1,36 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [
+                {
+                    "name": "Hide Fields", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "59f20bb46b7cae5db1c4345e": "hide", 
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], mscorlib"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "59f20bd0374c7e098b77338e", 
+                    "id": "59f20bd4d4003112ffd1db37"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "59f20bd0b1048808e47f5df0", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "59f20bd0374c7e098b77338e"
+        }
+    ], 
+    "applicationId": "aMvIZSEv9XrPddlLE", 
+    "id": "59f20bd0b1048808e47f5df0", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59492cb7a26bcc846a15777e", 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "afrg5", 
+            "col": 1, 
+            "row": 1
+        }, 
+        {
+            "name": "Change Status", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "id": "59492ccc95074d9d470b1531", 
+            "layoutType": "integration", 
+            "helpTextType": 0, 
+            "col": 3, 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "FD-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "59492cb4b104882008ac3c06"
+        }, 
+        {
+            "name": "Status", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59492cbd4a944dc0c4fcb6d5", 
+                    "name": "New"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59492cc0961e6d1a1be266bc", 
+                    "name": "On Hold"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "status", 
+            "helpTextType": "none", 
+            "controlType": "select", 
+            "id": "afrg5"
+        }
+    ], 
+    "acronym": "FD", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2017-06-20T14:09:56.691Z", 
+    "trackingFieldId": "59492cb4b104882008ac3c06", 
+    "name": "FD 1185", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T20:54:54.68Z", 
+    "maxTrackingId": 7.0, 
+    "workspaces": [
+        "59492cb4b104882008ac3c14"
+    ], 
+    "id": "a9R3wXc8F1JG6", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}

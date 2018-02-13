@@ -1,0 +1,551 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "name": "campbell U47", 
+    "triggers": [
+        {
+            "emailReadType": "read", 
+            "assetId": "58c04733c6b64a0550a19d2b", 
+            "$type": "Core.Models.Integrations.Triggers.Email.EmailTrigger, Core", 
+            "hasRecord": false, 
+            "type": "email", 
+            "maxUid": 0, 
+            "conditions": [
+                {
+                    "value": "(UC047)", 
+                    "key": "subject"
+                }
+            ], 
+            "availableMappings": [
+                "triggerType", 
+                "dateTimeExecuted", 
+                "attachment", 
+                "body", 
+                "sender", 
+                "subject", 
+                "receivedOn"
+            ]
+        }
+    ], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-03-08T18:00:19.839Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2017-03-08T21:48:14.177Z", 
+    "outputs": [
+        {
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "inputParameter", 
+                    "value": "at7u3", 
+                    "key": "Body", 
+                    "addMissing": false
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "arx8g", 
+                    "expression": "Alert Name - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a4fah", 
+                    "expression": "Alert Time - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "am1mg", 
+                    "expression": "Severity - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ac4c7", 
+                    "expression": "Source IP - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "aonp2", 
+                    "expression": "Source User - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "amtfk", 
+                    "expression": "Destination IP - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "aqte6", 
+                    "expression": "Device Name - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ahwq1", 
+                    "expression": "Device Address - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a4na3", 
+                    "expression": "Application - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "axmuo", 
+                    "expression": "Host - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "antg9", 
+                    "expression": "Domain - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "av5ro", 
+                    "expression": "Logon_Type - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "apo6s", 
+                    "expression": "Event Count - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "aw7bj", 
+                    "expression": "Event Subtype - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "arr21", 
+                    "expression": "\\nStatus - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a1n31", 
+                    "expression": "Sub_Status - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a1l9f", 
+                    "expression": "Base Event Rule Message - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ajh4h", 
+                    "expression": "Description - (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ajnc3", 
+                    "expression": "Analysis:.*?\\n([^z]*)Related Activity:", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "aytxd", 
+                    "expression": "Related Activity:.*?\\n([^z]*)Recommendations:", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "example": "Alert Name - DMTS_UC047_AL01-RemoteInteractive Login\nAlert Time - 2017/03/03 10:52:16 GMT\nSeverity - Medium\n--------------------------------------------------------------------------------------------------------------------------------\nSource IP - N/A\nSource User - xxxxxxxx\n------------------------------------------------------------------------------------------------------------------------------------------\nDestination IP - xxxxxxxx\n------------------------------------------------------------------------------------------------------------------------------------------\nDevice Name - xxxxxxxx - xxxxxxxx\nDevice Address - xxxxxxxx\n------------------------------------------------------------------------------------------------------------------------------------------\nApplication - negotiate\nHost - xxxxxxxx\nDomain - xx\nLogon_Type - 10 - RemoteInteractive\nEvent Count - 14\nEvent Subtype - failure\n------------------------------------------------------------------------------------------------------------------------------------------\nStatus - A user has requested a type of logon (for example, interactive or network) that has not been granted. An administrator has control over who may logon interactively and through the network.\nSub_Status - the operation completed successfully.\nBase Event Rule Message - An account failed to log on.\n------------------------------------------------------------------------------------------------------------------------------------------\nDescription - A user \" xxxxxxxx \" has events of failed \"Remote Interactive login \" for the host xxxxxxxx.( This rule monitors Logon type 10 - RemoteInteractive login failures.Threshold is set to 10 events in 2 minutes)\nAnalysis:\n\u2022 An internal user \" xxxxxxxx \" had 14 failed login attempts on the host machine xxxxxxxx (xxxxxxxx 4) (First time :2017/03/03 10:43:10 GMT Last time :2017/03/03 11:12:16 GMT).\n\u2022From the packet details, the reason for the failure was noted as : \"The user has not been granted the requested logon type at this machine.\" (Status = 0xc000015b & Sub_Status = 0x0)\n\u2022 We noted multiple login failures from the same user \" xxxxxxxx \" on the same host on 2017/03/03.(screenshot attached)\n\u2022The user \" xxxxxxxx \" has no successful \"10 - RemoteInteractive\" logons on the host xxxxxxxx.(screenshot attached)\n\u2022Successful \"10 - RemoteInteractive\" logons were observed for below mentioned host from the user \" xxxxxxxx \" :\n\u2022 xxxxxxxx (xxxxxxxx) \n\u2022 xxxxxxxx (xxxxxxxx)\n\u2022 xxxxxxxx (xxxxxxxx)\nRelated Activity:\n\u2022 Tickets MTSHSHARK-1073329 <http://jira.deloittecyber.net/browse/MTSHSHARK-1073329>, MTSHSHARK-1073330 <http://jira.deloittecyber.net/browse/MTSHSHARK-1073330>, MTSHSHARK-1073333 <http://jira.deloittecyber.net/browse/MTSHSHARK-1073333> and MTSHSHARK-1073335 <http://jira.deloittecyber.net/browse/MTSHSHARK-1073335>, MTSHSHARK-1073340 <http://jira.deloittecyber.net/browse/MTSHSHARK-1073340>, were similar incidents raised for the same host.\n\u2022 We have observed high number of events \"An account failed to log on\" for the host xxxxxxxx and logon type \"10 - RemoteInteractive\"(event count -646).(screenshot attached)\nRecommendations:\n\u2022 Please verify if the user \" xxxxxxxx \" is allowed for \"10 - RemoteInteractive\" login on the host xxxxxxxx\n\u2022 If so, kindly reset the user password after verifying the reason for the multiple failure attempts.\n\u2022 Kindly validate if the password has expired for the user and if so ,clear the Stored Passwords in the network .\n\u2022 Since multiple login failures have been observed for different user on the same host machine ,kindly verify if there was any scheduled maintenance activity .\nPacket Details:\nxxxxxxxx ||Security|| xxxxxxxx ||Microsoft-Windows-Security-Auditing||4625||61|| xxxxxxxx ||5|| xxxxxxxx.com <http://xxxxxxxx.com/>||||Logon||21||S-1-5-18|| xxxxxxxx $||xx||0x3e7||S-1-0-0|| xxxxxxxx ||xx||0xc000015b||%%2308||0x0||10||User32 ||Negotiate|| xxxxxxxx ||||0||0x3f24||C:\\Windows\\System32\\winlogon.exe||0.0.0.0||0||An account failed to log on\nSubject:\nSecurity ID: S-1-5-18\nAccount Name: xxxxxxxx $\nAccount Domain: xx\nLogon ID: 0x3e7\nLogon Type: 10\nAccount For Which Logon Failed: \nSecurity ID: S-1-0-0\nAccount Name: xxxxxxxx\nAccount Domain: xx\nFailure Information:\nFailure Reason: The user has not been granted the requested logon type at this machine.\nStatus: 0xc000015b\nSub Status: 0x0\nProcess Information:\nCaller Process ID: 0x3f24\nCaller Process Name: C:\\Windows\\System32\\winlogon.exe\nNetwork Information:\nWorkstation Name: xxxxxxxx\nSource Network Address: 0.0.0.0\nSource Port: 0\nDetailed Authentication Information:\nLogon Process: User32\nAuthentication Package: Negotiate\nTransited Services: -\nPackage Name (NTLM only): -\nKey Length: 0\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).The Process Information fields indicate which account and process on the system requested the logon.\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\nThe authentication information fields provide detailed information about this specific logon request.\nTransited services indicate which intermediate services have participated in this logon request.\nPackage name indicates which sub-protocol was used among the NTLM protocols.\nKey length indicates the length of the generated session key. This will be 0 if no session key was requested.", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a7d4c", 
+                    "expression": "Recommendations:.*?\\n([^z]*)Packet Details", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a61r3", 
+                    "expression": "Security ID: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a8d6k", 
+                    "expression": "Account Name: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "aqunp", 
+                    "expression": "Account Domain: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a1qnp", 
+                    "expression": "Logon ID: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "alj36", 
+                    "expression": "Logon Type: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "audaz", 
+                    "expression": "Account For Which Logon Failed: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "asz3t", 
+                    "expression": "Failure Reason: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "arvdz", 
+                    "expression": "Failure Reason: .*?\\nStatus: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "anpil", 
+                    "expression": "Failure Reason: .*?\\nStatus: .*?\\nSub Status: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "acfii", 
+                    "expression": "Caller Process ID: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ae3zu", 
+                    "expression": "Caller Process Name: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a837b", 
+                    "expression": "Workstation Name: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "axg4b", 
+                    "expression": "Source Network Address: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "adik6", 
+                    "expression": "Source Port: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "abxl2", 
+                    "expression": "Logon Process: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "av9iz", 
+                    "expression": "Transited Services: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a3kp3", 
+                    "expression": "Package Name \\(NTLM only\\): (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "azbml", 
+                    "expression": "Key Length: (.*).*?\\n", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "auvzg", 
+                    "expression": "Key Length: .*?\\n([^z]*)", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ajjyu", 
+                    "expression": "Packet Details:.*?\\n([^z]*)Subject:", 
+                    "key": "Body", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ap25f", 
+                    "expression": "DMTS_(.*?)_", 
+                    "key": "Subject", 
+                    "type": "inputParameter", 
+                    "parserType": "regex"
+                }
+            ], 
+            "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
+            "createType": "insert", 
+            "errorHandlingType": "skipRow", 
+            "type": "insertUpdateRecord", 
+            "applicationId": "58b03e5dc6b64a096cbc519a"
+        }
+    ], 
+    "action": {
+        "$type": "Core.Models.Integrations.Actions.EmailAction, Core", 
+        "readonly": false, 
+        "type": "email", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "insertUpdateRecord", 
+                "referentialTask", 
+                "saveToFile"
+            ], 
+            "description": "Import and update records from Emails", 
+            "family": "Data Creation", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "name": "Email Import", 
+            "disabled": false, 
+            "readonly": false, 
+            "actionType": "email", 
+            "inputParameters": {
+                "body": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Body"
+                }, 
+                "sender": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Sender"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "dateTimeExecuted": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Date Time Executed"
+                }, 
+                "attachment": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Attachment"
+                }, 
+                "receivedOn": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Received On"
+                }, 
+                "subject": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": 0, 
+                    "name": "Subject"
+                }
+            }, 
+            "id": "abCa0BQt2t8trWXta", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAACFlBMVEXj4+P////j4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+OWXuoyAAAAsXRSTlMAAAECBAUGBwkKCwwNDg8UFRYXGBkaHB0eHyAhIiQnKCorLC0uLzAxMjQ1Nzg5PD0+P0BCREdISktMTU5QUVJTVFVWV1hZW1xfYWNlZmdpamtsbXBxcnN0dXZ3eHt/gIGCg4SHiImKi42PkJKWl56goaKmqq2ur7K0vr/AwcLDxMXGx8jJysvMztLT1NXW19jZ2tvc3d7g4eLj5Obn6Onq6+zu7/Hy8/T19vf4+vv8/f76zC15AAACSUlEQVR4Ae3T+1uLYRzH8a+mmDTWbFLKIbGSHDQz5TDng5FGoVREDiKJEHMgITVWVnKYWo3Rln3+Q4me6/J41nPY/RP3+9fvdb9++Vw3TWMeJznJSU7+H+SKh8HeHqUF/KWyZE4mFXiguDdbyJAlQ7raF9Pcq1BYWx7NuVkjQ+7Ei3U0vSYKJTWnU/ZtyJFO4O1uogODkG30rJ4KnwIn5UmMVM+g4peQKXBIR85+AFUKSMSuGGjpXUyZz050LAylJHArm8zXMEX3rZR66TtUkHi+mvS1XxGv6xbKbAVUkRhwxh8p0jCLCp5BLYlwRRLZuyDRcBlRqR/qSeCygfLuSPwYO+ncQWgi0bqQzM1/DbOc0i5EoJFERyGlnPn25zBmymgBNJPo30y0PwChSL2erA+QCIng0WQqfoXffTqoo5LXSIxE9KKBcj2YqGcT0eEgEiWBGwvI1AQA9/JJfy4KBiQ6xqm6yM8fY2kBmJDwOyjJ3ZBGyzxgRWL4CI1n84Idiej5FHINgSUJNNWHwYwU+odITnJyO3tyD1RXJ0MuqT4u0Ql3bWC0sVzydKooHilEkhm7QkUklfBeNZnl+2xjT27gJBvS1B1aw5Ccbc3PtfnDrhzrShMjcn1f4N2HsdjgwPuhCkbkqi+YrEwDmbFjq7iNlSGBbHSIr9t2LZIh90J1p2VIh8/bLaqzL4bJPnaKr97echlypsUszlQyIpBV88zi5qdqmGftmEBWslq87cmjiR6372NEJhvTjb8y6TWR2uMkJznJSY39AASY64gMGtK0AAAAAElFTkSuQmCC"
+        }
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "dateTimeExecuted", 
+            "key": "Date Time Executed", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "sender", 
+            "key": "Sender", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "subject", 
+            "key": "Subject", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "body", 
+            "key": "Body", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "attachment", 
+            "key": "Attachment", 
+            "type": "trigger"
+        }, 
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "email", 
+            "subValue": "receivedOn", 
+            "key": "Received On", 
+            "type": "trigger"
+        }
+    ], 
+    "applicationId": "58c07bb3b104880f509f7f02", 
+    "id": "58c046b3c6b64a0550a19a8b"
+}

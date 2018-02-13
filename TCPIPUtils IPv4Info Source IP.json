@@ -1,0 +1,66 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "name": "TCPIPUtils IPv4Info Source IP", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2017-03-14T18:58:01.69Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f509f7c3f", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2017-03-14T18:58:48.399Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c83b1bb104881024a3df03", 
+                    "key": "dns_servers", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c83b1bb104881024a3df01", 
+                    "key": "geo_country", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "58c83b1bb104881024a3deff", 
+                    "key": "whois_name", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "assetId": "58c8312ab104881024a3cc85", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "58c83104b104881024a3cc2c"
+    }, 
+    "inputMapping": [
+        {
+            "addMissing": false, 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "value": "58c83b1bb104881024a3de69", 
+            "key": "ipAddress", 
+            "type": "record", 
+            "example": "8.8.8.8"
+        }
+    ], 
+    "applicationId": "58c83b1bb104881024a3de02", 
+    "id": "58c83d39b104881024a3f2f7"
+}

@@ -1,0 +1,177 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "auszm", 
+            "id": "5a7c8332fdc2d5e13028fa70", 
+            "row": 1
+        }, 
+        {
+            "name": "Submit File", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "helpText": " ", 
+            "taskId": "aX3vyzUwdgDhSVACq", 
+            "helpTextType": 0, 
+            "id": "5a7c8334b85e86290017f699", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "auczl", 
+            "id": "5a7c835013dbbe2fd49f87e5", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "af9uh", 
+            "id": "5a7c83c98614322952bfd5d0", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "axfoa", 
+            "id": "5a7c8f344ec53dc4abe7ef6e", 
+            "row": 3
+        }, 
+        {
+            "name": "Get Results", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "helpText": " ", 
+            "taskId": "a9kYl9fjRqPFhefa8", 
+            "helpTextType": 0, 
+            "id": "5a7cbec502c635faf422cfdd", 
+            "row": 3
+        }
+    ], 
+    "fields": [
+        {
+            "key": "detection-score", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "auczl", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Detection Score"
+        }, 
+        {
+            "name": "File To Submit", 
+            "$type": "Core.Models.Fields.AttachmentField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "maxSize": 100000, 
+            "fieldType": "attachment", 
+            "key": "file-to-submit", 
+            "id": "auszm"
+        }, 
+        {
+            "key": "job-id", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "axfoa", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Job Id"
+        }, 
+        {
+            "key": "system-used-to-analyze", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "af9uh", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "SHA256 Hash"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "JS-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5a7c8327916b4418049167e9"
+        }
+    ], 
+    "acronym": "JS", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-02-08T17:04:39.432Z", 
+    "trackingFieldId": "5a7c8327916b4418049167e9", 
+    "name": "Joe Sandbox", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-02-08T21:19:08.465Z", 
+    "maxTrackingId": 3.0, 
+    "workspaces": [
+        "5a7c8327916b4418049167fb"
+    ], 
+    "id": "a7nbk61OX0VSy0sQK", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
