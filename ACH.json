@@ -7,30 +7,6 @@
     }, 
     "layout": [
         {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "adrm4", 
-            "id": "5a834bb9641f91ef373bf4a3", 
-            "row": 1
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 3, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "awq8w", 
-            "id": "5a8310a9d71bc7de96106931", 
-            "row": 1
-        }, 
-        {
             "tabs": [
                 {
                     "active": false, 
@@ -2828,7 +2804,7 @@
             "id": "a79R_T3pYWl1L", 
             "layoutType": "tab", 
             "col": 1, 
-            "row": 2
+            "row": 1
         }, 
         {
             "name": "Project Status and Progress", 
@@ -2962,7 +2938,7 @@
             "col": 1, 
             "helpTextType": "none", 
             "id": "a9gVS8XXKYafX", 
-            "row": 3
+            "row": 2
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2973,7 +2949,7 @@
             "helpTextType": "none", 
             "fieldId": "5a57bc30b104880650a49de4", 
             "col": 1, 
-            "row": 4
+            "row": 3
         }
     ], 
     "fields": [
@@ -5718,40 +5694,6 @@
             "name": "Text"
         }, 
         {
-            "key": "text-2", 
-            "visualize": false, 
-            "suffix": "", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "readOnly": false, 
-            "id": "awq8w", 
-            "prefix": "", 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "visualizeMode": 0, 
-            "unique": false, 
-            "placeholder": "", 
-            "inputType": "text", 
-            "name": "Text (2)"
-        }, 
-        {
-            "key": "text-3", 
-            "visualize": false, 
-            "suffix": "", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "readOnly": false, 
-            "id": "adrm4", 
-            "prefix": "", 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "visualizeMode": 0, 
-            "unique": false, 
-            "placeholder": "", 
-            "inputType": "text", 
-            "name": "Text (3)"
-        }, 
-        {
             "key": "threat-actor-tools-tactics-an", 
             "layoutId": "aSenOgAbPUqkj", 
             "visualize": false, 
@@ -6580,7 +6522,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-02-13T20:33:46.992Z", 
+    "modifiedDate": "2018-02-13T20:37:41.621Z", 
     "maxTrackingId": 0.0, 
     "workspaces": [
         "aMQQsOZKI8YNE"
