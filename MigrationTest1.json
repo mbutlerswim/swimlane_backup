@@ -131,6 +131,18 @@
             "helpTextType": 0, 
             "id": "59fc79b8a894708b6d482713", 
             "row": 5
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "aqx08", 
+            "id": "5a8ddbfdce62c58278bb645a", 
+            "row": 5
         }
     ], 
     "fields": [
@@ -197,6 +209,23 @@
             "unique": false, 
             "id": "acqsb", 
             "name": "Numeric"
+        }, 
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "aqx08", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
         }, 
         {
             "key": "this-is-a-new-field", 
@@ -286,7 +315,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-02-21T20:31:26.995Z", 
+    "modifiedDate": "2018-02-21T20:51:49.312Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
