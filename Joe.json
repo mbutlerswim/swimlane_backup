@@ -44,15 +44,16 @@
             "row": 2
         }, 
         {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "name": "Get Analysis", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
             "col": 3, 
-            "layoutType": "field", 
+            "layoutType": "integration", 
             "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "a69i3", 
-            "id": "5a95828081f0ac64ac464b70", 
+            "taskId": "aJFSPoAdmyb8IuA6D", 
+            "helpTextType": 0, 
+            "id": "5a9827098f85a30349c85fe3", 
             "row": 2
         }, 
         {
@@ -60,6 +61,18 @@
             "sizex": 2.0, 
             "sizey": 0.0, 
             "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a69i3", 
+            "id": "5a95828081f0ac64ac464b70", 
+            "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -71,19 +84,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "agkaq", 
             "id": "5a958285c91c42ede832bf39", 
-            "row": 3
+            "row": 4
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -95,19 +108,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "a404m", 
             "id": "5a958288357f325f84088853", 
-            "row": 4
+            "row": 5
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -119,19 +132,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "aqch1", 
             "id": "5a9821ec1db8f345c91a2f10", 
-            "row": 5
+            "row": 6
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -143,19 +156,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "aobf6", 
             "id": "5a98220ef7dc0e2441fc9f93", 
-            "row": 6
+            "row": 7
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -390,7 +403,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-01T16:14:20.176Z", 
+    "modifiedDate": "2018-03-01T16:15:17.988Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "5a95826e916b440a80302514"
