@@ -19,23 +19,35 @@
             "row": 1
         }, 
         {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a8770", 
+            "id": "5a98265ff8056a4f44c4ff79", 
+            "row": 1
+        }, 
+        {
             "name": "Submit File", 
             "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "integration", 
             "helpText": " ", 
             "taskId": "addsPJgvzrv5BTSk1", 
             "helpTextType": 0, 
             "id": "5a95830a69f450a774cd225d", 
-            "row": 1
+            "row": 2
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -47,19 +59,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "aili0", 
             "id": "5a958284a45f1395be7f0eca", 
-            "row": 2
+            "row": 3
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -71,19 +83,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "az6q1", 
             "id": "5a9582865979461c4e5e7c68", 
-            "row": 3
+            "row": 4
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -95,19 +107,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "aujb7", 
             "id": "5a9821e144a3253f5c72eb07", 
-            "row": 4
+            "row": 5
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -119,19 +131,19 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "ac5un", 
             "id": "5a98220567a54a33b6ff5288", 
-            "row": 5
+            "row": 6
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 1, 
+            "col": 3, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
@@ -143,13 +155,13 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "col": 3, 
+            "col": 1, 
             "layoutType": "field", 
             "helpText": " ", 
             "helpTextType": "none", 
             "fieldId": "a0ayg", 
             "id": "5a98221859ec5d04269afb6e", 
-            "row": 6
+            "row": 7
         }
     ], 
     "fields": [
@@ -334,6 +346,29 @@
             "name": "System"
         }, 
         {
+            "name": "Systems", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "selected": false, 
+                    "name": "Win7", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a98266b7daecd149c747304"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "systems", 
+            "controlType": "select", 
+            "id": "a8770"
+        }, 
+        {
             "name": "Tracking Id", 
             "$type": "Core.Models.Fields.TrackingField, Core", 
             "readOnly": true, 
@@ -355,7 +390,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-01T15:54:27.85Z", 
+    "modifiedDate": "2018-03-01T16:14:20.176Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "5a95826e916b440a80302514"
