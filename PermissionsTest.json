@@ -63,6 +63,30 @@
             "fieldId": "a6nhl", 
             "id": "5a9dbfdca4c8fdb0dd859b94", 
             "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "ajjh6", 
+            "id": "5a9dc0a9b1e68eac5b8a2b4f", 
+            "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a711l", 
+            "id": "5a9dc0b82c3b3c6e71eb6655", 
+            "row": 4
         }
     ], 
     "fields": [
@@ -96,6 +120,29 @@
             "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
+        }, 
+        {
+            "name": "Comments Cant Read", 
+            "$type": "Core.Models.Fields.CommentsField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "fieldType": "comments", 
+            "key": "comments-cant-read", 
+            "id": "a711l"
+        }, 
+        {
+            "name": "Date & Time Cant Read", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "required": false, 
+            "inputType": "dateTime", 
+            "readOnly": false, 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "date--time-cant-read", 
+            "helpTextType": "none", 
+            "id": "ajjh6", 
+            "futurePastValue": 0
         }, 
         {
             "key": "text", 
@@ -167,7 +214,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-05T22:08:59.07Z", 
+    "modifiedDate": "2018-03-05T22:12:19.76Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "58d58548b104880ec8c18055"
@@ -180,7 +227,10 @@
             "$type": "Core.Models.Security.Authorization, Core", 
             "access": 386, 
             "fields": {
+                "a6nhl": 2, 
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Security.Access, Core]], mscorlib", 
+                "ajjh6": 2, 
+                "a711l": 2, 
                 "amwop": 386
             }, 
             "type": "Role", 
