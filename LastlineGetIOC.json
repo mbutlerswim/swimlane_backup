@@ -4,6 +4,7 @@
         "id": "58c07aedb104880f5094ac59", 
         "name": "admin"
     }, 
+    "isSystemTask": false, 
     "name": "Lastline Get IOC", 
     "triggers": [], 
     "$type": "Core.Models.Integrations.Task, Core", 
@@ -14,8 +15,43 @@
         "id": "58c07aedb104880f5094ac59", 
         "name": "admin"
     }, 
-    "modifiedDate": "2018-03-12T20:03:54.672Z", 
-    "outputs": [], 
+    "modifiedDate": "2018-03-15T14:26:54.008Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ad1dw", 
+                    "key": "task_uuid", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ar9l1", 
+                    "key": "report_uuid", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "andja", 
+                    "key": "report_version", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a7qwi", 
+                    "key": "task_score", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
     "action": {
         "assetId": "aAjKxmrY7jYBeVD4s", 
         "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
@@ -74,19 +110,23 @@
                 "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
                 "task_uuid": {
                     "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
-                    "name": "Task UUID"
+                    "name": "Task UUID", 
+                    "outputType": "text"
                 }, 
                 "report_version": {
                     "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
-                    "name": "Report Version"
+                    "name": "Report Version", 
+                    "outputType": "text"
                 }, 
                 "task_score": {
                     "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
-                    "name": "Task Score"
+                    "name": "Task Score", 
+                    "outputType": "text"
                 }, 
                 "report_uuid": {
                     "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
-                    "name": "Report UUID"
+                    "name": "Report UUID", 
+                    "outputType": "text"
                 }
             }, 
             "name": "Lastline Get IOC", 
