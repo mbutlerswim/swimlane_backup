@@ -335,35 +335,14 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-21T14:25:09.657Z", 
+    "modifiedDate": "2018-03-21T14:30:38.899Z", 
     "fields": [
         {
             "layoutId": "aLQfGdbsxdFC_", 
             "name": "Application List", 
             "selectionType": "multi", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
-            "values": [
-                {
-                    "selected": false, 
-                    "name": "Migration Test 1", 
-                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
-                    "otherTextDescription": "", 
-                    "otherTextRequired": "False", 
-                    "otherTextDefaultValue": "", 
-                    "otherText": false, 
-                    "id": "5ab26b0c992c7757e2c920f5"
-                }, 
-                {
-                    "selected": false, 
-                    "name": "Migration Test 2", 
-                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
-                    "otherTextDescription": "", 
-                    "otherTextRequired": "False", 
-                    "otherTextDefaultValue": "", 
-                    "otherText": false, 
-                    "id": "5ab26b18461c438fa1b6dbfc"
-                }
-            ], 
+            "values": [], 
             "fieldType": "valuesList", 
             "key": "application-list", 
             "helpTextType": "none", 
