@@ -127,7 +127,7 @@
             "col": 1, 
             "layoutType": "integration", 
             "helpText": " ", 
-            "taskId": "aJe3tIspmqD1b", 
+            "taskId": "aYjtYg9Jy3MppOUFI", 
             "helpTextType": 0, 
             "id": "59fc79b8a894708b6d482713", 
             "row": 5
@@ -143,6 +143,68 @@
             "fieldId": "aqx08", 
             "id": "5a8ddbfdce62c58278bb645a", 
             "row": 5
+        }, 
+        {
+            "name": "New Section", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "children": [
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "helpTextType": "none", 
+                    "fieldId": "ad1dw", 
+                    "id": "aLNPNva923ysKGCnK", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "helpTextType": "none", 
+                    "fieldId": "ar9l1", 
+                    "id": "aLhM1X3vjvmN14NLa", 
+                    "row": 1
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "helpTextType": "none", 
+                    "fieldId": "andja", 
+                    "id": "aM0Ig8YhQmZsitXuq", 
+                    "row": 2
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "helpTextType": "none", 
+                    "fieldId": "a7qwi", 
+                    "id": "aMKFJl2T7dNNPhiT5", 
+                    "row": 2
+                }
+            ], 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
+            "id": "aL3SkJ5NLDAMdS2E4", 
+            "row": 6
         }
     ], 
     "fields": [
@@ -209,6 +271,74 @@
             "unique": false, 
             "id": "acqsb", 
             "name": "Numeric"
+        }, 
+        {
+            "key": "report-uuid", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "ar9l1", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Report UUID"
+        }, 
+        {
+            "key": "report-version", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "andja", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Report Version"
+        }, 
+        {
+            "key": "task-score", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "a7qwi", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Task Score"
+        }, 
+        {
+            "key": "task-uuid", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "ad1dw", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Task UUID"
         }, 
         {
             "key": "text", 
@@ -315,7 +445,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-12T20:04:56.206Z", 
+    "modifiedDate": "2018-03-21T14:20:46.274Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
