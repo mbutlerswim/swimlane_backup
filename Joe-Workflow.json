@@ -1,0 +1,51 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [], 
+            "disabled": false, 
+            "parentId": "5a9583ec916b440a80303d45", 
+            "stages": [], 
+            "conditions": [], 
+            "id": "5a9583ec8f10ef3c6dc65d90"
+        }, 
+        {
+            "conditionType": "equals", 
+            "name": "If ID Exists", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Get Analysis", 
+                    "$type": "Core.Models.Workflow.Actions.IntegrationAction, Core", 
+                    "autoRun": false, 
+                    "disabled": false, 
+                    "actionType": "integration", 
+                    "taskId": "aJFSPoAdmyb8IuA6D", 
+                    "parentId": "5a9583f0e59123809c80e6bb", 
+                    "id": "5a9583fb00c21270e29651db"
+                }
+            ], 
+            "disabled": false, 
+            "stages": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "doesNotEqual", 
+                    "fieldId": "a69i3"
+                }
+            ], 
+            "id": "5a9583f0e59123809c80e6bb"
+        }
+    ], 
+    "applicationId": "a2uYwQXCUcfGGDVM", 
+    "id": "5a9583ec916b440a80303d45", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
