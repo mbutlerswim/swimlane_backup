@@ -335,7 +335,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-21T14:10:54.474Z", 
+    "modifiedDate": "2018-03-21T14:11:37.641Z", 
     "fields": [
         {
             "layoutId": "aLQfGdbsxdFC_", 
@@ -564,7 +564,7 @@
             "name": "Source Migration URL", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
-            "readOnly": true, 
+            "readOnly": false, 
             "id": "aBCYss1_YGpU0", 
             "prefix": "", 
             "fieldType": "text", 
@@ -593,7 +593,7 @@
             "name": "Target Migration URL", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
-            "readOnly": true, 
+            "readOnly": false, 
             "id": "aP5var6YNR6gh", 
             "prefix": "", 
             "fieldType": "text", 
