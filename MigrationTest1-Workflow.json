@@ -14,7 +14,7 @@
                     "autoRun": false, 
                     "disabled": false, 
                     "actionType": "integration", 
-                    "taskId": "aH8qyMKvim5zk5pHK", 
+                    "taskId": "aJe3tIspmqD1b", 
                     "parentId": "59fb6a18a5e9b4159469ac89", 
                     "id": "59fb6a1b9bbd254d914d505c"
                 }
@@ -32,6 +32,7 @@
             "evalType": "and", 
             "actions": [], 
             "disabled": false, 
+            "parentId": "59fb6a1cb104880a5422de0b", 
             "stages": [
                 {
                     "conditionType": "equals", 
