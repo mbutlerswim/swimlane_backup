@@ -335,14 +335,25 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-21T14:30:38.899Z", 
+    "modifiedDate": "2018-03-23T14:32:13.06Z", 
     "fields": [
         {
             "layoutId": "aLQfGdbsxdFC_", 
             "name": "Application List", 
             "selectionType": "multi", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
-            "values": [], 
+            "values": [
+                {
+                    "selected": false, 
+                    "name": "Migration Test 1", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5ab50fe3b9bd3f3183d3235d"
+                }
+            ], 
             "fieldType": "valuesList", 
             "key": "application-list", 
             "helpTextType": "none", 
