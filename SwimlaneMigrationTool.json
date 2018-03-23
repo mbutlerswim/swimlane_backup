@@ -325,7 +325,7 @@
     "description": "<p>Used to migrate and track changes during Swimlane code promotion</p>", 
     "acronym": "SMT", 
     "$type": "Core.Models.Application.Application, Core", 
-    "maxTrackingId": 14.0, 
+    "maxTrackingId": 15.0, 
     "trackingFieldId": "aMgzCFTtJdZ0", 
     "name": "Swimlane Migration Tool", 
     "disabled": false, 
