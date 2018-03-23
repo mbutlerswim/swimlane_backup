@@ -15,8 +15,13 @@
         "id": "58c07aedb104880f5094ac59", 
         "name": "admin"
     }, 
-    "modifiedDate": "2018-03-15T14:26:54.008Z", 
+    "modifiedDate": "2018-03-23T14:25:19.047Z", 
     "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.ReferentialTaskOutput, Core", 
+            "type": "referentialTask", 
+            "taskId": "aJe3tIspmqD1b"
+        }, 
         {
             "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
             "type": "setFieldValue", 
