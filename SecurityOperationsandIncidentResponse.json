@@ -12,6 +12,10 @@
             "collapsed": false, 
             "sizex": 2.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a09494", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -20,7 +24,7 @@
                     "col": 1, 
                     "layoutType": "field", 
                     "parentId": "58c16f74b104880754a09494", 
-                    "helpTextType": "none", 
+                    "helpTextType": "above", 
                     "fieldId": "58c16f74b104880754a09496", 
                     "id": "58c16f74b104880754a09495", 
                     "row": 1
@@ -62,10 +66,6 @@
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a09494", 
             "row": 1
         }, 
         {
@@ -74,6 +74,10 @@
             "collapsed": false, 
             "sizex": 2.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a0949d", 
+            "layoutType": "section", 
+            "col": 3, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -124,10 +128,6 @@
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 3, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a0949d", 
             "row": 1
         }, 
         {
@@ -136,6 +136,10 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a094a6", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "name": "Personnel", 
@@ -143,6 +147,11 @@
                     "collapsed": false, 
                     "sizex": 4.0, 
                     "sizey": 0.0, 
+                    "id": "58c16f74b104880754a094a7", 
+                    "layoutType": "section", 
+                    "col": 1, 
+                    "parentId": "58c16f74b104880754a094a6", 
+                    "helpTextType": "none", 
                     "children": [
                         {
                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -206,18 +215,15 @@
                             "row": 5
                         }
                     ], 
-                    "layoutType": "section", 
-                    "col": 1, 
-                    "parentId": "58c16f74b104880754a094a6", 
-                    "helpTextType": "none", 
-                    "id": "58c16f74b104880754a094a7", 
                     "row": 1
                 }, 
                 {
                     "tabs": [
                         {
-                            "active": false, 
+                            "name": "Summary", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -226,18 +232,23 @@
                                     "col": 1, 
                                     "layoutType": "field", 
                                     "parentId": "58c16f74b104880754a094b0", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "below", 
                                     "fieldId": "58c16f74b104880754a094b3", 
                                     "id": "58c16f74b104880754a094b2", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094b1", 
-                            "name": "Summary"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Attack Vector", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -245,19 +256,25 @@
                                     "sizey": 0.0, 
                                     "col": 1, 
                                     "layoutType": "field", 
+                                    "helpText": "<p>Describes the method used to penetrate security protocols</p>", 
                                     "parentId": "58c16f74b104880754a094b0", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "above", 
                                     "fieldId": "58c16f74b104880754a094b6", 
                                     "id": "58c16f74b104880754a094b5", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094b4", 
-                            "name": "Attack Vector"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Attack Chain Phase", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -266,18 +283,23 @@
                                     "col": 1, 
                                     "layoutType": "field", 
                                     "parentId": "58c16f74b104880754a094b0", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "above", 
                                     "fieldId": "58c16f74b104880754a094b9", 
                                     "id": "58c16f74b104880754a094b8", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094b7", 
-                            "name": "Attack Chain Phase"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Remediation Recommendations", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -292,12 +314,17 @@
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094ba", 
-                            "name": "Remediation Recommendations"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Attachments", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -312,12 +339,17 @@
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094bd", 
-                            "name": "Attachments"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Slack Comments", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -360,17 +392,20 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "5a5f762e62126c0207cebddd", 
-                            "name": "Slack Comments"
+                            "row": 0
                         }
                     ], 
                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                     "sizex": 1.5, 
                     "sizey": 0.0, 
-                    "id": "58c16f74b104880754a094b0", 
+                    "col": 2, 
                     "parentId": "58c16f74b104880754a094a6", 
                     "layoutType": "tab", 
-                    "col": 2, 
+                    "id": "58c16f74b104880754a094b0", 
                     "row": 1
                 }, 
                 {
@@ -388,10 +423,6 @@
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a094a6", 
             "row": 2
         }, 
         {
@@ -400,6 +431,10 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a094c0", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -431,8 +466,10 @@
                 {
                     "tabs": [
                         {
-                            "active": false, 
+                            "name": "Phishing Alert Details", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Submission Information", 
@@ -440,6 +477,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a094c3", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a094c1", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -460,6 +502,7 @@
                                             "sizey": 0.0, 
                                             "col": 1, 
                                             "layoutType": "field", 
+                                            "helpText": "<p></p>", 
                                             "parentId": "58c16f74b104880754a094c3", 
                                             "helpTextType": "none", 
                                             "fieldId": "58c16f74b104880754a094c7", 
@@ -517,11 +560,6 @@
                                             "row": 6
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a094c1", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a094c3", 
                                     "row": 1
                                 }, 
                                 {
@@ -530,6 +568,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a094cd", 
+                                    "layoutType": "section", 
+                                    "col": 3, 
+                                    "parentId": "58c16f74b104880754a094c1", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -652,26 +695,28 @@
                                             "row": 10
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 3, 
-                                    "parentId": "58c16f74b104880754a094c1", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a094cd", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094c2", 
-                            "name": "Phishing Alert Details"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Phishing Research", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "tabs": [
                                         {
-                                            "active": false, 
+                                            "name": "Headers Analysis (Phishing)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "MXToolbox Analyze Headers", 
@@ -699,12 +744,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a094e2", 
-                                            "name": "Headers Analysis (Phishing)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "URL Analysis (Phishing)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "URL Virustotal Scan (Phishing)", 
@@ -725,6 +775,7 @@
                                                     "sizey": 0.0, 
                                                     "col": 2, 
                                                     "layoutType": "field", 
+                                                    "helpText": "<p>If Threat Intel gives me more than XX number of hits, do x y z.</p>", 
                                                     "parentId": "58c16f74b104880754a094e1", 
                                                     "helpTextType": "none", 
                                                     "fieldId": "58c16f74b104880754a094e9", 
@@ -737,6 +788,7 @@
                                                     "sizey": 0.0, 
                                                     "col": 4, 
                                                     "layoutType": "field", 
+                                                    "helpText": "<p></p>", 
                                                     "parentId": "58c16f74b104880754a094e1", 
                                                     "helpTextType": "none", 
                                                     "fieldId": "58c16f74b104880754a094eb", 
@@ -744,12 +796,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a094e6", 
-                                            "name": "URL Analysis (Phishing)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "Sandbox Analysis (Phishing)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Send Attachments from Email (Phishing)", 
@@ -801,12 +858,17 @@
                                                     "row": 2
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a094ec", 
-                                            "name": "Sandbox Analysis (Phishing)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "md5 Details (Phishing)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Find Refs", 
@@ -834,17 +896,20 @@
                                                     "row": 2
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58cbea796471959760de06a8", 
-                                            "name": "md5 Details (Phishing)"
+                                            "row": 0
                                         }
                                     ], 
                                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
-                                    "id": "58c16f74b104880754a094e1", 
+                                    "col": 1, 
                                     "parentId": "58c16f74b104880754a094c1", 
                                     "layoutType": "tab", 
-                                    "col": 1, 
+                                    "id": "58c16f74b104880754a094e1", 
                                     "row": 1
                                 }, 
                                 {
@@ -860,12 +925,17 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094e0", 
-                            "name": "Phishing Research"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Phishing IOC Hunting", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -873,8 +943,9 @@
                                     "sizey": 0.0, 
                                     "col": 1, 
                                     "layoutType": "field", 
+                                    "helpText": "<p>A Populated List of IOCs from Phishing Research</p>", 
                                     "parentId": "58c16f74b104880754a094c1", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "above", 
                                     "fieldId": "58c16f74b104880754a094f4", 
                                     "id": "58c16f74b104880754a094f3", 
                                     "row": 1
@@ -911,6 +982,7 @@
                                             "sizey": 0.0, 
                                             "col": 2, 
                                             "layoutType": "field", 
+                                            "helpText": "<p></p>", 
                                             "parentId": "58c16f74b104880754a094f5", 
                                             "helpTextType": "none", 
                                             "fieldId": "58c16f74b104880754a094f8", 
@@ -998,18 +1070,25 @@
                                     "row": 3
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a094f2", 
-                            "name": "Phishing IOC Hunting"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Phishing Remediation", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "tabs": [
                                         {
-                                            "active": false, 
+                                            "name": "Confirmed Phishing Attack", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Notify User", 
@@ -1064,12 +1143,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09504", 
-                                            "name": "Confirmed Phishing Attack"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "Non Malicious Phishing Attempt", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Notify User - Not Malicious", 
@@ -1085,12 +1169,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09509", 
-                                            "name": "Non Malicious Phishing Attempt"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "False Positive", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Notify User - Further Investigation Required", 
@@ -1106,38 +1195,40 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a0950b", 
-                                            "name": "False Positive"
+                                            "row": 0
                                         }
                                     ], 
                                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
-                                    "id": "58c16f74b104880754a09503", 
+                                    "col": 1, 
                                     "parentId": "58c16f74b104880754a094c1", 
                                     "layoutType": "tab", 
-                                    "col": 1, 
+                                    "id": "58c16f74b104880754a09503", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a09502", 
-                            "name": "Phishing Remediation"
+                            "row": 0
                         }
                     ], 
                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                     "sizex": 1.0, 
                     "sizey": 0.0, 
-                    "id": "58c16f74b104880754a094c1", 
+                    "col": 1, 
                     "parentId": "58c16f74b104880754a094c0", 
                     "layoutType": "tab", 
-                    "col": 1, 
+                    "id": "58c16f74b104880754a094c1", 
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a094c0", 
             "row": 3
         }, 
         {
@@ -1146,6 +1237,10 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a0950d", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1162,8 +1257,10 @@
                 {
                     "tabs": [
                         {
-                            "active": false, 
+                            "name": "Network Alert Details", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Perimeter Alert Internal Details", 
@@ -1171,6 +1268,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a09512", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1209,11 +1311,6 @@
                                             "row": 2
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a09512", 
                                     "row": 1
                                 }, 
                                 {
@@ -1222,6 +1319,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a09519", 
+                                    "layoutType": "section", 
+                                    "col": 3, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1260,11 +1362,6 @@
                                             "row": 2
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 3, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a09519", 
                                     "row": 1
                                 }, 
                                 {
@@ -1273,6 +1370,11 @@
                                     "collapsed": false, 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a09520", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1431,11 +1533,6 @@
                                             "row": 7
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a09520", 
                                     "row": 2
                                 }, 
                                 {
@@ -1444,6 +1541,11 @@
                                     "collapsed": false, 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a0953b", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1530,26 +1632,28 @@
                                             "row": 4
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a0953b", 
                                     "row": 3
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a09511", 
-                            "name": "Network Alert Details"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Network Research", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "tabs": [
                                         {
-                                            "active": false, 
+                                            "name": "IP Analysis (Network)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit IP to Tool 1 (Network)", 
@@ -1601,12 +1705,17 @@
                                                     "row": 2
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a0954c", 
-                                            "name": "IP Analysis (Network)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "URL Analysis (Network)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit URL to Tool (Network)", 
@@ -1633,12 +1742,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09553", 
-                                            "name": "URL Analysis (Network)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "Domain Analysis (Network)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit Domain to Tool (Network)", 
@@ -1665,17 +1779,20 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09557", 
-                                            "name": "Domain Analysis (Network)"
+                                            "row": 0
                                         }
                                     ], 
                                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
-                                    "id": "58c16f74b104880754a0954b", 
+                                    "col": 1, 
                                     "parentId": "58c16f74b104880754a09510", 
                                     "layoutType": "tab", 
-                                    "col": 1, 
+                                    "id": "58c16f74b104880754a0954b", 
                                     "row": 1
                                 }, 
                                 {
@@ -1691,12 +1808,17 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a0954a", 
-                            "name": "Network Research"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Network IOC Hunting", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -1704,9 +1826,9 @@
                                     "sizey": 0.0, 
                                     "col": 1, 
                                     "layoutType": "field", 
-                                    "helpText": "", 
+                                    "helpText": "<p>A Populated List of IOCs from Network  Research<br/></p>", 
                                     "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "above", 
                                     "fieldId": "58c16f74b104880754a0955f", 
                                     "id": "58c16f74b104880754a0955e", 
                                     "row": 1
@@ -1743,6 +1865,7 @@
                                             "sizey": 0.0, 
                                             "col": 2, 
                                             "layoutType": "field", 
+                                            "helpText": "<p></p>", 
                                             "parentId": "58c16f74b104880754a09560", 
                                             "helpTextType": "none", 
                                             "fieldId": "58c16f74b104880754a09563", 
@@ -1830,12 +1953,17 @@
                                     "row": 3
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a0955d", 
-                            "name": "Network IOC Hunting"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "Network Remediation", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Notifications - Network Alert", 
@@ -1843,6 +1971,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a0956e", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "name": "Notify Network Admin - Network Alert", 
@@ -1881,11 +2014,6 @@
                                             "row": 3
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a0956e", 
                                     "row": 1
                                 }, 
                                 {
@@ -1894,6 +2022,11 @@
                                     "collapsed": false, 
                                     "sizex": 2.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a09572", 
+                                    "layoutType": "section", 
+                                    "col": 3, 
+                                    "parentId": "58c16f74b104880754a09510", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "name": "Add IP to BlackList", 
@@ -1932,32 +2065,26 @@
                                             "row": 3
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 3, 
-                                    "parentId": "58c16f74b104880754a09510", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a09572", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a0956d", 
-                            "name": "Network Remediation"
+                            "row": 0
                         }
                     ], 
                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                     "sizex": 1.0, 
                     "sizey": 0.0, 
-                    "id": "58c16f74b104880754a09510", 
+                    "col": 1, 
                     "parentId": "58c16f74b104880754a0950d", 
                     "layoutType": "tab", 
-                    "col": 1, 
+                    "id": "58c16f74b104880754a09510", 
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a0950d", 
             "row": 4
         }, 
         {
@@ -1966,12 +2093,18 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a09576", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "tabs": [
                         {
-                            "active": false, 
+                            "name": "EDR  Alert Details", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Parsed EDR Alert", 
@@ -1979,6 +2112,11 @@
                                     "collapsed": false, 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a09579", 
+                                    "layoutType": "section", 
+                                    "col": 1, 
+                                    "parentId": "58c16f74b104880754a09577", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2101,26 +2239,28 @@
                                             "row": 6
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 1, 
-                                    "parentId": "58c16f74b104880754a09577", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a09579", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a09578", 
-                            "name": "EDR  Alert Details"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "EDR  Research", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "tabs": [
                                         {
-                                            "active": false, 
+                                            "name": "IP Analysis (EDR)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit IP to Tool 1 (EDR)", 
@@ -2147,12 +2287,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09590", 
-                                            "name": "IP Analysis (EDR)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "File HASH Analysis (EDR)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit Hash to Tool (EDR)", 
@@ -2179,12 +2324,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09594", 
-                                            "name": "File HASH Analysis (EDR)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "Sandbox Analysis (EDR)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2211,26 +2361,34 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a09598", 
-                                            "name": "Sandbox Analysis (EDR)"
+                                            "row": 0
                                         }
                                     ], 
                                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
-                                    "id": "58c16f74b104880754a0958f", 
+                                    "col": 1, 
                                     "parentId": "58c16f74b104880754a09577", 
                                     "layoutType": "tab", 
-                                    "col": 1, 
+                                    "id": "58c16f74b104880754a0958f", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a0958e", 
-                            "name": "EDR  Research"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "EDR IOC Hunting", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2238,8 +2396,9 @@
                                     "sizey": 0.0, 
                                     "col": 1, 
                                     "layoutType": "field", 
+                                    "helpText": "<p>A Populated List of IOCs from EDR Research<br/></p>", 
                                     "parentId": "58c16f74b104880754a09577", 
-                                    "helpTextType": "none", 
+                                    "helpTextType": "above", 
                                     "fieldId": "58c16f74b104880754a0959f", 
                                     "id": "58c16f74b104880754a0959e", 
                                     "row": 1
@@ -2275,6 +2434,7 @@
                                             "sizey": 0.0, 
                                             "col": 2, 
                                             "layoutType": "field", 
+                                            "helpText": "<p></p>", 
                                             "parentId": "58c16f74b104880754a095a0", 
                                             "helpTextType": "none", 
                                             "fieldId": "58c16f74b104880754a095a3", 
@@ -2338,12 +2498,17 @@
                                     "row": 3
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a0959d", 
-                            "name": "EDR IOC Hunting"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "EDR  Remediation", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Isolate Endpoint from Network (EDR)", 
@@ -2394,24 +2559,23 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a095aa", 
-                            "name": "EDR  Remediation"
+                            "row": 0
                         }
                     ], 
                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                     "sizex": 1.0, 
                     "sizey": 0.0, 
-                    "id": "58c16f74b104880754a09577", 
+                    "col": 1, 
                     "parentId": "58c16f74b104880754a09576", 
                     "layoutType": "tab", 
-                    "col": 1, 
+                    "id": "58c16f74b104880754a09577", 
                     "row": 1
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a09576", 
             "row": 5
         }, 
         {
@@ -2420,12 +2584,18 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "58c16f74b104880754a095af", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "tabs": [
                         {
-                            "active": false, 
+                            "name": "UEBA Alert Details", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2488,18 +2658,25 @@
                                     "row": 3
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a095b1", 
-                            "name": "UEBA Alert Details"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "UEBA Research", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "tabs": [
                                         {
-                                            "active": false, 
+                                            "name": "Host IP Analysis (UEBA)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit Host IP to Tool 1 (UEBA)", 
@@ -2526,12 +2703,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a095be", 
-                                            "name": "Host IP Analysis (UEBA)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "AD Attributes (UEBA)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Username AD Attributes (UEBA)", 
@@ -2558,12 +2740,17 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a095c2", 
-                                            "name": "AD Attributes (UEBA)"
+                                            "row": 0
                                         }, 
                                         {
-                                            "active": false, 
+                                            "name": "Lateral Movement Analysis (UEBA)", 
                                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                                            "sizex": 0.0, 
+                                            "sizey": 0.0, 
                                             "children": [
                                                 {
                                                     "name": "Submit User Account  to Tool 1 (UEBA)", 
@@ -2590,26 +2777,34 @@
                                                     "row": 1
                                                 }
                                             ], 
+                                            "active": false, 
+                                            "col": 0, 
+                                            "layoutType": "tabs", 
                                             "id": "58c16f74b104880754a095c6", 
-                                            "name": "Lateral Movement Analysis (UEBA)"
+                                            "row": 0
                                         }
                                     ], 
                                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                                     "sizex": 1.0, 
                                     "sizey": 0.0, 
-                                    "id": "58c16f74b104880754a095bd", 
+                                    "col": 1, 
                                     "parentId": "58c16f74b104880754a095b0", 
                                     "layoutType": "tab", 
-                                    "col": 1, 
+                                    "id": "58c16f74b104880754a095bd", 
                                     "row": 1
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a095bc", 
-                            "name": "UEBA Research"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "UEBA IOC Hunting", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -2629,6 +2824,11 @@
                                     "collapsed": false, 
                                     "sizex": 1.5, 
                                     "sizey": 0.0, 
+                                    "id": "58c16f74b104880754a095cd", 
+                                    "layoutType": "section", 
+                                    "col": 2, 
+                                    "parentId": "58c16f74b104880754a095b0", 
+                                    "helpTextType": "none", 
                                     "children": [
                                         {
                                             "name": "UEBA IOC Hunt Tool 1", 
@@ -2655,11 +2855,6 @@
                                             "row": 1
                                         }
                                     ], 
-                                    "layoutType": "section", 
-                                    "col": 2, 
-                                    "parentId": "58c16f74b104880754a095b0", 
-                                    "helpTextType": "none", 
-                                    "id": "58c16f74b104880754a095cd", 
                                     "row": 1
                                 }, 
                                 {
@@ -2676,12 +2871,17 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a095ca", 
-                            "name": "UEBA IOC Hunting"
+                            "row": 0
                         }, 
                         {
-                            "active": false, 
+                            "name": "UEBA Remediation", 
                             "$type": "Core.Models.Layouts.Tabs, Core", 
+                            "sizex": 0.0, 
+                            "sizey": 0.0, 
                             "children": [
                                 {
                                     "name": "Force Re-Authentication (UEBA)", 
@@ -2720,31 +2920,29 @@
                                     "row": 2
                                 }
                             ], 
+                            "active": false, 
+                            "col": 0, 
+                            "layoutType": "tabs", 
                             "id": "58c16f74b104880754a095d3", 
-                            "name": "UEBA Remediation"
+                            "row": 0
                         }
                     ], 
                     "$type": "Core.Models.Layouts.TabLayout, Core", 
                     "sizex": 1.0, 
                     "sizey": 0.0, 
-                    "id": "58c16f74b104880754a095b0", 
+                    "col": 1, 
                     "parentId": "58c16f74b104880754a095af", 
                     "layoutType": "tab", 
-                    "col": 1, 
+                    "id": "58c16f74b104880754a095b0", 
                     "row": 1
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a095af", 
             "row": 6
         }
     ], 
     "fields": [
         {
             "key": "-of-affected-hosts-edr", 
-            "layoutId": "58c16f74b104880754a095a5", 
             "visualize": false, 
             "name": "# of Affected Hosts (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2753,13 +2951,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "-of-affected-hosts-network", 
-            "layoutId": "58c16f74b104880754a09568", 
             "visualize": false, 
             "name": "# of Affected Hosts (Network)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2768,13 +2964,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "-of-affected-hosts-phishing", 
-            "layoutId": "58c16f74b104880754a094fd", 
             "visualize": false, 
             "name": "# of Affected Hosts (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2783,13 +2977,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "ad-attributes-results", 
-            "layoutId": "58c16f74b104880754a095c4", 
             "visualize": false, 
             "name": "AD Attributes Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2798,7 +2990,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -2821,7 +3012,6 @@
         }, 
         {
             "key": "alert-message-edr", 
-            "layoutId": "58c16f74b104880754a09580", 
             "visualize": false, 
             "name": "Alert Message (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2830,13 +3020,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "alert-message-ids", 
-            "layoutId": "58c16f74b104880754a0952b", 
             "visualize": false, 
             "name": "Alert Message (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2845,13 +3033,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "alertaction-ids", 
-            "layoutId": "58c16f74b104880754a09537", 
             "visualize": false, 
             "name": "Alert/Action (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2860,13 +3046,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "alertseverity-ids", 
-            "layoutId": "58c16f74b104880754a09539", 
             "visualize": false, 
             "name": "Alert/Severity (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2875,13 +3059,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "assigned-group", 
-            "layoutId": "58c16f74b104880754a094aa", 
             "members": [], 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.UserGroupField, Core", 
@@ -2890,14 +3072,12 @@
             "controlType": "select", 
             "fieldType": "userGroup", 
             "defaults": [], 
-            "helpTextType": "none", 
             "showAllUsers": true, 
             "inputType": "userGroup", 
             "name": "Assigned Group"
         }, 
         {
             "key": "assigned-user", 
-            "layoutId": "58c16f74b104880754a094a8", 
             "members": [], 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.UserGroupField, Core", 
@@ -2906,63 +3086,50 @@
             "controlType": "select", 
             "fieldType": "userGroup", 
             "defaults": [], 
-            "helpTextType": "none", 
             "showAllUsers": true, 
             "inputType": "userGroup", 
             "name": "Assigned User"
         }, 
         {
-            "layoutId": "58c16f74b104880754a09599", 
             "name": "Attach File for Sanbox Submission (EDR)", 
             "$type": "Core.Models.Fields.AttachmentField, Core", 
             "maxSize": 100000, 
             "fieldType": "attachment", 
             "key": "attach-file-for-sanbox-submis", 
-            "helpTextType": "none", 
             "id": "58c16f74b104880754a0959a"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094ca", 
             "name": "Attachments (Phishing)", 
             "$type": "Core.Models.Fields.AttachmentField, Core", 
             "maxSize": 100000, 
             "fieldType": "attachment", 
             "key": "attachments-phishing", 
-            "helpTextType": "none", 
             "id": "58c16f74b104880754a094cb"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094de", 
             "name": "Attachments from  Body (Phishing)", 
             "$type": "Core.Models.Fields.AttachmentField, Core", 
             "maxSize": 100000, 
             "fieldType": "attachment", 
             "key": "attachments-from--body-phishi", 
-            "helpTextType": "none", 
             "id": "58c16f74b104880754a094df"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094b8", 
-            "name": "Attack Chain Phase Comments", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a094b9", 
             "key": "attack-chain-phase-comments", 
-            "helpTextType": "above", 
-            "id": "58c16f74b104880754a094b9"
+            "name": "Attack Chain Phase Comments"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094b5", 
-            "name": "Attack Vector Comments", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
-            "helpText": "<p>Describes the method used to penetrate security protocols</p>", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a094b6", 
             "key": "attack-vector-comments", 
-            "helpTextType": "above", 
-            "id": "58c16f74b104880754a094b6"
+            "name": "Attack Vector Comments"
         }, 
         {
             "key": "body-phishing", 
-            "layoutId": "58c16f74b104880754a094c8", 
             "visualize": false, 
             "name": "Body (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2971,13 +3138,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "category-ids", 
-            "layoutId": "58c16f74b104880754a09535", 
             "visualize": false, 
             "name": "Category (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -2986,13 +3151,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "classification-perimeter", 
-            "layoutId": "58c16f74b104880754a09548", 
             "visualize": false, 
             "name": "Classification (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3001,13 +3164,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "destination-ip-ids", 
-            "layoutId": "58c16f74b104880754a09525", 
             "visualize": false, 
             "name": "Destination IP (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3016,13 +3177,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "destination-port-ids", 
-            "layoutId": "58c16f74b104880754a09529", 
             "visualize": false, 
             "name": "Destination Port (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3031,13 +3190,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "detection-method", 
-            "layoutId": "58c16f74b104880754a0949b", 
             "visualize": false, 
             "name": "Detection Method", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3046,13 +3203,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "domain-analysis-tool-results-", 
-            "layoutId": "58c16f74b104880754a09559", 
             "visualize": false, 
             "name": "Domain Analysis Tool Results (Network)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3061,13 +3216,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "domains-from--body-phishing", 
-            "layoutId": "58c16f74b104880754a094dc", 
             "visualize": false, 
             "name": "Domain(s) from  Body (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3076,45 +3229,37 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "edr-ioc-hunt-tool-1-results", 
-            "layoutId": "58c16f74b104880754a095a2", 
             "visualize": false, 
             "name": "EDR IOC Hunt Tool 1 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a095a3", 
             "readOnly": false, 
-            "helpText": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "edr-iocs", 
-            "layoutId": "58c16f74b104880754a0959e", 
             "visualize": false, 
             "name": "EDR IOCs", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a0959f", 
             "readOnly": false, 
-            "helpText": "<p>A Populated List of IOCs from EDR Research<br/></p>", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "above", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "email-body-html-phishing", 
-            "layoutId": "58c16f74b104880754a094d8", 
             "visualize": false, 
             "name": "Email Body (html) (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3123,13 +3268,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "email-body-plaintext-phishing", 
-            "layoutId": "58c16f74b104880754a094d6", 
             "visualize": false, 
             "name": "Email Body (plaintext) (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3138,13 +3281,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "email-recipients-phishing", 
-            "layoutId": "58c16f74b104880754a094d2", 
             "visualize": false, 
             "name": "Email Recipient(s) (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3153,13 +3294,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "email-sender-phishing", 
-            "layoutId": "58c16f74b104880754a094d0", 
             "visualize": false, 
             "name": "Email Sender (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3168,13 +3307,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "email-subject-phishing", 
-            "layoutId": "58c16f74b104880754a094d4", 
             "visualize": false, 
             "name": "Email Subject (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3183,13 +3320,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "event-id-ids", 
-            "layoutId": "58c16f74b104880754a0952f", 
             "visualize": false, 
             "name": "Event ID (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3198,13 +3333,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "external-domain-perimeter", 
-            "layoutId": "58c16f74b104880754a0951c", 
             "visualize": false, 
             "name": "External Domain (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3213,13 +3346,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "external-ip-perimeter", 
-            "layoutId": "58c16f74b104880754a0951a", 
             "visualize": false, 
             "name": "External IP (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3228,13 +3359,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "external-url-perimeter", 
-            "layoutId": "58c16f74b104880754a0951e", 
             "visualize": false, 
             "name": "External URL (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3243,13 +3372,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "file-hash-edr", 
-            "layoutId": "58c16f74b104880754a09582", 
             "visualize": false, 
             "name": "File Hash (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3258,13 +3385,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "file-name-edr", 
-            "layoutId": "58c16f74b104880754a09586", 
             "visualize": false, 
             "name": "File Name (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3273,13 +3398,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "full-headers-phishing", 
-            "layoutId": "58c16f74b104880754a094ce", 
             "visualize": false, 
             "name": "Full Headers (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3288,13 +3411,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "hash-analysis-tool-results-ed", 
-            "layoutId": "58c16f74b104880754a09596", 
             "visualize": false, 
             "name": "Hash Analysis Tool Results (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3303,7 +3424,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
@@ -3317,13 +3437,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "host-ip-analysis-tool-1-resul", 
-            "layoutId": "58c16f74b104880754a095c0", 
             "visualize": false, 
             "name": "Host IP Analysis Tool 1 Results (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3332,13 +3450,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "hostname-edr", 
-            "layoutId": "58c16f74b104880754a09584", 
             "visualize": false, 
             "name": "Hostname (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3347,13 +3463,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "hostname-ueba", 
-            "layoutId": "58c16f74b104880754a095b4", 
             "visualize": false, 
             "name": "Hostname (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3362,12 +3476,10 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094a2", 
             "name": "Incident Closed", 
             "defaultValueType": "none", 
             "$type": "Core.Models.Fields.Date.DateField, Core", 
@@ -3375,11 +3487,9 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "incident-closed", 
-            "helpTextType": "none", 
             "inputType": "dateTime"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094a0", 
             "name": "Incident Created", 
             "defaultValueType": "none", 
             "$type": "Core.Models.Fields.Date.DateField, Core", 
@@ -3387,12 +3497,10 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "incident-created", 
-            "helpTextType": "none", 
             "inputType": "firstCreated"
         }, 
         {
             "key": "incident-created-by", 
-            "layoutId": "58c16f74b104880754a094ac", 
             "members": [], 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.UserGroupField, Core", 
@@ -3401,13 +3509,11 @@
             "controlType": "select", 
             "fieldType": "userGroup", 
             "defaults": [], 
-            "helpTextType": "none", 
             "showAllUsers": true, 
             "inputType": "userGroup", 
             "name": "Incident Created By:"
         }, 
         {
-            "layoutId": "58c16f74b104880754a0949e", 
             "name": "Incident Occurred", 
             "defaultValueType": "none", 
             "$type": "Core.Models.Fields.Date.DateField, Core", 
@@ -3415,11 +3521,9 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "incident-occurred", 
-            "helpTextType": "none", 
             "inputType": "dateTime"
         }, 
         {
-            "layoutId": "58c16f74b104880754a09497", 
             "name": "Incident Type", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -3451,13 +3555,11 @@
             ], 
             "fieldType": "valuesList", 
             "key": "incident-type", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "58c16f74b104880754a09498"
         }, 
         {
             "key": "inside-ip-perimeter", 
-            "layoutId": "58c16f74b104880754a09540", 
             "visualize": false, 
             "name": "Inside IP (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3466,13 +3568,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "internal-hostname-perimeter", 
-            "layoutId": "58c16f74b104880754a09517", 
             "visualize": false, 
             "name": "Internal Hostname (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3481,13 +3581,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "internal-ip-perimeter", 
-            "layoutId": "58c16f74b104880754a09513", 
             "visualize": false, 
             "name": "Internal IP (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3496,68 +3594,54 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094b2", 
-            "name": "Investigation  Summary", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a094b3", 
             "key": "investigation--summary", 
-            "helpTextType": "below", 
-            "id": "58c16f74b104880754a094b3"
+            "name": "Investigation  Summary"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094be", 
             "name": "Investigation Attachments", 
             "$type": "Core.Models.Fields.AttachmentField, Core", 
             "maxSize": 100000, 
             "fieldType": "attachment", 
             "key": "investigation-attachments", 
-            "helpTextType": "none", 
             "id": "58c16f74b104880754a094bf"
         }, 
         {
-            "layoutId": "58c16f74b104880754a095a8", 
-            "name": "IOC Hunting Comments (EDR)", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a095a9", 
             "key": "ioc-hunting-comments-edr", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a095a9"
+            "name": "IOC Hunting Comments (EDR)"
         }, 
         {
-            "layoutId": "58c16f74b104880754a0956b", 
-            "name": "IOC Hunting Comments (Network)", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a0956c", 
             "key": "ioc-hunting-comments-network", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a0956c"
+            "name": "IOC Hunting Comments (Network)"
         }, 
         {
-            "layoutId": "58c16f74b104880754a09500", 
-            "name": "IOC Hunting Comments (Phishing)", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a09501", 
             "key": "ioc-hunting-comments-phishing", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a09501"
+            "name": "IOC Hunting Comments (Phishing)"
         }, 
         {
-            "layoutId": "58c16f74b104880754a095d1", 
-            "name": "IOC Hunting Comments (UEBA)", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a095d2", 
             "key": "ioc-hunting-comments-ueba", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a095d2"
+            "name": "IOC Hunting Comments (UEBA)"
         }, 
         {
             "key": "ip-analysis-tool-1-results-ed", 
-            "layoutId": "58c16f74b104880754a09592", 
             "visualize": false, 
             "name": "IP Analysis Tool 1 Results (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3566,13 +3650,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "ip-analysis-tool-1-results-ne", 
-            "layoutId": "58c16f74b104880754a0954e", 
             "visualize": false, 
             "name": "IP Analysis Tool 1 Results (Network)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3581,13 +3663,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "ip-analysis-tool-2-results-ne", 
-            "layoutId": "58c16f74b104880754a09551", 
             "visualize": false, 
             "name": "IP Analysis Tool 2 Results (Network)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3596,7 +3676,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -3625,7 +3704,6 @@
         }, 
         {
             "key": "last-updated-by", 
-            "layoutId": "58c16f74b104880754a094ae", 
             "members": [], 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.UserGroupField, Core", 
@@ -3634,14 +3712,12 @@
             "controlType": "select", 
             "fieldType": "userGroup", 
             "defaults": [], 
-            "helpTextType": "none", 
             "showAllUsers": true, 
             "inputType": "userGroup", 
             "name": "Last Updated By:"
         }, 
         {
             "key": "lateral-movement-analysis-too", 
-            "layoutId": "58c16f74b104880754a095c8", 
             "visualize": false, 
             "name": "Lateral Movement Analysis Tool 1 Results (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3650,7 +3726,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -3663,7 +3738,6 @@
             "controlType": "grid", 
             "fieldType": "reference", 
             "createLink": false, 
-            "helpTextType": "none", 
             "id": "a2g50", 
             "columns": [
                 "58cbdf7db104880db8173493", 
@@ -3682,13 +3756,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "message-perimeter", 
-            "layoutId": "58c16f74b104880754a0953e", 
             "visualize": false, 
             "name": "Message (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3697,13 +3769,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "mxtoolbox-results", 
-            "layoutId": "58c16f74b104880754a094e4", 
             "visualize": false, 
             "name": "MXToolbox Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3712,12 +3782,10 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
-            "layoutId": "58c16f74b104880754a0950e", 
             "name": "Network Alert Type", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -3742,29 +3810,24 @@
             ], 
             "fieldType": "valuesList", 
             "key": "network-alert-type", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "58c16f74b104880754a0950f"
         }, 
         {
             "key": "network-ioc-hunt-tool-1-resul", 
-            "layoutId": "58c16f74b104880754a09562", 
             "visualize": false, 
             "name": "Network IOC Hunt Tool 1 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a09563", 
             "readOnly": false, 
-            "helpText": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "network-ioc-hunt-tool-2-resul", 
-            "layoutId": "58c16f74b104880754a09565", 
             "visualize": false, 
             "name": "Network IOC Hunt Tool 2 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3773,38 +3836,31 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "network-iocs", 
-            "layoutId": "58c16f74b104880754a0955e", 
             "visualize": false, 
             "name": "Network IOCs", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a0955f", 
             "readOnly": false, 
-            "helpText": "<p>A Populated List of IOCs from Network  Research<br/></p>", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "above", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
-            "layoutId": "58c16f74b104880754a0955b", 
-            "name": "Network Research Comments", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a0955c", 
             "key": "network-research-comments", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a0955c"
+            "name": "Network Research Comments"
         }, 
         {
             "key": "outside-ip-perimeter", 
-            "layoutId": "58c16f74b104880754a09542", 
             "visualize": false, 
             "name": "Outside IP (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3813,29 +3869,24 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "phishing-ioc-hunt-tool-1-resu", 
-            "layoutId": "58c16f74b104880754a094f7", 
             "visualize": false, 
             "name": "Phishing IOC Hunt Tool 1 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a094f8", 
             "readOnly": false, 
-            "helpText": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "phishing-ioc-hunt-tool-2-resu", 
-            "layoutId": "58c16f74b104880754a094fa", 
             "visualize": false, 
             "name": "Phishing IOC Hunt Tool 2 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3844,38 +3895,31 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "phishing-iocs", 
-            "layoutId": "58c16f74b104880754a094f3", 
             "visualize": false, 
             "name": "Phishing IOCs", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a094f4", 
             "readOnly": false, 
-            "helpText": "<p>A Populated List of IOCs from Phishing Research</p>", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "above", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094f0", 
-            "name": "Phishing Research Comments", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a094f1", 
             "key": "phishing-research-comments", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a094f1"
+            "name": "Phishing Research Comments"
         }, 
         {
             "key": "policy-id-ueba", 
-            "layoutId": "58c16f74b104880754a095b8", 
             "visualize": false, 
             "name": "Policy ID (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3884,13 +3928,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "policy-message-ueba", 
-            "layoutId": "58c16f74b104880754a095ba", 
             "visualize": false, 
             "name": "Policy Message (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3899,13 +3941,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "priority-perimeter", 
-            "layoutId": "58c16f74b104880754a09546", 
             "visualize": false, 
             "name": "Priority (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3914,13 +3954,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "process-name-edr", 
-            "layoutId": "58c16f74b104880754a0958a", 
             "visualize": false, 
             "name": "Process Name (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3929,13 +3967,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "process-path-edr", 
-            "layoutId": "58c16f74b104880754a0958c", 
             "visualize": false, 
             "name": "Process Path (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3944,13 +3980,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "protocol-ids", 
-            "layoutId": "58c16f74b104880754a09531", 
             "visualize": false, 
             "name": "Protocol (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3959,13 +3993,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "protocol-perimeter", 
-            "layoutId": "58c16f74b104880754a09544", 
             "visualize": false, 
             "name": "Protocol (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3974,13 +4006,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "raw-edr-alert", 
-            "layoutId": "58c16f74b104880754a0957a", 
             "visualize": false, 
             "name": "Raw EDR Alert", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -3989,13 +4019,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "raw-ids-network-alert", 
-            "layoutId": "58c16f74b104880754a09521", 
             "visualize": false, 
             "name": "Raw IDS Network Alert", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4004,13 +4032,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "raw-perimeter-network-alert", 
-            "layoutId": "58c16f74b104880754a0953c", 
             "visualize": false, 
             "name": "Raw Perimeter Network Alert", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4019,22 +4045,18 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094bb", 
-            "name": "Remediation Recommendations Comments", 
             "$type": "Core.Models.Fields.CommentsField, Core", 
             "fieldType": "comments", 
+            "id": "58c16f74b104880754a094bc", 
             "key": "remediation-recommendations-c", 
-            "helpTextType": "none", 
-            "id": "58c16f74b104880754a094bc"
+            "name": "Remediation Recommendations Comments"
         }, 
         {
             "key": "results-of-sandbox-submission", 
-            "layoutId": "58c16f74b104880754a0959b", 
             "visualize": false, 
             "name": "Results of Sandbox Submission (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4043,13 +4065,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "rule-id-edr", 
-            "layoutId": "58c16f74b104880754a0957c", 
             "visualize": false, 
             "name": "Rule ID (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4058,13 +4078,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "sandbox-result-messages-phish", 
-            "layoutId": "58c16f74b104880754a094ee", 
             "visualize": false, 
             "name": "Sandbox Result Messages (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4073,12 +4091,10 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
-            "layoutId": "58c16f74b104880754a09499", 
             "name": "Severity/Priority", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -4104,13 +4120,11 @@
             ], 
             "fieldType": "valuesList", 
             "key": "severitypriority", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "58c16f74b104880754a0949a"
         }, 
         {
             "key": "signature-id-ids", 
-            "layoutId": "58c16f74b104880754a0952d", 
             "visualize": false, 
             "name": "Signature ID (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4119,7 +4133,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -4151,7 +4164,6 @@
         }, 
         {
             "key": "source-ip--edr", 
-            "layoutId": "58c16f74b104880754a0957e", 
             "visualize": false, 
             "name": "Source IP  (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4160,13 +4172,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "source-ip-ids", 
-            "layoutId": "58c16f74b104880754a09523", 
             "visualize": false, 
             "name": "Source IP (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4175,13 +4185,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "source-port-ids", 
-            "layoutId": "58c16f74b104880754a09527", 
             "visualize": false, 
             "name": "Source Port (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4190,12 +4198,10 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
-            "layoutId": "58c16f74b104880754a09495", 
             "name": "Status", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -4243,23 +4249,19 @@
             ], 
             "fieldType": "valuesList", 
             "key": "status", 
-            "helpTextType": "above", 
             "controlType": "select", 
             "id": "58c16f74b104880754a09496"
         }, 
         {
             "key": "subject-phishing", 
-            "layoutId": "58c16f74b104880754a094c6", 
             "visualize": false, 
             "name": "Subject (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a094c7", 
             "readOnly": false, 
-            "helpText": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -4281,14 +4283,12 @@
             "name": "Submitted By Email"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094a4", 
             "name": "Time To Resolution (Hours)", 
             "format": "none", 
             "$type": "Core.Models.Fields.NumericField, Core", 
             "step": 1.0, 
             "fieldType": "numeric", 
             "key": "time-to-resolution-hours", 
-            "helpTextType": "none", 
             "formula": "TOTALHours([58c16f74b104880754a0949f],[58c16f74b104880754a094a3])", 
             "id": "58c16f74b104880754a094a5"
         }, 
@@ -4302,7 +4302,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
@@ -4326,7 +4325,6 @@
         }, 
         {
             "key": "ueba-ioc-hunt-tool-1-results", 
-            "layoutId": "58c16f74b104880754a095cf", 
             "visualize": false, 
             "name": "UEBA IOC Hunt Tool 1 Results", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4335,13 +4333,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "ueba-iocs", 
-            "layoutId": "58c16f74b104880754a095cb", 
             "visualize": false, 
             "name": "UEBA IOCs", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4350,13 +4346,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "url-analysis-tool-results-net", 
-            "layoutId": "58c16f74b104880754a09555", 
             "visualize": false, 
             "name": "URL Analysis Tool Results (Network)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4365,41 +4359,33 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
-            "layoutId": "58c16f74b104880754a094e8", 
             "name": "URL VirusTotal # Hits (Phishing)", 
             "format": "none", 
             "$type": "Core.Models.Fields.NumericField, Core", 
             "step": 1.0, 
-            "helpText": "<p>If Threat Intel gives me more than XX number of hits, do x y z.</p>", 
             "fieldType": "numeric", 
             "key": "url-virustotal--hits-phishing", 
-            "helpTextType": "none", 
             "id": "58c16f74b104880754a094e9"
         }, 
         {
             "key": "url-virustotal-results-phishi", 
-            "layoutId": "58c16f74b104880754a094ea", 
             "visualize": false, 
             "name": "URL Virustotal Results (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
             "required": false, 
             "id": "58c16f74b104880754a094eb", 
             "readOnly": false, 
-            "helpText": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "urls-from-body-phishing", 
-            "layoutId": "58c16f74b104880754a094da", 
             "visualize": false, 
             "name": "URL(s) from Body (Phishing)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4408,13 +4394,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "user-location-ueba", 
-            "layoutId": "58c16f74b104880754a095b6", 
             "visualize": false, 
             "name": "User Location (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4423,13 +4407,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "username-edr", 
-            "layoutId": "58c16f74b104880754a09588", 
             "visualize": false, 
             "name": "Username (EDR)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4438,13 +4420,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "username-perimeter", 
-            "layoutId": "58c16f74b104880754a09515", 
             "visualize": false, 
             "name": "Username (Perimeter)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4453,13 +4433,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "username-ueba", 
-            "layoutId": "58c16f74b104880754a095b2", 
             "visualize": false, 
             "name": "Username (UEBA)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4468,13 +4446,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
             "key": "vlan-id-ids", 
-            "layoutId": "58c16f74b104880754a09533", 
             "visualize": false, 
             "name": "VLAN ID (IDS)", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -4483,7 +4459,6 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }
