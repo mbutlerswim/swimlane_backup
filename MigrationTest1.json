@@ -46,11 +46,11 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "id": "59e4c466b104880fd40092d2", 
+            "col": 3, 
             "layoutType": "field", 
             "helpTextType": "none", 
             "fieldId": "59e4c466b104880fd40092d1", 
-            "col": 3, 
+            "id": "59e4c466b104880fd40092d2", 
             "row": 2
         }, 
         {
@@ -150,6 +150,10 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "aL3SkJ5NLDAMdS2E4", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -200,11 +204,19 @@
                     "row": 2
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "aL3SkJ5NLDAMdS2E4", 
             "row": 6
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "an294", 
+            "id": "5ad1052f51a2cb039486f379", 
+            "row": 7
         }
     ], 
     "fields": [
@@ -218,7 +230,6 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "changed-name-again", 
-            "helpTextType": "none", 
             "id": "ajczt", 
             "futurePastValue": 0
         }, 
@@ -358,6 +369,23 @@
             "name": "Text"
         }, 
         {
+            "key": "text-2", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "an294", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text (2)"
+        }, 
+        {
             "key": "this-is-a-new-field", 
             "visualize": false, 
             "suffix": "", 
@@ -445,7 +473,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-03-21T14:20:46.274Z", 
+    "modifiedDate": "2018-04-13T19:29:59.019Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
