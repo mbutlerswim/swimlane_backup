@@ -205,18 +205,6 @@
                 }
             ], 
             "row": 6
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "an294", 
-            "id": "5ad1052f51a2cb039486f379", 
-            "row": 7
         }
     ], 
     "fields": [
@@ -369,23 +357,6 @@
             "name": "Text"
         }, 
         {
-            "key": "text-2", 
-            "visualize": false, 
-            "suffix": "", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "readOnly": false, 
-            "id": "an294", 
-            "prefix": "", 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "visualizeMode": 0, 
-            "unique": false, 
-            "placeholder": "", 
-            "inputType": "text", 
-            "name": "Text (2)"
-        }, 
-        {
             "key": "this-is-a-new-field", 
             "visualize": false, 
             "suffix": "", 
@@ -473,7 +444,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-04-13T19:29:59.019Z", 
+    "modifiedDate": "2018-04-13T19:30:08.23Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
