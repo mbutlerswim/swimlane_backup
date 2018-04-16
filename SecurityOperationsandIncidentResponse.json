@@ -52,18 +52,6 @@
                     "fieldId": "58c16f74b104880754a0949a", 
                     "id": "58c16f74b104880754a09499", 
                     "row": 2
-                }, 
-                {
-                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
-                    "sizex": 2.0, 
-                    "sizey": 0.0, 
-                    "col": 3, 
-                    "layoutType": "field", 
-                    "parentId": "58c16f74b104880754a09494", 
-                    "helpTextType": "none", 
-                    "fieldId": "58c16f74b104880754a0949c", 
-                    "id": "58c16f74b104880754a0949b", 
-                    "row": 2
                 }
             ], 
             "row": 1
@@ -3194,19 +3182,6 @@
             "inputType": "text"
         }, 
         {
-            "key": "detection-method", 
-            "visualize": false, 
-            "name": "Detection Method", 
-            "$type": "Core.Models.Fields.TextField, Core", 
-            "required": false, 
-            "id": "58c16f74b104880754a0949c", 
-            "readOnly": false, 
-            "fieldType": "text", 
-            "lengthType": "none", 
-            "visualizeMode": 0, 
-            "inputType": "text"
-        }, 
-        {
             "key": "domain-analysis-tool-results-", 
             "visualize": false, 
             "name": "Domain Analysis Tool Results (Network)", 
@@ -4476,7 +4451,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-02-13T19:08:52.95Z", 
+    "modifiedDate": "2018-04-13T18:20:53.727Z", 
     "maxTrackingId": 556.0, 
     "workspaces": [
         "58c16f75b104880754a09611"
