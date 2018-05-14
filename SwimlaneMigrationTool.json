@@ -11,29 +11,31 @@
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "id": "a12dVoeovMgaH", 
+            "col": 1, 
             "layoutType": "field", 
             "helpTextType": "none", 
             "fieldId": "aBCYss1_YGpU0", 
-            "col": 1, 
+            "id": "a12dVoeovMgaH", 
             "row": 1
         }, 
         {
             "$type": "Core.Models.Layouts.FieldLayout, Core", 
             "sizex": 2.0, 
             "sizey": 0.0, 
-            "id": "aASfS8fjvFrYJ", 
+            "col": 3, 
             "layoutType": "field", 
             "helpTextType": "none", 
             "fieldId": "aP5var6YNR6gh", 
-            "col": 3, 
+            "id": "aASfS8fjvFrYJ", 
             "row": 1
         }, 
         {
             "tabs": [
                 {
-                    "active": false, 
+                    "name": "Options", 
                     "$type": "Core.Models.Layouts.Tabs, Core", 
+                    "sizex": 0.0, 
+                    "sizey": 0.0, 
                     "children": [
                         {
                             "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -90,6 +92,11 @@
                             "collapsed": false, 
                             "sizex": 1.0, 
                             "sizey": 0.0, 
+                            "id": "aNgWbEx67yLMk", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "parentId": "aWiYlQIwAZpZx", 
+                            "helpTextType": "none", 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -140,11 +147,6 @@
                                     "row": 2
                                 }
                             ], 
-                            "layoutType": "section", 
-                            "col": 1, 
-                            "parentId": "aWiYlQIwAZpZx", 
-                            "helpTextType": "none", 
-                            "id": "aNgWbEx67yLMk", 
                             "row": 3
                         }, 
                         {
@@ -153,6 +155,11 @@
                             "collapsed": false, 
                             "sizex": 1.0, 
                             "sizey": 0.0, 
+                            "id": "a5JLND2p46_wr", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "parentId": "aWiYlQIwAZpZx", 
+                            "helpTextType": "none", 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -192,20 +199,20 @@
                                     "row": 2
                                 }
                             ], 
-                            "layoutType": "section", 
-                            "col": 1, 
-                            "parentId": "aWiYlQIwAZpZx", 
-                            "helpTextType": "none", 
-                            "id": "a5JLND2p46_wr", 
                             "row": 4
                         }
                     ], 
+                    "active": false, 
+                    "col": 0, 
+                    "layoutType": "tabs", 
                     "id": "abxaLOzrfYfqM", 
-                    "name": "Options"
+                    "row": 0
                 }, 
                 {
-                    "active": true, 
+                    "name": "Log", 
                     "$type": "Core.Models.Layouts.Tabs, Core", 
+                    "sizex": 0.0, 
+                    "sizey": 0.0, 
                     "children": [
                         {
                             "name": "", 
@@ -213,6 +220,11 @@
                             "collapsed": false, 
                             "sizex": 1.0, 
                             "sizey": 0.0, 
+                            "id": "aXMJ0rqPeX1QJ", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "parentId": "aWiYlQIwAZpZx", 
+                            "helpTextType": "none", 
                             "children": [
                                 {
                                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -251,11 +263,6 @@
                                     "row": 1
                                 }
                             ], 
-                            "layoutType": "section", 
-                            "col": 1, 
-                            "parentId": "aWiYlQIwAZpZx", 
-                            "helpTextType": "none", 
-                            "id": "aXMJ0rqPeX1QJ", 
                             "row": 1
                         }, 
                         {
@@ -271,8 +278,11 @@
                             "row": 2
                         }
                     ], 
+                    "active": true, 
+                    "col": 0, 
+                    "layoutType": "tabs", 
                     "id": "a9EGLcKKeQR6m", 
-                    "name": "Log"
+                    "row": 0
                 }
             ], 
             "$type": "Core.Models.Layouts.TabLayout, Core", 
@@ -289,6 +299,10 @@
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
+            "id": "aQuldpMcv9Ib7", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpTextType": "none", 
             "children": [
                 {
                     "$type": "Core.Models.Layouts.FieldLayout, Core", 
@@ -315,10 +329,6 @@
                     "row": 1
                 }
             ], 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "id": "aQuldpMcv9Ib7", 
             "row": 3
         }
     ], 
@@ -338,7 +348,6 @@
     "modifiedDate": "2018-03-23T14:32:13.06Z", 
     "fields": [
         {
-            "layoutId": "aLQfGdbsxdFC_", 
             "name": "Application List", 
             "selectionType": "multi", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -356,12 +365,10 @@
             ], 
             "fieldType": "valuesList", 
             "key": "application-list", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aWyjMjUI0Hz4z"
         }, 
         {
-            "layoutId": "aNjkOdHktEJYX", 
             "name": "Applications to migrate", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -382,12 +389,10 @@
             ], 
             "fieldType": "valuesList", 
             "key": "applications-to-migrate", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "abn2xGElIghbr"
         }, 
         {
-            "layoutId": "abJUBtm0u6r4", 
             "name": "Completion time", 
             "defaultValueType": "none", 
             "$type": "Core.Models.Fields.Date.DateField, Core", 
@@ -395,11 +400,9 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "completion-time", 
-            "helpTextType": "none", 
             "inputType": "dateTime"
         }, 
         {
-            "layoutId": "aZVjRCeyPxh_q", 
             "name": "Feature List", 
             "selectionType": "multi", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -431,12 +434,10 @@
             ], 
             "fieldType": "valuesList", 
             "key": "feature-list", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aSycSND2I65TB"
         }, 
         {
-            "layoutId": "aLySzB2YEpvsy", 
             "name": "Features to migrate", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -456,13 +457,11 @@
             ], 
             "fieldType": "valuesList", 
             "key": "features-to-migrate", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aIt9F21grkwUK"
         }, 
         {
             "key": "log-of-migration-actions", 
-            "layoutId": "aDlMH0RZqBWd", 
             "visualize": false, 
             "name": "Log of migration actions", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -471,13 +470,11 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "multiline"
         }, 
         {
             "key": "migration-check", 
-            "layoutId": "aT7s1_mO8Eqoi", 
             "visualize": false, 
             "name": "Migration Check", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -486,12 +483,10 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "inputType": "text"
         }, 
         {
-            "layoutId": "aI7WQ6ClSfXdM", 
             "name": "Migration Completed", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -511,12 +506,10 @@
             ], 
             "fieldType": "valuesList", 
             "key": "migration-completed", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aCFKRfhNAgr65"
         }, 
         {
-            "layoutId": "aKac_7ED3v_Ob", 
             "name": "Migration started", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -536,12 +529,10 @@
             ], 
             "fieldType": "valuesList", 
             "key": "migration-started", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aMyu33up8PWB0"
         }, 
         {
-            "layoutId": "af_mWJMNwSgm", 
             "name": "Run type", 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -564,13 +555,11 @@
             ], 
             "fieldType": "valuesList", 
             "key": "run-type", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "aTG3FiYlgervp"
         }, 
         {
             "key": "source-migration-url", 
-            "layoutId": "a12dVoeovMgaH", 
             "visualize": false, 
             "name": "Source Migration URL", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -580,13 +569,11 @@
             "prefix": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "placeholder": "", 
             "inputType": "text"
         }, 
         {
-            "layoutId": "aakj1hM9BURQ9", 
             "name": "Start time", 
             "defaultValueType": "none", 
             "$type": "Core.Models.Fields.Date.DateField, Core", 
@@ -594,12 +581,10 @@
             "calculatedDiff": false, 
             "fieldType": "date", 
             "key": "start-time", 
-            "helpTextType": "none", 
             "inputType": "dateTime"
         }, 
         {
             "key": "target-migration-url", 
-            "layoutId": "aASfS8fjvFrYJ", 
             "visualize": false, 
             "name": "Target Migration URL", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -609,7 +594,6 @@
             "prefix": "", 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "placeholder": "", 
             "inputType": "text"
@@ -624,7 +608,6 @@
             "id": "aMgzCFTtJdZ0"
         }, 
         {
-            "layoutId": "aPjCzKDr3MuHQ", 
             "name": "Triggered Tasks", 
             "selectionType": "multi", 
             "$type": "Core.Models.Fields.ValuesListField, Core", 
@@ -1082,13 +1065,11 @@
             ], 
             "fieldType": "valuesList", 
             "key": "triggered-tasks", 
-            "helpTextType": "none", 
             "controlType": "select", 
             "id": "a3LmwgyR0yZIF"
         }, 
         {
             "key": "triggered-tasks-to-migrate", 
-            "layoutId": "aaK9wVWZFGQd6", 
             "visualize": false, 
             "name": "Triggered Tasks To Migrate", 
             "$type": "Core.Models.Fields.TextField, Core", 
@@ -1097,14 +1078,12 @@
             "readOnly": false, 
             "fieldType": "text", 
             "lengthType": "none", 
-            "helpTextType": "none", 
             "visualizeMode": 0, 
             "placeholder": "provide task name one per line", 
             "inputType": "multiline"
         }, 
         {
             "key": "user-that-ran-migration", 
-            "layoutId": "aaCzwWNbzf3KF", 
             "members": [], 
             "selectionType": "single", 
             "$type": "Core.Models.Fields.UserGroupField, Core", 
@@ -1113,7 +1092,6 @@
             "controlType": "select", 
             "fieldType": "userGroup", 
             "defaults": [], 
-            "helpTextType": "none", 
             "showAllUsers": true, 
             "inputType": "createdBy", 
             "name": "User that ran migration"
