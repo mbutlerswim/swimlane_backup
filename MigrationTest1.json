@@ -145,6 +145,19 @@
             "row": 5
         }, 
         {
+            "name": "Integration", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "integration", 
+            "helpText": " ", 
+            "taskId": "aRrJvzXIbPbqa9Zl8", 
+            "helpTextType": 0, 
+            "id": "5afb225bc67212e7d627451b", 
+            "row": 6
+        }, 
+        {
             "name": "New Section", 
             "$type": "Core.Models.Layouts.SectionLayout, Core", 
             "collapsed": false, 
@@ -204,7 +217,7 @@
                     "row": 2
                 }
             ], 
-            "row": 6
+            "row": 7
         }
     ], 
     "fields": [
@@ -444,7 +457,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-05-14T20:11:57.443Z", 
+    "modifiedDate": "2018-05-15T18:09:40.416Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
