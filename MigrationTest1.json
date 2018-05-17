@@ -7,59 +7,12 @@
     }, 
     "layout": [
         {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "ajczt", 
-            "id": "59e4c3d9c9a3497e2bcd2da3", 
-            "row": 1
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 3, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "aoy8x", 
-            "id": "59e4c3daa9c3f35e81b3204d", 
-            "row": 1
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "a898z", 
-            "id": "59e4c3db6cfc6b43adae196c", 
-            "row": 2
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 3, 
-            "layoutType": "field", 
-            "helpTextType": "none", 
-            "fieldId": "59e4c466b104880fd40092d1", 
-            "id": "59e4c466b104880fd40092d2", 
-            "row": 2
-        }, 
-        {
             "name": "Section", 
             "$type": "Core.Models.Layouts.SectionLayout, Core", 
             "collapsed": false, 
             "sizex": 1.0, 
             "sizey": 0.0, 
-            "id": "59e4d7a89ece1d9c34e8688e", 
+            "id": "5afdb06f4352fb55f7690fbb", 
             "layoutType": "section", 
             "col": 1, 
             "helpText": " ", 
@@ -72,10 +25,10 @@
                     "col": 1, 
                     "layoutType": "field", 
                     "helpText": " ", 
-                    "parentId": "59e4d7a89ece1d9c34e8688e", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
                     "helpTextType": "none", 
-                    "fieldId": "a54eb", 
-                    "id": "59ee468424098f282593ba1a", 
+                    "fieldId": "ajczt", 
+                    "id": "59e4c3d9c9a3497e2bcd2da3", 
                     "row": 1
                 }, 
                 {
@@ -85,111 +38,10 @@
                     "col": 3, 
                     "layoutType": "field", 
                     "helpText": " ", 
-                    "parentId": "59e4d7a89ece1d9c34e8688e", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
                     "helpTextType": "none", 
-                    "fieldId": "acqsb", 
-                    "id": "59e4c3d8dcf06e27093ac99b", 
-                    "row": 1
-                }
-            ], 
-            "row": 3
-        }, 
-        {
-            "name": "Integration", 
-            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "integration", 
-            "helpText": " ", 
-            "taskId": "aYjtYg9Jy3MppOUFI", 
-            "helpTextType": 0, 
-            "id": "59e61e64135b399b1b7125b4", 
-            "row": 4
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 3, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "alw0w", 
-            "id": "59ea3c1242f7d7725af14ab3", 
-            "row": 4
-        }, 
-        {
-            "name": "Integration 2", 
-            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "integration", 
-            "helpText": " ", 
-            "taskId": "a5BiVHNrijx6hB4hl", 
-            "helpTextType": 0, 
-            "id": "59fc79b8a894708b6d482713", 
-            "row": 5
-        }, 
-        {
-            "$type": "Core.Models.Layouts.FieldLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 3, 
-            "layoutType": "field", 
-            "helpText": " ", 
-            "helpTextType": "none", 
-            "fieldId": "aqx08", 
-            "id": "5a8ddbfdce62c58278bb645a", 
-            "row": 5
-        }, 
-        {
-            "name": "Integration", 
-            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
-            "sizex": 2.0, 
-            "sizey": 0.0, 
-            "col": 1, 
-            "layoutType": "integration", 
-            "helpText": " ", 
-            "taskId": "aRrJvzXIbPbqa9Zl8", 
-            "helpTextType": 0, 
-            "id": "5afb225bc67212e7d627451b", 
-            "row": 6
-        }, 
-        {
-            "name": "New Section", 
-            "$type": "Core.Models.Layouts.SectionLayout, Core", 
-            "collapsed": false, 
-            "sizex": 1.0, 
-            "sizey": 0.0, 
-            "id": "aL3SkJ5NLDAMdS2E4", 
-            "layoutType": "section", 
-            "col": 1, 
-            "helpTextType": "none", 
-            "children": [
-                {
-                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
-                    "sizex": 2.0, 
-                    "sizey": 0.0, 
-                    "col": 1, 
-                    "layoutType": "field", 
-                    "parentId": "aL3SkJ5NLDAMdS2E4", 
-                    "helpTextType": "none", 
-                    "fieldId": "ad1dw", 
-                    "id": "aLNPNva923ysKGCnK", 
-                    "row": 1
-                }, 
-                {
-                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
-                    "sizex": 2.0, 
-                    "sizey": 0.0, 
-                    "col": 3, 
-                    "layoutType": "field", 
-                    "parentId": "aL3SkJ5NLDAMdS2E4", 
-                    "helpTextType": "none", 
-                    "fieldId": "ar9l1", 
-                    "id": "aLhM1X3vjvmN14NLa", 
+                    "fieldId": "a898z", 
+                    "id": "59e4c3db6cfc6b43adae196c", 
                     "row": 1
                 }, 
                 {
@@ -198,10 +50,11 @@
                     "sizey": 0.0, 
                     "col": 1, 
                     "layoutType": "field", 
-                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "helpText": " ", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
                     "helpTextType": "none", 
-                    "fieldId": "andja", 
-                    "id": "aM0Ig8YhQmZsitXuq", 
+                    "fieldId": "aoy8x", 
+                    "id": "59e4c3daa9c3f35e81b3204d", 
                     "row": 2
                 }, 
                 {
@@ -210,14 +63,187 @@
                     "sizey": 0.0, 
                     "col": 3, 
                     "layoutType": "field", 
-                    "parentId": "aL3SkJ5NLDAMdS2E4", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
                     "helpTextType": "none", 
-                    "fieldId": "a7qwi", 
-                    "id": "aMKFJl2T7dNNPhiT5", 
+                    "fieldId": "59e4c466b104880fd40092d1", 
+                    "id": "59e4c466b104880fd40092d2", 
                     "row": 2
+                }, 
+                {
+                    "name": "Section", 
+                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                    "collapsed": false, 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "59e4d7a89ece1d9c34e8688e", 
+                    "layoutType": "section", 
+                    "col": 1, 
+                    "helpText": " ", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": "none", 
+                    "children": [
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "helpText": " ", 
+                            "parentId": "59e4d7a89ece1d9c34e8688e", 
+                            "helpTextType": "none", 
+                            "fieldId": "a54eb", 
+                            "id": "59ee468424098f282593ba1a", 
+                            "row": 1
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 3, 
+                            "layoutType": "field", 
+                            "helpText": " ", 
+                            "parentId": "59e4d7a89ece1d9c34e8688e", 
+                            "helpTextType": "none", 
+                            "fieldId": "acqsb", 
+                            "id": "59e4c3d8dcf06e27093ac99b", 
+                            "row": 1
+                        }
+                    ], 
+                    "row": 3
+                }, 
+                {
+                    "name": "Integration", 
+                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "integration", 
+                    "helpText": " ", 
+                    "taskId": "aYjtYg9Jy3MppOUFI", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": 0, 
+                    "id": "59e61e64135b399b1b7125b4", 
+                    "row": 4
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "helpText": " ", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": "none", 
+                    "fieldId": "alw0w", 
+                    "id": "59ea3c1242f7d7725af14ab3", 
+                    "row": 4
+                }, 
+                {
+                    "name": "Integration 2", 
+                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "integration", 
+                    "helpText": " ", 
+                    "taskId": "a5BiVHNrijx6hB4hl", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": 0, 
+                    "id": "59fc79b8a894708b6d482713", 
+                    "row": 5
+                }, 
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 3, 
+                    "layoutType": "field", 
+                    "helpText": " ", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": "none", 
+                    "fieldId": "aqx08", 
+                    "id": "5a8ddbfdce62c58278bb645a", 
+                    "row": 5
+                }, 
+                {
+                    "name": "Integration", 
+                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                    "sizex": 2.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "integration", 
+                    "helpText": " ", 
+                    "taskId": "aRrJvzXIbPbqa9Zl8", 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": 0, 
+                    "id": "5afb225bc67212e7d627451b", 
+                    "row": 6
+                }, 
+                {
+                    "name": "New Section", 
+                    "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                    "collapsed": false, 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "id": "aL3SkJ5NLDAMdS2E4", 
+                    "layoutType": "section", 
+                    "col": 1, 
+                    "parentId": "5afdb06f4352fb55f7690fbb", 
+                    "helpTextType": "none", 
+                    "children": [
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "aL3SkJ5NLDAMdS2E4", 
+                            "helpTextType": "none", 
+                            "fieldId": "ad1dw", 
+                            "id": "aLNPNva923ysKGCnK", 
+                            "row": 1
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 3, 
+                            "layoutType": "field", 
+                            "parentId": "aL3SkJ5NLDAMdS2E4", 
+                            "helpTextType": "none", 
+                            "fieldId": "ar9l1", 
+                            "id": "aLhM1X3vjvmN14NLa", 
+                            "row": 1
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "aL3SkJ5NLDAMdS2E4", 
+                            "helpTextType": "none", 
+                            "fieldId": "andja", 
+                            "id": "aM0Ig8YhQmZsitXuq", 
+                            "row": 2
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 2.0, 
+                            "sizey": 0.0, 
+                            "col": 3, 
+                            "layoutType": "field", 
+                            "parentId": "aL3SkJ5NLDAMdS2E4", 
+                            "helpTextType": "none", 
+                            "fieldId": "a7qwi", 
+                            "id": "aMKFJl2T7dNNPhiT5", 
+                            "row": 2
+                        }
+                    ], 
+                    "row": 7
                 }
             ], 
-            "row": 7
+            "row": 1
         }
     ], 
     "fields": [
@@ -245,11 +271,7 @@
             "createLink": false, 
             "id": "59e4c466b104880fd40092d1", 
             "columns": [
-                "59e4c420b104880fd40092a0", 
-                "aru8z", 
-                "ajynk", 
-                "afb2q", 
-                "avr8g"
+                "59e4c420b104880fd40092a0"
             ], 
             "name": "Migration Test 2"
         }, 
@@ -457,7 +479,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-05-15T18:09:40.416Z", 
+    "modifiedDate": "2018-05-17T16:40:40.876Z", 
     "maxTrackingId": 1.0, 
     "workspaces": [
         "aEspVZN2tbPNN"
