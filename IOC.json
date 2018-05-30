@@ -93,6 +93,24 @@
                     "otherText": false, 
                     "id": "5b0efeb765249c0d6eb04641", 
                     "name": "IT5"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "65680630644411e89d316c0b84b40bf9", 
+                    "name": "IT6"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "c4c3f351644411e8bd276c0b84b40bf9", 
+                    "name": "IT7"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "7bea6500644511e89f3d6c0b84b40bf9", 
+                    "name": "IT8"
                 }
             ], 
             "fieldType": "valuesList", 
@@ -139,7 +157,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-05-30T19:43:13.652Z", 
+    "modifiedDate": "2018-05-30T20:12:09.238Z", 
     "maxTrackingId": 3.0, 
     "workspaces": [
         "5b0efe9b916b440d5043030c"
