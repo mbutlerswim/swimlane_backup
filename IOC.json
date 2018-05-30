@@ -1,0 +1,151 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "abt6w", 
+            "id": "5b0efea0f9427c6dc8b97de6", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "af31m", 
+            "id": "5b0efeaa036cbaad5bc8f006", 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "name": "Intrusion Set", 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b0efeb3f49a9a0accb5684a", 
+                    "name": "IT1"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b0efeb5c2192c59a53ee5c5", 
+                    "name": "IT2"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b0efeb674c920653fb76f99", 
+                    "name": "IT3"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b0efeb63c95f25dc18dc0ce", 
+                    "name": "IT4"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b0efeb765249c0d6eb04641", 
+                    "name": "IT5"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "intrusion-set", 
+            "controlType": "select", 
+            "id": "af31m"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "IOC-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5b0efe9b916b440d504302fa"
+        }, 
+        {
+            "key": "value", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "abt6w", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Value"
+        }
+    ], 
+    "acronym": "IOC", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-05-30T19:42:19.742Z", 
+    "trackingFieldId": "5b0efe9b916b440d504302fa", 
+    "name": "IOC", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-05-30T19:43:13.652Z", 
+    "maxTrackingId": 0.0, 
+    "workspaces": [
+        "5b0efe9b916b440d5043030c"
+    ], 
+    "id": "a2XP34GvLlT7Isnxx", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
