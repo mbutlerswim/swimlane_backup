@@ -113,6 +113,18 @@
                     "selected": false, 
                     "id": "7bea6500644511e89f3d6c0b84b40bf9", 
                     "name": "IT8"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "5b1047a90cad681bccc6e921", 
+                    "name": "IT9"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "5b1048050cad682a1445da5b", 
+                    "name": "IT10"
                 }
             ], 
             "fieldType": "valuesList", 
@@ -159,7 +171,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-05-30T20:16:23.547Z", 
+    "modifiedDate": "2018-05-31T19:07:49.322Z", 
     "maxTrackingId": 3.0, 
     "workspaces": [
         "5b0efe9b916b440d5043030c"
