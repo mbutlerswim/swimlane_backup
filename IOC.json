@@ -125,6 +125,12 @@
                     "selected": false, 
                     "id": "5b1048050cad682a1445da5b", 
                     "name": "IT10"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "5b1096440cad680f4c67406b", 
+                    "name": "IT12"
                 }
             ], 
             "fieldType": "valuesList", 
@@ -171,7 +177,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-05-31T19:07:49.322Z", 
+    "modifiedDate": "2018-06-01T00:42:05.113Z", 
     "maxTrackingId": 3.0, 
     "workspaces": [
         "5b0efe9b916b440d5043030c"
