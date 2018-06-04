@@ -1,0 +1,41 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [], 
+    "fields": [
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "DM-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5b1572f0916b4416f8a270bb"
+        }
+    ], 
+    "acronym": "DM", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-06-04T17:12:16.793Z", 
+    "trackingFieldId": "5b1572f0916b4416f8a270bb", 
+    "name": "Delete Me", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-06-04T17:12:16.793Z", 
+    "maxTrackingId": 0.0, 
+    "workspaces": [
+        "5b1572f1916b4416f8a27100"
+    ], 
+    "id": "aMLRsF4BYFgYxjPUz", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
