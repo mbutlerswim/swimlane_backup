@@ -1,0 +1,118 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "ah3lm", 
+            "id": "5b1eb3f0dd52acad8f46f943", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a9zzd", 
+            "id": "5b1eb3f7da195b7cc835f276", 
+            "row": 1
+        }
+    ], 
+    "fields": [
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "ah3lm", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "BM-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5b1eb3e1916b4412e09ac68a"
+        }, 
+        {
+            "name": "Values List", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b1eb3ffcd54f7b26830f534", 
+                    "name": "Yes"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b1eb4013b4f29f1377e0b43", 
+                    "name": "No"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "values-list", 
+            "controlType": "select", 
+            "id": "a9zzd"
+        }
+    ], 
+    "acronym": "BM", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-06-11T17:39:45.899Z", 
+    "trackingFieldId": "5b1eb3e1916b4412e09ac68a", 
+    "name": "Bulk Modify", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-06-11T17:40:21.387Z", 
+    "maxTrackingId": 0.0, 
+    "workspaces": [
+        "5b1eb3e2916b4412e09ac6d1"
+    ], 
+    "id": "abl8SFYkFm10a8pob", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
