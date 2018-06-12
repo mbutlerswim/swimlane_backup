@@ -29,6 +29,18 @@
             "fieldId": "af31m", 
             "id": "5b0efeaa036cbaad5bc8f006", 
             "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "acn9o", 
+            "id": "5b1fd133688b435e68eb69a4", 
+            "row": 2
         }
     ], 
     "fields": [
@@ -131,12 +143,35 @@
                     "selected": false, 
                     "id": "5b1096440cad680f4c67406b", 
                     "name": "IT12"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "5b10967e0cad680f4c67406c", 
+                    "name": "IT12"
                 }
             ], 
             "fieldType": "valuesList", 
             "key": "intrusion-set", 
             "controlType": "select", 
             "id": "af31m"
+        }, 
+        {
+            "key": "text", 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "acn9o", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
         }, 
         {
             "name": "Tracking Id", 
@@ -177,7 +212,7 @@
         "name": "admin"
     }, 
     "createWorkspace": false, 
-    "modifiedDate": "2018-06-01T00:42:05.113Z", 
+    "modifiedDate": "2018-06-12T13:57:02.737Z", 
     "maxTrackingId": 3.0, 
     "workspaces": [
         "5b0efe9b916b440d5043030c"
