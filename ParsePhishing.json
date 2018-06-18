@@ -15,7 +15,7 @@
         "id": "58c07aedb104880f5094ac59", 
         "name": "admin"
     }, 
-    "modifiedDate": "2018-06-18T18:42:20.232Z", 
+    "modifiedDate": "2018-06-18T18:42:32.399Z", 
     "outputs": [
         {
             "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
@@ -124,13 +124,6 @@
                     "type": "outputParameter", 
                     "value": "a9mst", 
                     "key": "result", 
-                    "addMissing": false
-                }, 
-                {
-                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
-                    "type": "inputParameter", 
-                    "value": "abqt6", 
-                    "key": "email_attachment", 
                     "addMissing": false
                 }
             ]
