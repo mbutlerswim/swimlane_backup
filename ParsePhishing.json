@@ -1,0 +1,316 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "isSystemTask": false, 
+    "name": "Parse Phishing", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2018-06-18T18:41:01.823Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-06-18T18:42:20.232Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ajwrj", 
+                    "key": "attachments", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "amqsx", 
+                    "key": "headers", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a09mb", 
+                    "key": "sender", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ag991", 
+                    "key": "recipients", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "az462", 
+                    "key": "subject", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a09q7", 
+                    "key": "text_body", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a6z0u", 
+                    "key": "html_body", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aevgm", 
+                    "key": "type", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "auc0c", 
+                    "key": "attach_info", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azu7e", 
+                    "key": "attachments_md5", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "axb50", 
+                    "key": "attachments_sha1", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aa27x", 
+                    "key": "ips", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a0n1m", 
+                    "key": "urls", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "amcwh", 
+                    "key": "domains", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a9mst", 
+                    "key": "result", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "inputParameter", 
+                    "value": "abqt6", 
+                    "key": "email_attachment", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "readonly": true, 
+        "type": "packaged", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "email", 
+                "insertUpdateRecord", 
+                "referentialTask", 
+                "saveToFile", 
+                "setFieldValue"
+            ], 
+            "description": "Parser for metadata of EML or MSG attachment files", 
+            "family": "Email", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_swimlane_email", 
+                "author": "Swimlane", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "aQhZxQkKeEXohtRJt", 
+                "url": "http://swimlane.com", 
+                "version": "1.0.3", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_swimlane_email"
+                ], 
+                "description": "Parses Email Attachments"
+            }, 
+            "name": "Email Get Metadata", 
+            "disabled": false, 
+            "readonly": true, 
+            "version": "1.0.3", 
+            "actionType": "emailGetMetadata", 
+            "scriptFile": "email_get_attachment_metadata.py", 
+            "inputParameters": {
+                "email_attachment": {
+                    "name": "Email Attachment", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": true, 
+                    "type": "list", 
+                    "example": "", 
+                    "description": "Attachment from an email, parses eml or msg"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib"
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "BeautifulSoup"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "olefile"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "six"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+                    "package": "tld"
+                }
+            ], 
+            "availableOutputVariables": {
+                "result": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Result", 
+                    "description": "Either 'success' or 'failure', result of parsing the email"
+                }, 
+                "attach_info": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment Info", 
+                    "description": "List of Information on the attachment, such as filename or file type"
+                }, 
+                "sender": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Sender", 
+                    "description": "Email of the sender"
+                }, 
+                "recipients": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Recipients", 
+                    "description": "Email of the Recipient(s)"
+                }, 
+                "ips": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "IPs", 
+                    "description": "Comma separated IPs found in the email"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "attachments_md5": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment MD5s", 
+                    "description": "Comma separated list of attachment MD5s"
+                }, 
+                "attachments_sha1": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment SHA1s", 
+                    "description": "Comma separated list of attachment SHA1s"
+                }, 
+                "attachments": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachments", 
+                    "description": "List of attachments from the email"
+                }, 
+                "headers": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Headers", 
+                    "description": "Headers of the email"
+                }, 
+                "text_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Text Body", 
+                    "description": "Text body of the email"
+                }, 
+                "urls": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "URLs", 
+                    "description": "Comma separated url values found in the email"
+                }, 
+                "domains": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Domains", 
+                    "description": "Comma separated domain names found in the email"
+                }, 
+                "html_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "HTML Body", 
+                    "description": "HTML body of the email"
+                }, 
+                "type": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Filetype", 
+                    "description": "Filetype of email, either EML or MSG"
+                }, 
+                "subject": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Subject", 
+                    "description": "Subject of the email"
+                }
+            }, 
+            "id": "aH0EqOTnN1cVfkjdK", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAAEf0lEQVR4nO2dQW7bRhRA/1AsvHVuIN1EBdLqGJVCBkYXkmyRgJdWlinEshIXQWrRVo5hoIB9E/IG8SaLwCZ/FyoTVhLF0XC+OHTmLcmZ0fjh68+fIQUzEOTtJBijAX+J9m8GOF3ORu9EehrCH/nipQIAsKloTyGx9sX8XPQDm4btiv2tQmLRgFORfk0EUexvFU4Fmv2YMgdbzoZM5njHxnYDlDWWjlgitFgitFgitFgitFgitFgitFgitFgitFgitFgitFgiGiP212v8/EuI93XPgxephzAUvL7GqNWCNgAAA+j2bhDhK3TufmdxvTPbj9IRm5f6P04g6n3A7esKoazYQqkZistVMhX0brENuEdqxglEAKDkGbByEfuf1Ii7/Q1KO5yWiVJiX19jdIjUjN4NomppQRmxpTm1DMVyrhJiK0vNUEhu7WJ7t9g+WGoCj4X3Tg5PJRTUKrZsobp7w3au+AnAIzDoFI6rwIJ2sNizS7/NmHFFMZk8RVK/3R+weJ9cWTBmXJ1d+u1D+3GLtRy/a7sBJokp7atWJKdMqqz+vCSJGdlugIcI5hJruwEyZpIcgOTlJAnEh0rZlCtbap5MME/bvWLHY/9U5tshRdwNWJwkEP/zlgl9tb/J/UqfGgD43pjZuaU9u/TbSWJGX+TPqRBRqRl3g+OedmVyi16r2hK7zqPU03o5FAneSgVJip+ONamXQ/qweWUrYm//HPUBoG85i4gx1qafVHNBxMfQG73ada9w8Qq9Uefp6fkoi0ETeXp67hRJBSg5j/00v4gBgFlOMGUMyDcFTQAR3oXecFrWzrAcv1vWKPSG0+VsyBAxljC3hpI+LGdDxiPVcvyuyZh5b7sB8Pz0JvRGHQCAwWSxahnsNzkTVhuEdB7Oxuc8bW13cZX90iaXCtjUdoNpq/Xc+fj+It43wI+wwCFinAVSGVndn7+2XW4lZrQ2X07ojTovsTxDSOe8Um13cbXr/KRg8VpHLyKsQm842DdwFr1vJos+z0RUBhH6oTfkChTbnd8DGN2i+4xn32sY0P/7D74PlM2us9Uq5wpVsd1FH4DdlrXjevydprCy3WDFk39lgwirzWut1p4nCESMx/7pl5/Mz7ztuSI2DyLEoTf8oTYOlhNEjB32+OhgsRk8+bfpWJOFzwx2LtJXWGwG4vPPoXfxUGUM1bAcv1v1YL+y2O+I/7ZfFfIFflUkil1TxwJXlV0FflWkP/5OEjOynECJZ/s8FBX4VZEesXlUXuDKCvyqkIrNqHODsQlvgV+Vo4jNqDOCq5ROIhxVbMYxSzQZpZMItby7xZh5bzkB+dfRmiz8OqQC1BSxeSi2yNQLEw+1i/1O9Q2GzAK/KgqJXSOywKkQoZsoJzaDp0Q7VukkQu1vdBeRprDat8Cto1RNqQAKR2ye/AIncjZaB40Q20SUTQVNR4slQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslQoslwmj6/+BSkeVsyP4FQcDoWrYmnIAAAAAASUVORK5CYII="
+        }, 
+        "packageDescriptorId": "aH0EqOTnN1cVfkjdK"
+    }, 
+    "inputMapping": [
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "record", 
+            "example": "", 
+            "key": "email_attachment", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "a40AsJ2YHmZqAojhy", 
+    "id": "ad9LLaGh54grQ8J4X"
+}
