@@ -1,0 +1,796 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "isSystemTask": false, 
+    "name": "VT File Report", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2018-07-02T18:28:18.432Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-07-02T18:28:38.13Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a24cl", 
+                    "key": "verbose_msg", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "avvra", 
+                    "key": "scan_date", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ay82u", 
+                    "key": "positives", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aysc4", 
+                    "key": "total", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a40i8", 
+                    "key": "permalink", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ac22v", 
+                    "key": "scans\uff0eBkav\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "arsv4", 
+                    "key": "scans\uff0eTotalDefense\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "awsak", 
+                    "key": "scans\uff0eMicroWorld-eScan\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ahell", 
+                    "key": "scans\uff0enProtect\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aw210", 
+                    "key": "scans\uff0eCMC\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "al63k", 
+                    "key": "scans\uff0eCAT-QuickHeal\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aaqrv", 
+                    "key": "scans\uff0eMcAfee\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "afe0f", 
+                    "key": "scans\uff0eMalwarebytes\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aqdcg", 
+                    "key": "scans\uff0eZillya\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "as4z9", 
+                    "key": "scans\uff0eSUPERAntiSpyware\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a4xu2", 
+                    "key": "scans\uff0eK7AntiVirus\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "auz6k", 
+                    "key": "scans\uff0eAlibaba\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a878t", 
+                    "key": "scans\uff0eK7GW\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "amb0o", 
+                    "key": "scans\uff0eTheHacker\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azrez", 
+                    "key": "scans\uff0eArcabit\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a1yfx", 
+                    "key": "scans\uff0eNANO-Antivirus\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a7aei", 
+                    "key": "scans\uff0eF-Prot\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aky46", 
+                    "key": "scans\uff0eSymantec\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ax27c", 
+                    "key": "scans\uff0eESET-NOD32\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azaui", 
+                    "key": "scans\uff0eTrendMicro-HouseCall\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a1k3o", 
+                    "key": "scans\uff0eAvast\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "az8uu", 
+                    "key": "scans\uff0eClamAV\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a3pje", 
+                    "key": "scans\uff0eKaspersky\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "admom", 
+                    "key": "scans\uff0eBitDefender\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ast6p", 
+                    "key": "scans\uff0eAgnitum\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a35d0", 
+                    "key": "scans\uff0eViRobot\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aeqqj", 
+                    "key": "scans\uff0eTencent\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a8yvu", 
+                    "key": "scans\uff0eAd-Aware\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a76ts", 
+                    "key": "scans\uff0eComodo\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "alm2o", 
+                    "key": "scans\uff0eDrWeb\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a496j", 
+                    "key": "scans\uff0eVIPRE\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aih0h", 
+                    "key": "scans\uff0eTrendMicro\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aknnc", 
+                    "key": "scans\uff0eMcAfee-GW-Edition\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aig9m", 
+                    "key": "scans\uff0eSophos\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ar8or", 
+                    "key": "scans\uff0eCyren\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azkiz", 
+                    "key": "scans\uff0eJiangmin\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a587u", 
+                    "key": "scans\uff0eAntiy-AVL\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ajis5", 
+                    "key": "scans\uff0eMicrosoft\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a24z3", 
+                    "key": "scans\uff0eAegisLab\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "avm2e", 
+                    "key": "scans\uff0eAhnLab-V3\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ahlbg", 
+                    "key": "scans\uff0eGData\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "atq94", 
+                    "key": "scans\uff0eByteHero\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ae4c5", 
+                    "key": "scans\uff0eALYac\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "apwul", 
+                    "key": "scans\uff0eAVware\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azy8p", 
+                    "key": "scans\uff0eVBA32\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a21ly", 
+                    "key": "scans\uff0eBaidu-International\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ae91h", 
+                    "key": "scans\uff0eZoner\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ano4r", 
+                    "key": "scans\uff0eRising\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aafls", 
+                    "key": "scans\uff0eIkarus\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ato4w", 
+                    "key": "scans\uff0eFortinet\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aocn8", 
+                    "key": "scans\uff0eAVG\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aq20z", 
+                    "key": "scans\uff0ePanda\uff0eresult", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "adq7j", 
+                    "key": "scans\uff0eQihoo-360\uff0eresult", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "readonly": true, 
+        "type": "packaged", 
+        "descriptor": {
+            "disabled": false, 
+            "description": "Retrieve a file report from a scan", 
+            "family": "Malware Detection", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_virus_total", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "58c823d0b104881024a3c8a0", 
+                "supported_swimlane_version": ">=2.2.0", 
+                "version": "2.0.4", 
+                "isEmailBundle": false, 
+                "url": "http://swimlane.com", 
+                "packages": [
+                    "sw_virus_total"
+                ], 
+                "description": "VirusTotal integration library"
+            }, 
+            "assetDependencyVersion": "2.0.0", 
+            "assetDependencyType": "virusTotal", 
+            "readonly": true, 
+            "version": "1.1.0", 
+            "actionType": "virusTotalGetFileReport", 
+            "scriptFile": "virus_total_get_file_report.py", 
+            "inputParameters": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "file": {
+                    "name": "File", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": true, 
+                    "type": "text", 
+                    "example": "99017f6eebbac24f351415dd410d522d", 
+                    "description": "The  MD5/SHA1/SHA256 hash of file to retrieve the report on"
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "GPLv3", 
+                    "package": "virustotal-api"
+                }
+            ], 
+            "availableOutputVariables": {
+                "scans\uff0eTrendMicro-HouseCall\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TrendMicro-HouseCall Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0ePanda\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Panda Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eViRobot\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ViRobot Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eBaidu-International\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Baidu-International Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eK7GW\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "K7GW Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scan_date": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Scan Date", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eNANO-Antivirus\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "NANO-Antivirus Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eMicroWorld-eScan\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "MicroWorld-eScan Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eBkav\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Bkav Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAd-Aware\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Ad-Aware Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eDrWeb\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "DrWeb Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eSUPERAntiSpyware\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SUPERAntiSpyware Scan Result", 
+                    "outputType": "text"
+                }, 
+                "total": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Total", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eTheHacker\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TheHacker Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eVBA32\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "VBA32 Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eMicrosoft\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Microsoft Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eArcabit\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Arcabit Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eRising\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Rising Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAVG\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AVG Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAvast\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Avast Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAhnLab-V3\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AhnLab-V3 Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eMalwarebytes\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Malwarebytes Scan Result", 
+                    "outputType": "text"
+                }, 
+                "verbose_msg": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Verbose Message", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eClamAV\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ClamAV Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAVware\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AVware Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eJiangmin\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Jiangmin Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eF-Prot\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "F-Prot Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0enProtect\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "nProtect Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eBitDefender\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "BitDefender Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eK7AntiVirus\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "K7AntiVirus Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eMcAfee\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "McAfee Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eCMC\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CMC Scan Result", 
+                    "outputType": "text"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "scans\uff0eAegisLab\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AegisLab Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eCAT-QuickHeal\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CAT-QuickHeal Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAntiy-AVL\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Antiy-AVL Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eMcAfee-GW-Edition\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "McAfee-GW-Edition Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eTrendMicro\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TrendMicro Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eFortinet\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Fortinet Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eCyren\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Cyren Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eZoner\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Zoner Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eSophos\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Sophos Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eKaspersky\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Kaspersky Scan Result", 
+                    "outputType": "text"
+                }, 
+                "positives": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Positives", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAlibaba\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Alibaba Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eComodo\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Comodo Scan Result", 
+                    "outputType": "text"
+                }, 
+                "permalink": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Permalink", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eAgnitum\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Agnitum Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eALYac\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ALYac Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eSymantec\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Symantec Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eIkarus\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Ikarus Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eESET-NOD32\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ESET-NOD32 Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eGData\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "GData Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eVIPRE\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "VIPRE Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eByteHero\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ByteHero Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eQihoo-360\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Qihoo-360 Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eTencent\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Tencent Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eTotalDefense\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TotalDefense Scan Result", 
+                    "outputType": "text"
+                }, 
+                "scans\uff0eZillya\uff0eresult": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Zillya Scan Result", 
+                    "outputType": "text"
+                }
+            }, 
+            "name": "VirusTotal File Report", 
+            "id": "58c823d0b104881024a3c8a7", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAMAAADw8nOpAAAANlBMVEX///8YfLwmhMA1jMRDlclSnc1gpdFvrdV9ttmLvd2axeKozua31urF3u7U5vLi7/fx9/v39/d4b/9qAAAAAXRSTlMAQObYZgAAAUlJREFUeNrt1mluxSAMRtHPDGEKQ/e/2Sapqhc3r4og/lFVnAVcYVkgME3TNE1/giVmiRWblpyhjXIZyLQbSiq3NmxKNPTiATOWNL5gt3pNnEPqTLJxF0VXK3Rf8nvcehqX09V1JSt22Wu6gR7ZKbqHLsmIJLlsRZJcdSJJrgYlkeRa0HfJD9wLiW9KPz+lJZ3a3ab6L6QKPOqeJg+u8vWrh8nDkvmm1MPkwSYWlUgS25QTSZ43lUkm+dpU02LJQwY8iSYtUEg0qSpgZJMBCCSaNEAl2WQBrGwyAJFEk7qhKdlkBhYSTXpgpbfMYFL9NraKGEyugKcrHRsGkwuQrz1f0MfysTUxJtZHH+vEb6JaUsMI+/4B0n7FWYm9Sf4AmVhwdny2B5IRCJdxX5/tgaQBqtLu57hm4PZ4+6UAuYAHnT3BNE3TNP1Pn34qDJCiByTEAAAAAElFTkSuQmCC"
+        }, 
+        "packageDescriptorId": "58c823d0b104881024a3c8a7"
+    }, 
+    "inputMapping": [
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "literal", 
+            "example": "99017f6eebbac24f351415dd410d522d", 
+            "key": "file", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "abscFQyhGeLjFJISe", 
+    "id": "aNoPqpASfRaRXvpsu"
+}
