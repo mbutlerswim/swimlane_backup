@@ -1,0 +1,629 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "isSystemTask": false, 
+    "name": "EPO Host Info", 
+    "triggers": [], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2018-07-02T18:27:26.545Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-07-02T18:27:50.014Z", 
+    "outputs": [
+        {
+            "$type": "Core.Models.Integrations.Outputs.SetFieldValueOutput, Core", 
+            "type": "setFieldValue", 
+            "mappings": [
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aqxz0", 
+                    "key": "epoComputerPropertiesOSType", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a6un6", 
+                    "key": "epoComputerPropertiesTimeZone", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a72go", 
+                    "key": "epoComputerPropertiesLastAgentHandler", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "azkl0", 
+                    "key": "epoComputerPropertiesIPSubnet", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ai0bm", 
+                    "key": "epoComputerPropertiesDefaultLangID", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aog84", 
+                    "key": "epoComputerPropertiesIPXAddress", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aj7gn", 
+                    "key": "epoLeafNodeLastUpdate", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aed4t", 
+                    "key": "epoComputerPropertiesUserName", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ajjyl", 
+                    "key": "epoComputerPropertiesOSBitMode", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ab5b2", 
+                    "key": "epoComputerPropertiesVdi", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ae5no", 
+                    "key": "epoComputerPropertiesFreeDiskSpace", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ahwyl", 
+                    "key": "epoComputerPropertiesSysvolTotalSpace", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "acu63", 
+                    "key": "epoComputerPropertiesOSPlatform", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aha3h", 
+                    "key": "epoComputerPropertiesOSBuildNum", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ari8b", 
+                    "key": "epoComputerPropertiesFreeMemory", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a4ead", 
+                    "key": "epoComputerPropertiesCPUSerialNum", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a8wiq", 
+                    "key": "epoComputerPropertiesNetAddress", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "au570", 
+                    "key": "epoComputerPropertiesSubnetAddress", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aeh7i", 
+                    "key": "epoComputerPropertiesIPAddress", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "adqcz", 
+                    "key": "epoComputerPropertiesDescription", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a0s4p", 
+                    "key": "epoComputerPropertiesParentID", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a77gg", 
+                    "key": "epoLeafNodeManagedState", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "auz7d", 
+                    "key": "epoLeafNodeAgentGUID", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "abs4k", 
+                    "key": "epoComputerPropertiesIPV4x", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "afa1h", 
+                    "key": "epoComputerPropertiesIsPortable", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "acpc9", 
+                    "key": "epoComputerPropertiesCPUSpeed", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a256p", 
+                    "key": "epoComputerPropertiesSubnetMask", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "arxof", 
+                    "key": "epoComputerPropertiesCPUType", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "abxwc", 
+                    "key": "epoComputerPropertiesIPV6", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "axej4", 
+                    "key": "epoLeafNodeTags", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ad1aa", 
+                    "key": "epoComputerPropertiesTotalDiskSpace", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a0m1h", 
+                    "key": "epoComputerPropertiesSysvolFreeSpace", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ai9tu", 
+                    "key": "epoComputerPropertiesIPSubnetMask", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a1665", 
+                    "key": "epoLeafNodeExcludedTags", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a9vtn", 
+                    "key": "epoComputerPropertiesIPHostName", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a1k8l", 
+                    "key": "epoComputerPropertiesOSVersion", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ayykm", 
+                    "key": "epoComputerPropertiesNumOfCPU", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "ajv6l", 
+                    "key": "epoComputerPropertiesSystemDescription", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a74e9", 
+                    "key": "epoComputerPropertiesComputerName", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "awdk4", 
+                    "key": "epoComputerPropertiesDomainName", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "afduk", 
+                    "key": "epoBranchNodeAutoID", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aqz1s", 
+                    "key": "epoLeafNodeAgentVersion", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a1cn1", 
+                    "key": "epoComputerPropertiesOSServicePackVer", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "aqpu2", 
+                    "key": "epoComputerPropertiesTotalPhysicalMemory", 
+                    "addMissing": false
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "type": "outputParameter", 
+                    "value": "a5hjr", 
+                    "key": "epoComputerPropertiesOSOEMID", 
+                    "addMissing": false
+                }
+            ]
+        }
+    ], 
+    "action": {
+        "assetId": "58c8495fb104881024a401aa", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "disabled": false, 
+            "description": "Pull host information from ePO", 
+            "family": "Endpoint", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_epo", 
+                "author": "Swimlane LLC", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "58c8490fb104881024a40144", 
+                "url": "http://swimlane.com", 
+                "version": "0.8.0", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_epo"
+                ], 
+                "description": "Run tasks against Mcafee ePO"
+            }, 
+            "assetDependencyVersion": "0.8.0", 
+            "assetDependencyType": "epo", 
+            "readonly": true, 
+            "version": "0.8.0", 
+            "actionType": "epohostinfo", 
+            "scriptFile": "epo_host_info.py", 
+            "inputParameters": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], mscorlib", 
+                "target_system": {
+                    "name": "TargetSystem", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": true, 
+                    "type": "text", 
+                    "example": "192.168.1.1", 
+                    "description": "TargetSystem to search. Search using name, IP address, MAC address, user name, agent GUID or tag"
+                }
+            }, 
+            "licenses": [], 
+            "availableOutputVariables": {
+                "epoComputerPropertiesLastAgentHandler": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "LastAgentHandler", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesComputerName": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ComputerName", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPXAddress": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPXAddress", 
+                    "outputType": "text"
+                }, 
+                "epoBranchNodeAutoID": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "AutoID", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeLastUpdate": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "LastUpdate", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesUserName": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "UserName", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesSubnetAddress": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SubnetAddress", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesSysvolFreeSpace": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "FreeSpace", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPAddress": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPAddress", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeExcludedTags": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ExcludedTags", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesCPUSerialNum": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CPUSerialNum", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSOEMID": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSOEMID", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesParentID": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "ParentID", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesSysvolTotalSpace": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SysvolTotalSpace", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPHostName": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPHostName", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSType": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSType", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesTotalDiskSpace": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TotalDiskSpace", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSBuildNum": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSBuildNum", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeAgentGUID": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "GUID", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPV4x": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPV4x", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesFreeMemory": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "FreeMemory", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSBitMode": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSBitMode", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPV6": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPV6", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeTags": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Tags", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPSubnet": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPSubnet", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesDefaultLangID": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "DefaultLangID", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesDomainName": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "DomainName", 
+                    "outputType": "text"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], mscorlib", 
+                "epoComputerPropertiesNetAddress": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "NetAddress", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeAgentVersion": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Version", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSServicePackVer": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSServicePackVer", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIPSubnetMask": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IPSubnetMask", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesCPUType": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CPUType", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesVdi": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Vdi", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesDescription": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "Description", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesTotalPhysicalMemory": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TotalPhysicalMemory", 
+                    "outputType": "text"
+                }, 
+                "epoLeafNodeManagedState": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "State", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSPlatform": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSPlatform", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesNumOfCPU": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "NumOfCPU", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesSystemDescription": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SystemDescription", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesIsPortable": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "IsPortable", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesOSVersion": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "OSVersion", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesCPUSpeed": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "CPUSpeed", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesSubnetMask": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "SubnetMask", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesTimeZone": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "TimeZone", 
+                    "outputType": "text"
+                }, 
+                "epoComputerPropertiesFreeDiskSpace": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "name": "FreeDiskSpace", 
+                    "outputType": "text"
+                }
+            }, 
+            "name": "hostinfo", 
+            "id": "58c8490fb104881024a40149", 
+            "base64Image": "data:image/png;base64,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"
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "58c8490fb104881024a40149"
+    }, 
+    "inputMapping": [
+        {
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "type": "literal", 
+            "example": "192.168.1.1", 
+            "key": "target_system", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "abscFQyhGeLjFJISe", 
+    "id": "a4YsbA_HfHmV3akgf"
+}
