@@ -1,0 +1,71 @@
+{
+    "$type": "Core.Models.Workflow.Workflow, Core", 
+    "disabled": false, 
+    "stages": [
+        {
+            "conditionType": "defaultActions", 
+            "stages": [], 
+            "name": "Default Action(s)", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": 0, 
+            "actions": [
+                {
+                    "name": "Hide Fields", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], System.Private.CoreLib", 
+                        "5b9fc5a8632ce7f726243eca": "hide"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "5b9fc671afea866c28c462e7", 
+                    "id": "5b9fc6750c47eb822b904c3b"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "5b9fc670a4984f0364eb17f7", 
+            "repeats": [], 
+            "conditions": [], 
+            "id": "5b9fc671afea866c28c462e7"
+        }, 
+        {
+            "conditionType": "equals", 
+            "stages": [], 
+            "name": "Phishing References", 
+            "$type": "Core.Models.Workflow.Stage, Core", 
+            "evalType": "and", 
+            "actions": [
+                {
+                    "name": "Show Phishing", 
+                    "$type": "Core.Models.Workflow.Actions.LayoutAction, Core", 
+                    "disabled": false, 
+                    "layoutActions": {
+                        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Core.Models.Workflow.Actions.LayoutActionType, Core]], System.Private.CoreLib", 
+                        "5b9fc5a8632ce7f726243eca": "show"
+                    }, 
+                    "actionType": "showHide", 
+                    "parentId": "5b9fc682c41f52b9e4c0d0a8", 
+                    "id": "5b9fc691d3225caf2df5a5a2"
+                }
+            ], 
+            "disabled": false, 
+            "parentId": "5b9fc670a4984f0364eb17f7", 
+            "repeats": [], 
+            "conditions": [
+                {
+                    "$type": "Core.Models.Workflow.Condition, Core", 
+                    "conditionType": "equals", 
+                    "fieldId": "antx8", 
+                    "value": "5b9fc59d72d9b291c247e433", 
+                    "referenceFieldConjunction": 0
+                }
+            ], 
+            "id": "5b9fc682c41f52b9e4c0d0a8"
+        }
+    ], 
+    "applicationId": "aZomLxR460t4b0AdA", 
+    "id": "5b9fc670a4984f0364eb17f7", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
