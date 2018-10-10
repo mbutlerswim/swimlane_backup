@@ -1,0 +1,802 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "a6pSq2wSwiGSN1Zw3", 
+        "name": "admin"
+    }, 
+    "createdDate": "2018-10-10T07:26:44.754Z", 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a5qjD9MwZa5_diNFm", 
+            "id": "aAavtJhX0O7Y3ttea", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a8NIN2H78PW1CCijo", 
+            "id": "aAusWwBIiEw2li3Cq", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a4ttHJucU0hUYGsa0", 
+            "id": "aBDpAXg4P5jYSWDm5", 
+            "row": 2
+        }, 
+        {
+            "name": "Begin Migration", 
+            "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "integration", 
+            "helpTextType": 0, 
+            "id": "aBXlp99r5xX39KOKL", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "a90BfGFfX771aq2rJ", 
+            "id": "aBriSlecnoKYr8Ytb", 
+            "row": 3
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpTextType": "none", 
+            "fieldId": "a4Fz_5w45J5U9eXSV", 
+            "id": "aCAf6N8OUf83XxjRr", 
+            "row": 3
+        }, 
+        {
+            "tabs": [
+                {
+                    "name": "Applications", 
+                    "$type": "Core.Models.Layouts.Tabs, Core", 
+                    "sizex": 0.0, 
+                    "sizey": 0.0, 
+                    "children": [
+                        {
+                            "name": "Migration Options", 
+                            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                            "collapsed": false, 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "id": "aD7V2CbiaDXZdOE7c", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "parentId": "aCUbkzdABVwZElu06", 
+                            "helpTextType": "none", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a1jPqD0tWTgSb9BzT", 
+                                    "id": "aDRRgp5UH4L4KCOgs", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a2gFm2UCc24ygahfE", 
+                                    "id": "aDlOKQaFyw8a10ZF7", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a1PTBbX6pcsxuL1QD", 
+                                    "id": "aE4Kz241fmx4ipjoN", 
+                                    "row": 2
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a2MJ7Q_QvBHSzmX5z", 
+                                    "id": "aEOHceYoMdkaPduMd", 
+                                    "row": 2
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "helpText": " ", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a2_CPeyzIttTNOsDU", 
+                                    "id": "aEiEGG2a3UY56S3vt", 
+                                    "row": 3
+                                }, 
+                                {
+                                    "name": "Build App List (will have to reload page)", 
+                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "integration", 
+                                    "helpText": " ", 
+                                    "parentId": "aD7V2CbiaDXZdOE7c", 
+                                    "helpTextType": 0, 
+                                    "id": "aF1AusXLlLLaoGEU8", 
+                                    "row": 3
+                                }
+                            ], 
+                            "row": 1
+                        }
+                    ], 
+                    "active": false, 
+                    "col": 0, 
+                    "parentId": "aCUbkzdABVwZElu06", 
+                    "layoutType": "tabs", 
+                    "id": "aCoYOb6wtMk3wa3ZM", 
+                    "row": 0
+                }, 
+                {
+                    "name": "Tasks  / Repository", 
+                    "$type": "Core.Models.Layouts.Tabs, Core", 
+                    "sizex": 0.0, 
+                    "sizey": 0.0, 
+                    "children": [
+                        {
+                            "name": "Tasks", 
+                            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                            "collapsed": false, 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "id": "aHshiMwJ11Z73ZkWQ", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "helpText": " ", 
+                            "parentId": "aCUbkzdABVwZElu06", 
+                            "helpTextType": "none", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "aHshiMwJ11Z73ZkWQ", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a9K8IskRDyvXHeDPZ", 
+                                    "id": "aIBeLzQ4itMclNv4g", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "field", 
+                                    "helpText": " ", 
+                                    "parentId": "aHshiMwJ11Z73ZkWQ", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a5WmZXt9sjIUwuChW", 
+                                    "id": "aIVa_aurPkA7SC4dw", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 1.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "aHshiMwJ11Z73ZkWQ", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a9e4xUECvpj1zSNyp", 
+                                    "id": "aIpXeCOd6ayd90FCB", 
+                                    "row": 2
+                                }, 
+                                {
+                                    "name": "HTML", 
+                                    "$type": "Core.Models.Layouts.HtmlObjectLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "html": " ", 
+                                    "parentId": "aHshiMwJ11Z73ZkWQ", 
+                                    "layoutType": "htmlObject", 
+                                    "id": "aJ8UHotOoRm7qpPlR", 
+                                    "row": 3
+                                }, 
+                                {
+                                    "name": "Build Triggered Task (will have to reload page)", 
+                                    "$type": "Core.Models.Layouts.IntegrationLayout, Core", 
+                                    "sizex": 2.0, 
+                                    "sizey": 0.0, 
+                                    "col": 3, 
+                                    "layoutType": "integration", 
+                                    "parentId": "aHshiMwJ11Z73ZkWQ", 
+                                    "helpTextType": 0, 
+                                    "id": "aJSQwQNAVIZdXdaJh", 
+                                    "row": 3
+                                }
+                            ], 
+                            "row": 1
+                        }
+                    ], 
+                    "active": false, 
+                    "col": 0, 
+                    "parentId": "aCUbkzdABVwZElu06", 
+                    "layoutType": "tabs", 
+                    "id": "aHYl3lRXKAlcMlZyA", 
+                    "row": 0
+                }, 
+                {
+                    "name": "Log", 
+                    "$type": "Core.Models.Layouts.Tabs, Core", 
+                    "sizex": 0.0, 
+                    "sizey": 0.0, 
+                    "children": [
+                        {
+                            "name": "", 
+                            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+                            "collapsed": false, 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "id": "aOWaFCBXdyOgfdGGl", 
+                            "layoutType": "section", 
+                            "col": 1, 
+                            "parentId": "aCUbkzdABVwZElu06", 
+                            "helpTextType": "none", 
+                            "children": [
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 1, 
+                                    "layoutType": "field", 
+                                    "parentId": "aOWaFCBXdyOgfdGGl", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a9y1b5izcgWXgGYX4", 
+                                    "id": "aOqWtogJKpCBMRQq0", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 2, 
+                                    "layoutType": "field", 
+                                    "parentId": "aOWaFCBXdyOgfdGGl", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a69frlriGQuVKWXp1", 
+                                    "id": "aP9TXQA51f_h3FbOG", 
+                                    "row": 1
+                                }, 
+                                {
+                                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                                    "sizex": 4.0, 
+                                    "sizey": 0.0, 
+                                    "col": 4, 
+                                    "layoutType": "field", 
+                                    "parentId": "aOWaFCBXdyOgfdGGl", 
+                                    "helpTextType": "none", 
+                                    "fieldId": "a22MTpVfDKTyHyMXj", 
+                                    "id": "aPTQB1erjWoBl3lxW", 
+                                    "row": 1
+                                }
+                            ], 
+                            "row": 1
+                        }, 
+                        {
+                            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                            "sizex": 1.0, 
+                            "sizey": 0.0, 
+                            "col": 1, 
+                            "layoutType": "field", 
+                            "parentId": "aCUbkzdABVwZElu06", 
+                            "helpTextType": "none", 
+                            "fieldId": "a3d5hsxWhbUTm1CK_", 
+                            "id": "aPnMpe8dQNbhRswVm", 
+                            "row": 2
+                        }
+                    ], 
+                    "active": true, 
+                    "col": 0, 
+                    "parentId": "aCUbkzdABVwZElu06", 
+                    "layoutType": "tabs", 
+                    "id": "aOCdbahlx6bAyp5iV", 
+                    "row": 0
+                }
+            ], 
+            "$type": "Core.Models.Layouts.TabLayout, Core", 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "id": "aCUbkzdABVwZElu06", 
+            "layoutType": "tab", 
+            "col": 1, 
+            "row": 4
+        }
+    ], 
+    "description": "<p>Used to migrate and track changes during Swimlane code promotion</p>", 
+    "acronym": "BAM", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "maxTrackingId": 0.0, 
+    "trackingFieldId": "aAGzEiClJXK2N4j5K", 
+    "name": "Bilateral Automated Migrator", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "a6pSq2wSwiGSN1Zw3", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-10-10T07:27:44.633Z", 
+    "fields": [
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Application List", 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [], 
+            "fieldType": "valuesList", 
+            "key": "application-list", 
+            "controlType": "select", 
+            "id": "a1PTBbX6pcsxuL1QD"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Applications to migrate", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "596636b57ea7c514ceb2a1f0", 
+                    "name": "All"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "description": "<p>Select from list list below</p>", 
+                    "selected": false, 
+                    "id": "596636b947b4bc8894622e47", 
+                    "name": "Select"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "applications-to-migrate", 
+            "controlType": "select", 
+            "id": "a1jPqD0tWTgSb9BzT"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Completion time", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "a22MTpVfDKTyHyMXj", 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "completion-time", 
+            "inputType": "dateTime"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Feature List", 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663bad7095aaad792e241a", 
+                    "name": "Groups"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59b13c2cea908f2d6b9febf7", 
+                    "name": "Application"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663bbcda7de18c15a62c7d", 
+                    "name": "Roles"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "5967828218cbba8e15476f74", 
+                    "name": "Workspace/Dashboards"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "feature-list", 
+            "controlType": "select", 
+            "id": "a2MJ7Q_QvBHSzmX5z"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Features to migrate", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663b544abdf8d4135c1424", 
+                    "name": "All"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663b57773d68b506fbf469", 
+                    "name": "Select"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "features-to-migrate", 
+            "controlType": "select", 
+            "id": "a2gFm2UCc24ygahfE"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Include Default Report", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "selected": true, 
+                    "name": "No", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5aa163be023e0154d9fed8e2"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Yes", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5aa163c7bc9d6ad8cec882ce"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "include-default-report", 
+            "controlType": "select", 
+            "id": "a2_CPeyzIttTNOsDU"
+        }, 
+        {
+            "key": "log-of-migration-actions", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "name": "Log of migration actions", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a3d5hsxWhbUTm1CK_", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "rich"
+        }, 
+        {
+            "key": "migration-check", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "name": "Migration Check", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a4Fz_5w45J5U9eXSV", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "inputType": "text"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Migration Completed", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663e8649885a1aa41b4742", 
+                    "name": "Yes"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663e898554de9d294f331a", 
+                    "name": "No"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "migration-completed", 
+            "controlType": "select", 
+            "id": "a4ZwdiPqn9tzrSi0l"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Migration Mode", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "description": "<p>All changes are committed to target server.</p>", 
+                    "selected": false, 
+                    "id": "5966356242cd92d1a532024b", 
+                    "name": "Full Migration"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Application", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a046154a8e1133378f06bf7"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Repositories", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a0461612a555175e98e8e5e"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Tasks", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a0461aa580559fb043e1a8e"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "migration-mode", 
+            "controlType": "select", 
+            "id": "a4ttHJucU0hUYGsa0"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Migration started", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663e6e8b1816aef6b13ab1", 
+                    "name": "Yes"
+                }, 
+                {
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "id": "59663e7114ebcc15442f3a3f", 
+                    "name": "No"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "migration-started", 
+            "controlType": "select", 
+            "id": "a5CpvwOOAsU_F528G"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Populate Defaults", 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "selected": false, 
+                    "name": "Yes", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a047cd269e20af7f1241464"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "populate-defaults", 
+            "controlType": "checkbox", 
+            "id": "a5WmZXt9sjIUwuChW"
+        }, 
+        {
+            "key": "source-migration-url", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "name": "Source Migration URL", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "a5qjD9MwZa5_diNFm", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "placeholder": "", 
+            "inputType": "text"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Start time", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "id": "a69frlriGQuVKWXp1", 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "start-time", 
+            "inputType": "dateTime"
+        }, 
+        {
+            "key": "target-migration-url", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "name": "Target Migration URL", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "a8NIN2H78PW1CCijo", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "placeholder": "", 
+            "inputType": "text"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Test Mode", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "selected": true, 
+                    "name": "No", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a9ea64c89e84ff169c1aa34"
+                }, 
+                {
+                    "selected": false, 
+                    "name": "Yes", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "otherTextDescription": "", 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5a9ea64c38c91124d286efc6"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "test-mode", 
+            "controlType": "select", 
+            "id": "a90BfGFfX771aq2rJ"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "BAM-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "aAGzEiClJXK2N4j5K"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Triggered Tasks", 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "values": [], 
+            "fieldType": "valuesList", 
+            "key": "triggered-tasks", 
+            "controlType": "select", 
+            "id": "a9K8IskRDyvXHeDPZ"
+        }, 
+        {
+            "key": "triggered-tasks-to-migrate", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "name": "Triggered Tasks To Migrate", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "id": "a9e4xUECvpj1zSNyp", 
+            "readOnly": false, 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "placeholder": "provide task name one per line", 
+            "inputType": "multiline"
+        }, 
+        {
+            "key": "user-that-ran-migration", 
+            "supportsMultipleOutputMappings": false, 
+            "members": [], 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.UserGroupField, Core", 
+            "showAllGroups": false, 
+            "id": "a9y1b5izcgWXgGYX4", 
+            "controlType": "select", 
+            "fieldType": "userGroup", 
+            "defaults": [], 
+            "showAllUsers": true, 
+            "inputType": "createdBy", 
+            "name": "User that ran migration"
+        }
+    ], 
+    "workspaces": [
+        "aWlC04tdkAElloitN"
+    ], 
+    "id": "a8gc9a12Cfx75MBC", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
