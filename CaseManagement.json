@@ -1,0 +1,222 @@
+{
+    "timeTrackingEnabled": false, 
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "aJ_PVFBpgZ1LWz517", 
+        "name": "Butler"
+    }, 
+    "layout": [
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "antx8", 
+            "id": "5b9fc59a3e25cb123defe05f", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "ajs5i", 
+            "id": "5b9fc595d635392ba3ac8060", 
+            "row": 1
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 1, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "axqel", 
+            "id": "5bc05a75985583c1305440cb", 
+            "row": 2
+        }, 
+        {
+            "$type": "Core.Models.Layouts.FieldLayout, Core", 
+            "sizex": 2.0, 
+            "sizey": 0.0, 
+            "col": 3, 
+            "layoutType": "field", 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "fieldId": "adggg", 
+            "id": "5bc05a773ba15250f4d02eb4", 
+            "row": 2
+        }, 
+        {
+            "name": "Phishing", 
+            "$type": "Core.Models.Layouts.SectionLayout, Core", 
+            "collapsed": false, 
+            "sizex": 1.0, 
+            "sizey": 0.0, 
+            "id": "5b9fc5a8632ce7f726243eca", 
+            "layoutType": "section", 
+            "col": 1, 
+            "helpText": " ", 
+            "helpTextType": "none", 
+            "children": [
+                {
+                    "$type": "Core.Models.Layouts.FieldLayout, Core", 
+                    "sizex": 1.0, 
+                    "sizey": 0.0, 
+                    "col": 1, 
+                    "layoutType": "field", 
+                    "helpText": " ", 
+                    "parentId": "5b9fc5a8632ce7f726243eca", 
+                    "helpTextType": "none", 
+                    "fieldId": "asmvo", 
+                    "id": "5b9fc5b36bcac8137e70841e", 
+                    "row": 1
+                }
+            ], 
+            "row": 3
+        }
+    ], 
+    "fields": [
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "First Created", 
+            "defaultValueType": "none", 
+            "$type": "Core.Models.Fields.Date.DateField, Core", 
+            "required": false, 
+            "inputType": "firstCreated", 
+            "readOnly": false, 
+            "calculatedDiff": false, 
+            "fieldType": "date", 
+            "key": "first-created", 
+            "id": "ajs5i", 
+            "futurePastValue": 0
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "suffix": "", 
+            "format": "none", 
+            "$type": "Core.Models.Fields.NumericField, Core", 
+            "required": false, 
+            "prefix": "", 
+            "step": 1.0, 
+            "readOnly": false, 
+            "fieldType": "numeric", 
+            "key": "numeric", 
+            "unique": false, 
+            "id": "adggg", 
+            "name": "Numeric"
+        }, 
+        {
+            "key": "phishing-cases", 
+            "supportsMultipleOutputMappings": false, 
+            "canAdd": true, 
+            "selectionType": "multi", 
+            "$type": "Core.Models.Fields.Reference.ReferenceField, Core", 
+            "required": false, 
+            "targetId": "aNPHCIvU4h1_7kZ_5", 
+            "readOnly": false, 
+            "controlType": "grid", 
+            "fieldType": "reference", 
+            "createLink": true, 
+            "id": "asmvo", 
+            "columns": [
+                "5b9fc5c7a4984f0364eb16b7", 
+                "a9m2o", 
+                "a877t"
+            ], 
+            "name": "Phishing Cases"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Selection", 
+            "selectionType": "single", 
+            "$type": "Core.Models.Fields.ValuesListField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "values": [
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b9fc59d72d9b291c247e433", 
+                    "name": "Phishing"
+                }, 
+                {
+                    "otherTextDescription": "", 
+                    "description": "", 
+                    "$type": "Core.Models.Fields.ValuesList.ValuesListValues, Core", 
+                    "selected": false, 
+                    "otherTextRequired": "False", 
+                    "otherTextDefaultValue": "", 
+                    "otherText": false, 
+                    "id": "5b9fc59ea4e5c60e6d839f58", 
+                    "name": "Malware"
+                }
+            ], 
+            "fieldType": "valuesList", 
+            "key": "selection", 
+            "controlType": "select", 
+            "id": "antx8"
+        }, 
+        {
+            "key": "text", 
+            "supportsMultipleOutputMappings": false, 
+            "visualize": false, 
+            "suffix": "", 
+            "$type": "Core.Models.Fields.TextField, Core", 
+            "required": false, 
+            "readOnly": false, 
+            "id": "axqel", 
+            "prefix": "", 
+            "fieldType": "text", 
+            "lengthType": "none", 
+            "visualizeMode": 0, 
+            "unique": false, 
+            "placeholder": "", 
+            "inputType": "text", 
+            "name": "Text"
+        }, 
+        {
+            "supportsMultipleOutputMappings": false, 
+            "name": "Tracking Id", 
+            "$type": "Core.Models.Fields.TrackingField, Core", 
+            "readOnly": true, 
+            "prefix": "CM-", 
+            "fieldType": "tracking", 
+            "key": "tracking-id", 
+            "id": "5b9fc578a4984f0364eb1672"
+        }
+    ], 
+    "acronym": "CM", 
+    "$type": "Core.Models.Application.Application, Core", 
+    "createdDate": "2018-09-17T15:17:12.778Z", 
+    "trackingFieldId": "5b9fc578a4984f0364eb1672", 
+    "name": "Case Management", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "a6pSq2wSwiGSN1Zw3", 
+        "name": "admin"
+    }, 
+    "createWorkspace": false, 
+    "modifiedDate": "2018-10-12T08:25:29.69Z", 
+    "maxTrackingId": 934.0, 
+    "workspaces": [
+        "5b9fc578a4984f0364eb1683"
+    ], 
+    "id": "aZomLxR460t4b0AdA", 
+    "permissions": {
+        "$type": "Core.Models.Security.PermissionMatrix, Core"
+    }
+}
