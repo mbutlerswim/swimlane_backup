@@ -1,0 +1,511 @@
+{
+    "modifiedByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "isSystemTask": false, 
+    "name": "Import From Exchange", 
+    "triggers": [
+        {
+            "hasRecord": false, 
+            "$type": "Core.Models.Integrations.Triggers.Scheduled.ScheduledTrigger, Core", 
+            "startMinute": 0, 
+            "frequency": "minutely", 
+            "weekDay": 0, 
+            "startTime": "1970-01-01T00:00:00Z", 
+            "type": "scheduled", 
+            "conditions": [], 
+            "availableMappings": [
+                "dateTimeExecuted", 
+                "triggerType"
+            ]
+        }
+    ], 
+    "$type": "Core.Models.Integrations.Task, Core", 
+    "createdDate": "2018-11-29T16:00:19.557Z", 
+    "disabled": false, 
+    "createdByUser": {
+        "$type": "Core.Models.Utilities.UserGroupSelection, Core", 
+        "id": "58c07aedb104880f5094ac59", 
+        "name": "admin"
+    }, 
+    "modifiedDate": "2018-11-29T16:01:46.777Z", 
+    "outputs": [
+        {
+            "mappings": [
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a16us", 
+                    "listModificationType": "append", 
+                    "key": "attachments", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a6uhe", 
+                    "listModificationType": "append", 
+                    "key": "sender", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "azb87", 
+                    "listModificationType": "append", 
+                    "key": "subject", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "ayet2", 
+                    "listModificationType": "append", 
+                    "key": "text_body", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "akb9j", 
+                    "listModificationType": "append", 
+                    "key": "html_body", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "afrmg", 
+                    "listModificationType": "append", 
+                    "key": "attachments_md5", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "afghm", 
+                    "listModificationType": "append", 
+                    "key": "attachments_sha1", 
+                    "type": "outputParameter"
+                }, 
+                {
+                    "addMissing": false, 
+                    "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+                    "value": "a51me", 
+                    "listModificationType": "append", 
+                    "key": "attachments_sha256", 
+                    "type": "outputParameter"
+                }
+            ], 
+            "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
+            "createType": "insert", 
+            "errorHandlingType": "skipRow", 
+            "type": "insertUpdateRecord", 
+            "applicationId": "aRa_MvrlC84qhL9ux"
+        }
+    ], 
+    "action": {
+        "assetId": "aLZNrINICHlnjhui_", 
+        "$type": "Core.Models.Integrations.Actions.PackagedAction, Core", 
+        "descriptor": {
+            "availableOutputTypes": [
+                "insertUpdateRecord", 
+                "email", 
+                "referentialTask", 
+                "saveToFile", 
+                "setFieldValue"
+            ], 
+            "description": "Gets metadata about unread emails on a Microsoft Exchange email account", 
+            "family": "Email", 
+            "$type": "Core.Models.Integrations.Actions.AvailableActionDescriptor, Core", 
+            "packageDescriptor": {
+                "name": "sw_microsoft_exchange", 
+                "author": "Swimlane", 
+                "author_email": "info@swimlane.com", 
+                "$type": "Core.Models.Integrations.Actions.PackagedDescriptor, Core", 
+                "fileId": "aFc4lPzELCMzO1Ouh", 
+                "url": "http://swimlane.com", 
+                "version": "2.0.1", 
+                "isEmailBundle": false, 
+                "packages": [
+                    "sw_microsoft_exchange"
+                ], 
+                "description": "Exchange Email Services"
+            }, 
+            "assetDependencyVersion": "2.0.0", 
+            "assetDependencyType": "msexchange", 
+            "readonly": true, 
+            "version": "2.0.1", 
+            "actionType": "exchangeGetMetadata", 
+            "scriptFile": "exchange_get_metadata.py", 
+            "disabled": false, 
+            "inputParameters": {
+                "sender": {
+                    "name": "Sender", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "example": "mike@school.edu", 
+                    "description": "Filter mail by sender."
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Core.Models.Integrations.Descriptors.Descriptor, Core]], System.Private.CoreLib", 
+                "ingest_unread_only": {
+                    "name": "Return Unread Only", 
+                    "default": true, 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "boolean", 
+                    "description": "Retrieves all messages (could take a long time) if False, only unread messages if True (Default)."
+                }, 
+                "save_mail_as": {
+                    "name": "Save Mail as Read/Unread", 
+                    "default": true, 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "boolean", 
+                    "description": "If True saves emails as read (default), if false saves emails as unread."
+                }, 
+                "exclude_extensions": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "name": "Exclude extensions", 
+                    "description": "CSV list of extensions that will be ignored, defaults to .png,.jpg,.jpeg,.gif"
+                }, 
+                "number_of_emails": {
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "number", 
+                    "name": "Number of Emails to Return", 
+                    "description": "Allows a user to limit the number of results to be returned. Defaults to all, returns most recent first."
+                }, 
+                "subject": {
+                    "name": "Subject Filter", 
+                    "$type": "Core.Models.Integrations.Descriptors.Descriptor, Core", 
+                    "required": false, 
+                    "type": "text", 
+                    "example": "invoice", 
+                    "description": "Filter mail by subjects containing value, case insensitive."
+                }
+            }, 
+            "licenses": [
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "asn1crypto"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "beautifulsoup4"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "future"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD-like", 
+                    "package": "idna"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Python Software Foundation License", 
+                    "package": "ipaddress"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "lxml"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "ntlm-auth"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "pendulum"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "pycparser"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD License", 
+                    "package": "Pygments"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Dual License", 
+                    "package": "python-dateutil"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "python-magic-bin"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "cached-property"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "pytz"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "pytzdata"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "Apache 2.0", 
+                    "package": "requests"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "ISC", 
+                    "package": "requests-ntlm"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "six"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "UNKNOWN", 
+                    "package": "swimbundle-email"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "tzlocal"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "urllib3"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MPL-2.0", 
+                    "package": "certifi"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "MIT", 
+                    "package": "cffi"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "LGPL", 
+                    "package": "chardet"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD or Apache License, Version 2.0", 
+                    "package": "cryptography"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD-like", 
+                    "package": "dnspython"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD License", 
+                    "package": "enum34"
+                }, 
+                {
+                    "$type": "Core.Models.Integrations.Actions.LicenseDescriptor, Core", 
+                    "license": "BSD", 
+                    "package": "exchangelib"
+                }
+            ], 
+            "availableOutputVariables": {
+                "result": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Result", 
+                    "description": "Either 'success' or 'failure', result of parsing the email"
+                }, 
+                "attach_info": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment Info", 
+                    "description": "List of Information on the attachment, such as filename or file type"
+                }, 
+                "attachments_sha256": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment SHA256s", 
+                    "description": "Comma separated list of attachment SHA256s"
+                }, 
+                "date": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Date", 
+                    "description": "Date of Email"
+                }, 
+                "attachments": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachments", 
+                    "description": "List of attachments from the email"
+                }, 
+                "recipients": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Recipients", 
+                    "description": "Email of the Recipient(s)"
+                }, 
+                "rtf_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "RTF Body", 
+                    "description": "RTF body of the email, (if given)"
+                }, 
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[Core.Models.Integrations.Descriptors.NameDescriptor, Core]], System.Private.CoreLib", 
+                "attachments_md5": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment MD5s", 
+                    "description": "Comma separated list of attachment MD5s"
+                }, 
+                "valid_sender_email": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Valid Sender Email", 
+                    "description": "Parsed out email only from sender field"
+                }, 
+                "attachments_sha1": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Attachment SHA1s", 
+                    "description": "Comma separated list of attachment SHA1s"
+                }, 
+                "html_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "HTML Body", 
+                    "description": "HTML body of the email"
+                }, 
+                "headers": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Headers", 
+                    "description": "Headers of the email"
+                }, 
+                "text_body": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Text Body", 
+                    "description": "Text body of the email"
+                }, 
+                "type": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Filetype", 
+                    "description": "Filetype of email"
+                }, 
+                "reply_to": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Reply-To", 
+                    "description": "Address to which the email specifies to reply to"
+                }, 
+                "valid_recipients_email": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Valid Recipients Email(s)", 
+                    "description": "Parsed out emails only from recipients field"
+                }, 
+                "subject": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Subject", 
+                    "description": "Subject of the email"
+                }, 
+                "valid_reply_to_email": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Valid Reply-To Email", 
+                    "description": "Parsed out emails only from reply-to field"
+                }, 
+                "id": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "ID", 
+                    "description": "Message ID"
+                }, 
+                "sender": {
+                    "$type": "Core.Models.Integrations.Descriptors.NameDescriptor, Core", 
+                    "outputType": "text", 
+                    "name": "Sender", 
+                    "description": "Email of the sender"
+                }
+            }, 
+            "pythonDependencies": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+            }, 
+            "name": "Exchange Get Metadata", 
+            "id": "aHSJC6jPZI7Wi9YyH", 
+            "base64Image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABWCAYAAABVVmH3AAASU0lEQVR4nO1cXYxdV3X+1j73ztzYkzBEjtpAQgcJCVUqlako8OioD7xOSVVIq8rpCxJSK9OH8oRIHivxkDy1EqoYJB4QUHAfKhX6QKahEWoaiqkS5acm/otxfo3tjD0ez5y9+rD32nvtv3vPvbZTnHhJY9979v+3117rW3vvc4HbsrB8/tmtxz/18x2upY3e6c7cirLxytbBH17qNn6xvXSQQQAIRMCxa+0y9I717haTv/yfrcefubp05KoZASCAGASqIMZ46Q9M8fQ9r7FHd/jgd1/aOvqz7f1rPVHA7Sc7QIIjExgAsoVPpl7ve0pjv3L86pEnL3aPn97rYGABeFQIoAYUNAUhSfvfT5S53pXAnmBe/dufnd84du2u9T10AAAmcjBmI3aQlP6HpiCaJx3/w3chsP/wxvah756gjZevLa0RAZYYTv9yHeTqaOsAckNTqfKc8ctPljb2lgN249z22rNv9V/68dbykTd2O4AAA2f/mJzPNmpY1ttJbQotnCMiippKBDDXgZP0Ulz+X37yFtPYx05cWv/eqdHhMzRa36ORX9ROLIBOjccCHmQ3KIGMiWGIQAwPPmCcUieDtwAMpSbBVd+yvTHvy5+6BTT2Az/eZSZygPjuse+l1kSm8rtnmOG7xy9oq2i1yY1EKBsnhb3trTn93Hyc+HSpse843do4s33oR+euHP6vreWH3+YRXv+jSdKpPTesoGFA+b98zr8nuhq00pkJ0WhiNRk+L4PhXRssPNCMYgIAZ8MNV4OtRG4qsF878/ahp85i4z8umjUyTh++/AJgaR+6oB+lmICN+yDEaDawqTARmFPIBWgAsF7RiCmZPPY2WNcpE9MlE+NWQE1uOLAPPv3WxlPnRw/v0Ah/95wFjAGIwV4NDAiGgZ7Yg5sKM7tBeNHOiD3U0WYyLAEdCGTh2kFcqtRzMCNELg+TK2MAGE7bt0pTWb6DQUROS5miRsPbc64rx8LAHvnP1w4+fYmPPre7vNZR5+cYeOK8M25MDCbjAPARDbHzyCA3KJtAGIHMu8o2UqVcU6G/V9XWgSqaC3b9AFFYEYC32Z5CsJghXxYMsJpcKdDAFMBAYP/qmfOP/Muvdh49TxPXSQI23jRgsuhgXEd8LM3stYrd4uvD8vGa4ntjvSYUODTslzzWHj9JawzSEtDJbCjtzdtxCpBW7sYTvsD6ssFUsfDmUgpgP/Fv546+eKVb72nkNx6Ab5wDDE0cYGCQ1za3ZDg4hTCbRLDsOSVTsEPkP1sGRqQ6nYBUI/JU5kkexP+ogryO8QPd0pPhaRV5pXDjRKqR7MMO0Wby6XagKXjuytK6U3z2Sxfo4A26XxY92HFIdjaMrAfPd5BZ0t2MShQkxNwAsMytPtVVkupJJJMbWESKrGgi+88hv6pWniXOkAhQJkgobZgT/6EV+lZomrcmzLDseBx77WNmsH/WK5vVU/zMiOk9xboYsY7eD8FwaWMZDJv9CTA1YWb0vl+63zZQKd9X5pgfHFZUXkdgDL7/sV/iWGM5KVuTQmMtuzjZiJaxi1yYo03Uz9jbTekSgdB77y+eO2i6ZwLynGvsu2YJFEj6gyxVVitFkhPNrKYjNUVBJb05yMYFiL0unV5NCmB9wBFmq4MGUOyY5oeU0J4eHByXCxNdXt0pKxNny9kWTap1ODCGsDw9rbKRT4r90wFGeK6/e1MmgJEC3lbK1+oR8GtSZQVCjVxFERTnyeGBj6CLp+yJAwPQ6QCCo4udSZda3vYUJqMGyfpLMvAc1LDECTAWwV6GdjMgtcYDpQZrTGpSLMZg5FV+4x2WaLP12iuVik0z7D5LGcvRJUheslA2tuyQ2DHrbWGf29umtRVAPEjKzpJV/iFQpTJd90u+h5VpHZ9mTvNUqDiAisYyM/ZIdomi3hiOnM1YCTMpen2WOJpiEIAYLBD7vF67XZ46SIEFNTCsgVvLGrgp3Ko3OX9V6dIdcZTB82dlWiYil6qNlcJW2VmpFP65AXnWkAYCIezUFMyDGkyAqrMQy4l9zRUio56Q6W8yN6vtKMpAwVMq8RE6yoOku4/OLgOJ12sdNDQjLwJ8/A3skaNQRgHsAoO2DRXOKlNfd2gV50WazlB12y4Iu3+aTobi/442qkShu/5ZCHaQ0OakPmdiYr3FClBSpVtGTit97Z0HuA9L3OsJRw8vERMxpQGE7rTyviECqiISv9Q8e86SotZQfOYzkioQAgkDv3nCcclndYJS7U2cWeYoa1I1BUKCw7mRr9z42hwdiTvzPcVISzaSezVBMlngaEZcuXIdWZkgPzgNPmX/x0JiKzkMOGdBcXWrnTHEU4iwx0FyzB0ppKTnpxY9l5vmIlVToPdDdeU6neGZAnsTYRkwlAQCuUbrQeWgaQCCBkkkpJafBkwran542HJ8oqXBVARP5R1X8CNlMACTLX1qa+3U3S0ZpISVGmANgJiITtkrMKM3sXMSVIQjFXZOLBeha3EJIgFuFmChHt1RlNou9l9vphdRla6PnEkMc674eE3qNlYalw1jpADXqJjrnF/ylmENec2OoObRV4sZ1AEcClxpZ2uS2EtvqHXkVWhrlm6C+RloCoKz9L2qaalQsRxggifRRiYiek5xYnqju8pHJaRVfxo88qlh6VcmQMQKbmrJ5hMg9pxs3VGG43ObNyVAD9TYMACxo+JsKulydJEY8GwQFrG82FnZIK4Z/qIdPUpovVVAKM/dKp+3lG+u+HsewbGKA5e9gLCnrPzEtNsydRvrG9EmAA0nBsQNGwFQzp8kENBUy23SOLpjTSUe1Ft3OUh+6RXD4fhBUzINfLxLEE1FSFaFiuWvTAZ5MzftSEakGtLm9k9o1h5kS7FtY0EINEv2ckGe30qgwIA1XGUFvdh4cXJJ59w/LVsbNFQmWJfTXLZ8HMeptD/hscqkDQG5Sbeio4oQdr7SaGNT7Qk8VwCWTnjbKoGCOIceJbIajGJXHwo8vwyNTlQ5NWhiZyX2l3YS8LN6pG1mx11ZThgpguwXZlWmh7Rc57LRxrpacxPRcWr8jbetPfLj71JEK8LtF9GOHAS1aa3zSz496YmdVuVQKZu3J75B8lIyW0WvgpSmIMsqnao5sRAoZJfR8o6GSM17dDmtre1lOvaQaoJwW30VCBlwOr+sKFld2sfk5qVWVh/RiInRLQofF4ZSk1JjOW5S540nu/+VjvUNDQ5ODjGcZdSvSrIEDhmIuh6BgCFH0nF4RiDg2L+cVUzjwMIOEvuct0nxSL9hCYbY2NSTtsyDHniuwWl6vK1S3xmK+7v6GRDvVYkQIhhpSxmzoDS/MIQSFQ+cPK+1BYTAJ9RfkQE21i2rmgZP01AxEbV0QA4ty01BRyI4kPuoPTGkzUHUeUP/RMuBqtaJL5ICRZmiXCyrNX7wmVfPjBENA1EA3CO3GSM7XKGj/rKZO9ZhEHVJb2tXjMAMC3eh1y1jac9rOly69I4JIGIYG6/NURIRuYN3d3WMYMSZSl5YdIYwMYQOjGUDjKnHEhhLncHWbn/SYIw7Jx26JeAuAywD+O8L/ebY9LgTwLEhwH5o2WJleYSJYdzRMSbEWDIGz761vbk8GoEImHTAMgG/vson75yMsX8MTLoO9+zvcReAfQb46emtf1/qgH2TDvvHwJ1dh+MXrp5cO3AAqyvARw4cwIEV4C+y9q89+FsNZnhbbsttuXlSLLs/3nzliUv96OT+JYN9Y0J/bffisdd3ju3reqyOO+zvetw93sUEPT60uh8Xt3Hyt1dXcGCygo/cN8F9E+DDRJv/D2P5jZICWPOds/pEuAhrtUh6Qq2S8IS82xKP5qMtMgBbgIBrD96bVD3+3qvxMFTKkjtxEo4KAMTWOSBmjJhBsDD+CKgzhFFHGHcGIyKMO+CNy7sn71gmTGiMu5YMjAFWl3cwYWBixrCWL7xwyR5bNhbd2GACi9cv7526e98E+5YM7p6MsLq0h7tHFisjg31mhM3j5zdXVlbwnQfu3cyxGXaC0OClMT1e6DAUaX2E1sFkAfQeFHeKUJmuhDvqS3Xu9o14e0MmRJTVd4WtmzsmALsAuuW1y3uOUp3d9XneXs4KdQcBADvwPV7GqSsArgCE3vNYgcwCWH0EF/JeOxl08VjzUh1L63QgAtzScKmHVb6hkoeesk9Rm/BmGcQHxse603qgy9sQ3c1uF5jjqrwoi/UfaqRfgLOe1xrFa/POOqJdRl5y21GinHzvQrfluxQ49qzBSrAgYelQkHR78GVZcfuazPUOQr70a9qrgQvmodJp96QeEDp6n3Z6yPmY9Ato+4VaGemrK4cpJZ0EkNu4Tr9oMq1iAbi6DcEKYDXYXGoDMPC3AbMdpx6zL8RJvwC3GoaWSctV2ppeRVWqp7R6vPmRhojWXiA7WKQyT5/naYg3fTHGV7YgsZGNurQ25kt+qBbnbclF7HmkeUobGgj11Z1StKsuT8v2ArVJGNBZPcmInZO6gi1vFE1BrtjUhhGPpyHRjjPcKcos5QDmtLHibHLwCG759sadi7Ual01vZ1nrkzBUciYS+jHFFstdAEv+/A6ztTHf6Rrq9NpXjGSmK3SzrwCsL7n1BNAUDSd2k1CzvW4vajjg+tWisNOG+rLXxz1SZujEJO15sQT0Dfvbdl5+pRKigdd/AJpXGOWqkW24juRdqzyNEW5yz3Y9qq+IfQ1tN/qny2jHNdRJihhuA7jwK5+yrIdwWqBOlwzqF4vlDqqYDJ02S6MSKqXKDw0kCodH+WlGJo2063pJedZJQckKhi3yfNefgXCFvc+Adn/1WnU9up9D2QFDvTvhOXtRrlHRdb/9nQQEtLj2DmlDRAPN4QkGMQSr+jEtf96u5uy1wCiXG/ZavXRilvbmmnM9bWmRg8aaY9WSUDbMzh/KqTKJqZjbeS0o+qgbsf0giYOZ5lzmbRepI5LXOqe1IGWQOcwh7Ui5uU9pr0eMb7D3R6qdcCEq8+QibybKRsy8kjuvsHyn1JZrMXJbPC2IaMhN++kSuWYkjqur2CQDVG91x5eSo/YsEkwYwN/oGLbNGMqEQMaXuREh7Y2ShIyjvZebSxGz++x5MDEY6KwfdoAdDvkrQcTQdstXPjm+WjmUKA8S1pvFw0XsZu6s5FXQRerTfqD1LiyAahAhr4HOarepsRz+L6sg/+88iyMusdk2r95ei3LlvHYgV55TgzWrGcIKFjIFYv+KOhntW9deUk7b8qmzJSfykdfOB3T1JGIAH5YyLY2vv4PA5cbLIKE66NMOIXOZdxNG1yci9eZADz5VwBwnEag74PaluClGZF7Q5TZ3LjXKlZ8lDdkcr9WbtE+xHzrP1N9zyaLFIY63qCOV2YXFmZB4zgEepL5kyraU+fLl5ttxqokm9KFeknrbEoIZjnu4Q3tRaOw9vIc3KfxukX/aXp7hadYiFxniKz6k6q1JQdiRbTBzY0NkhuSbO3rfYNrKSE8uwvWTqc6uAPaNP1tLcj/2/K8P/eNLb248f3lpjVs/SF2RKuAMsHFTZjxVnyUFGFSygUVPIqpHPZgRQFTYRE1msoK/+d33bwL4sH72BPPq15/81dGjZ3cO7dB4VhVRSO8WzbG0dShs4/da8LCITQbq7GBmAOGlxm0WolsPEF0A8ED+/LM/evHhZ96ebJzZna6Jmq6Uia0Ele5FD04o19DN7WnV57twi9RzQ3e3fvCZj37z9J/8DvFD99Pf/97kgfV7R/886XfgbEDsWPiFzEodbHmhXS9xNHkQEXetFq9vGl9tyU3bK/jix+7ZBLCpn51gXl3/wcuPXu7Gh49vY5UqnSWI5mmiP1+Ulq+IvL55zEVNg4dEjYtZ/Zso9O0zcuQVfnlYa/gi9lNEv0EjMq9NTt7C8RHa3p9+oKjghm90X6/wQ/cTHrqfvvHplfd//I4rm+/jqyBr1M+NxL95RW9S51GW/M1TB6B+4zGT3ziNnSUP/uTco8de3Tr88t7SmtaLeaKiXFq/Chp/VAhTkeo/98Ei9ZYDVssJ5tU//9dTG09fwPqe6QD17liIJ+YYYQjOhJnItiEUwEBR57sO2Jb89VOnHv2n18wjr11zCM2/reOkpsk1bvueAbYmj/z83KFvnbr22KltOphHkNMUW5yn8GQRDfB7GtiWfOGZN49+68WL6ztd/j5CWzTIHeg2sEPlq7949cj3j1997IXdjngGRJYAfO6+28DOK19/befgN3/6yuHnL/dHLnb7SfboNHD28yWwt2VB+cKTp9d///unz3ffPlslsv8HTsBwdxPe7icAAAAASUVORK5CYII="
+        }, 
+        "readonly": true, 
+        "type": "packaged", 
+        "packageDescriptorId": "aHSJC6jPZI7Wi9YyH"
+    }, 
+    "inputMapping": [
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "example": "invoice", 
+            "key": "subject", 
+            "addMissing": false
+        }, 
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "example": "mike@school.edu", 
+            "key": "sender", 
+            "addMissing": false
+        }, 
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "ingest_unread_only", 
+            "addMissing": false
+        }, 
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "save_mail_as", 
+            "addMissing": false
+        }, 
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "number_of_emails", 
+            "addMissing": false
+        }, 
+        {
+            "listModificationType": "append", 
+            "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
+            "key": "exclude_extensions", 
+            "addMissing": false
+        }
+    ], 
+    "applicationId": "aRa_MvrlC84qhL9ux", 
+    "id": "an0ni0Kkr6Cobac4"
+}
