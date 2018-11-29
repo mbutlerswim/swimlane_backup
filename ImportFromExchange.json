@@ -30,7 +30,7 @@
         "id": "58c07aedb104880f5094ac59", 
         "name": "admin"
     }, 
-    "modifiedDate": "2018-11-29T16:01:46.777Z", 
+    "modifiedDate": "2018-11-29T16:04:42.807Z", 
     "outputs": [
         {
             "mappings": [
@@ -79,24 +79,30 @@
                     "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
                     "value": "afrmg", 
                     "listModificationType": "append", 
+                    "expression": ",", 
                     "key": "attachments_md5", 
-                    "type": "outputParameter"
+                    "type": "outputParameter", 
+                    "parserType": "Delimiter"
                 }, 
                 {
                     "addMissing": false, 
                     "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
                     "value": "afghm", 
                     "listModificationType": "append", 
+                    "expression": ",", 
                     "key": "attachments_sha1", 
-                    "type": "outputParameter"
+                    "type": "outputParameter", 
+                    "parserType": "Delimiter"
                 }, 
                 {
                     "addMissing": false, 
                     "$type": "Core.Models.Integrations.Descriptors.Mapping, Core", 
                     "value": "a51me", 
                     "listModificationType": "append", 
+                    "expression": ",", 
                     "key": "attachments_sha256", 
-                    "type": "outputParameter"
+                    "type": "outputParameter", 
+                    "parserType": "Delimiter"
                 }
             ], 
             "$type": "Core.Models.Integrations.Outputs.InsertUpdate.InsertUpdateRecordOutput, Core", 
